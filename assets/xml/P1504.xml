@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="GB2312"?>
+<DTCsolution>
+	<step>
+		<text>1.读取故障码，并清除故障码； </text>
+	</step>
+	<step>
+		<text>2.确保故障码清除后，启动发动机，在连接OBD的情况下进行低速路试，看故障灯是否还会点亮，故障码是否还相同； </text> 
+	</step>
+	<step>
+		<text>3.若故障灯依然点亮，查看是否除故障码P1504之外还有其他故障码，若有与P0369：“混合燃气过稀”或者P1553：“进气歧管压力传感器与之比不可靠”等类似的错误，则基本可以判断进气系统存在漏气点，则依次价差进气系统即可定位故障；检查进气系统的方法请见图01，图02，图03;  </text>
+		<picture>P1504-01</picture>
+		<picture>P1504-02</picture>
+		<picture>P1504-03</picture>
+	</step>
+	<step>
+		<text>4.若除故障码P1504之外并无其他故障码，则不能仅凭该故障码定位故障点； </text>
+	</step>
+	<step>
+		<text>5.建议去维修店，请维修人员排查ABS制动设备线路并进一步定位故障； </text>
+	</step>
+</DTCsolution>

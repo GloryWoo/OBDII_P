@@ -1,0 +1,53 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="32dp"
+    android:textSize="35sp"
+    android:textColor="@color/black">
+
+    <ImageView
+        android:layout_width="40dp"
+	   	android:layout_height="40dp"
+	   	android:layout_alignParentLeft="true"
+	   	android:layout_marginLeft="20dp"
+	   	android:layout_centerVertical="true"
+	   	android:id="@+id/grp_item_head"
+	   	android:src="@drawable/ic_launcher_df"/>
+	   	<!--  android:background="@drawable/shape_img"-->
+	   	
+    <TextView
+	    android:layout_width="wrap_content"
+	   	android:layout_height="wrap_content"
+	   	android:layout_centerVertical="true"
+	   	android:layout_toRightOf="@id/grp_item_head"
+	   	android:layout_marginLeft="10dp"
+	   	android:gravity="center|center"
+	   	android:id="@+id/grp_item_name"
+	   	android:text="群组A"
+	   	android:textColor="@color/black"
+	   	android:visibility="visible"/>
+    <EditText
+	    android:layout_width="wrap_content"
+	   	android:layout_height="wrap_content"
+	   	android:layout_centerVertical="true"
+	   	android:layout_toRightOf="@id/grp_item_head"
+	   	android:layout_marginLeft="10dp"
+	   	android:layout_gravity="center|center"
+	   	android:id="@+id/grp_item_name_e"
+	   	android:gravity="center|center"
+	   	android:text=""
+	   	android:visibility="invisible"/>
+    <CheckBox
+	    android:id="@+id/grp_item_select"    
+	    android:layout_alignParentRight="true" 
+	    android:layout_centerHorizontal="true" 
+	    android:layout_marginRight="8dp"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_gravity="left|top"
+	    android:visibility="invisible"	    
+	    android:checked="false"	    
+	    android:focusable="false"
+    	android:clickable="false"
+	  />
+</RelativeLayout>    

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent">
+	
+	<ImageView 
+	    android:id="@+id/image"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+    	android:layout_margin="10dp"
+    	android:src="@drawable/default_contact"
+    	/>
+		
+    <TextView
+    	android:id="@+id/name"
+    	android:textAppearance="?android:textAppearanceMedium"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:layout_margin="10dp"
+    	android:textColor="#99CCFF"
+    	android:singleLine="true"
+    	android:layout_toRightOf="@id/image" />
+    	
+    <TextView
+    	android:id="@+id/number"
+    	android:textAppearance="?android:textAppearanceSmall"
+    	android:ellipsize="marquee"
+    	android:layout_width="wrap_content"
+    	android:layout_height="wrap_content"
+    	android:singleLine="true"
+    	android:textColor="#AAAAAA"
+    	android:layout_below="@id/name"
+    	android:layout_alignLeft="@id/name"
+    	android:layout_alignWithParentIfMissing="true" />
+    
+    <ImageView 
+        android:id="@+id/dialImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    	android:layout_marginTop="20dp"
+    	android:layout_marginRight="10dp"
+    	android:layout_alignParentRight="true"/>
+    
+    <TextView
+        android:id="@+id/dialDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+    	android:paddingRight="30dp"
+    	android:layout_toLeftOf="@id/dialImage"/>
+    	
+</RelativeLayout>

@@ -1,0 +1,32 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/help"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/help_title"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" 
+		android:layout_gravity="center"
+		android:gravity="center"
+        android:text="用户帮助"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp" 
+        android:background="#e3e3e3"/>
+    <TextView
+        android:id="@+id/content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="0dp"
+        android:gravity="left|center"
+        android:padding="8dp"
+        android:text="@string/help_content"
+        android:textColor="#ff000000"
+        android:textSize="18sp" />
+
+</LinearLayout>   

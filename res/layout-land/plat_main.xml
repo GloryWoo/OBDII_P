@@ -1,0 +1,22 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/platform_m"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+    <com.ctg.util.MyViewPager
+    android:id="@+id/plat_vpager"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_weight="6.5"
+    android:background="#ff000000" />
+    
+    <include
+        android:id="@+id/plat_bottombar"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:layout_weight="1"      	
+        layout="@layout/plat_bottom"/>    
+</LinearLayout>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="61dp"
+    android:background="@color/white"
+    android:orientation="horizontal"
+    >
+
+    <RelativeLayout   
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:id="@+id/poi_text_rela"
+    android:layout_weight="1">
+    <TextView
+        android:layout_width="match_parent"
+    	android:layout_height="30dp"	
+    	android:layout_gravity="center_vertical"
+    	android:layout_marginLeft="8dp"
+    	android:gravity="center|left"
+    	android:id="@+id/poi_title"
+    	android:text="朱家角"
+    	android:textColor="@color/black"
+    	android:textStyle="bold"
+    	android:singleLine="true"
+    	android:textSize="20sp"/>
+   <TextView
+        android:layout_width="match_parent"
+    	android:layout_height="30dp"
+    	android:layout_below="@id/poi_title"
+    	android:layout_alignLeft="@id/poi_title"
+    	android:layout_gravity="center_vertical"
+    	android:gravity="center|left"
+    	android:id="@+id/poi_addr"
+    	android:text="上海市青浦区朱家角镇"
+    	android:singleLine="true"
+    	android:textSize="16sp"/>
+    </RelativeLayout>
+
+
+    <RelativeLayout   
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:id="@+id/poi_start_rela"
+    android:layout_weight="4"
+    android:gravity="center">
+    <TextView
+        android:layout_width="match_parent"
+    	android:layout_height="30dp"
+    	android:layout_centerVertical="true"
+    	android:layout_gravity="center_vertical"
+    	android:layout_marginLeft="0dp"
+    	android:gravity="center|center"
+    	android:id="@+id/poi_start"
+    	android:text="出发"
+    	android:textStyle="bold"
+    	android:textColor="@color/steelblue"
+    	android:singleLine="true"
+    	android:textSize="20sp"/>
+
+   </RelativeLayout>
+</LinearLayout>

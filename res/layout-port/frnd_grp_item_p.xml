@@ -1,0 +1,65 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:layout_marginLeft="0dp" 
+   	android:layout_marginRight="0dp"
+   	android:id="@+id/visiblepart">
+    <ImageView
+        android:layout_width="40dp"
+	   	android:layout_height="40dp"
+	   	android:layout_alignParentLeft="true"
+	   	android:layout_marginLeft="6dp"
+	   	android:layout_marginTop="5dp"
+	   	android:layout_marginBottom="5dp"
+	   	android:layout_centerVertical="true"
+	   	android:gravity="center"
+	   	android:id="@+id/grp_item_head_l"
+	   	android:src="@drawable/ic_launcher_df"
+	   	android:background="@drawable/circle_shape_mid"
+	   	/>
+    <TextView
+        android:layout_width="18dp"
+	   	android:layout_height="18dp"
+	   	android:id="@+id/msg_cnt"
+	   	android:layout_alignParentLeft="true"
+	   	android:layout_alignParentTop="true"
+	   	android:layout_marginTop="6dp"
+	   	android:layout_marginLeft="34dp"
+	   	android:gravity="center"
+	   	android:text="1"
+	   	android:textSize="10sp"
+	   	android:textColor="@color/white"
+	   	android:background="@drawable/circle_shape"
+	   	android:visibility="invisible"/>
+
+    <TextView
+	    android:layout_width="160dp"
+	   	android:layout_height="wrap_content"
+	   	android:layout_toRightOf="@id/grp_item_head_l"	   	
+	   	android:layout_marginLeft="12dp"
+	   	android:layout_alignParentTop="true"
+	   	android:layout_marginTop="10dp"
+	   	android:gravity="left|top"
+	   	android:id="@+id/grp_item_name_l"
+	   	android:text="群组A"
+	   	android:textSize="15sp"
+    	android:textColor="@color/black"
+	   	android:visibility="visible"/>
+
+   
+    
+    <TextView
+	    android:layout_width="wrap_content"
+	   	android:layout_height="wrap_content"
+	   	android:layout_alignParentBottom="true"		   	   	
+	   	android:layout_toRightOf="@id/grp_item_head_l"
+	   	android:layout_marginLeft="12dp"	
+	   	android:layout_marginBottom="10dp"
+	   	android:gravity="bottom"
+	   	android:id="@+id/grp_item_last_time"	  	
+	   	android:text="好友13617714518正在分享位置"
+	   	android:textSize="12sp"
+    	android:textColor="@color/gray"
+	   	android:visibility="invisible"/>
+</RelativeLayout> 

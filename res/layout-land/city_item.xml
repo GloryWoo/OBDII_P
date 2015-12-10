@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="46dp"
+    android:layout_height="35dp"
+    android:paddingLeft="3dp"
+    android:paddingRight="3dp"
+    android:gravity="center" 
+    android:layout_gravity="center"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:gravity="center" 
+        android:id="@+id/xima_prov_item"
+        android:textSize="15sp"
+        android:text="北京"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:visibility="invisible"
+        android:focusable="true"       
+        android:id="@+id/xima_prov_line"
+        android:src="@color/orange"/>
+</LinearLayout>    

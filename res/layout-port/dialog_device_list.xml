@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp"
+    android:layout_height="450dp"
+    android:layout_gravity="center_horizontal|top"
+    android:layout_marginTop="30dp"
+    android:orientation="vertical" 
+    android:background="#DD66739D">
+
+    <ListView
+        android:id="@+id/new_devices"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:layout_alignParentLeft="true"
+        android:text="device list" >
+    </ListView>
+    
+   <Button
+        android:id="@+id/button_cancel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="cancle" />
+</RelativeLayout>

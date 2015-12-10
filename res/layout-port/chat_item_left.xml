@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:descendantFocusability="blocksDescendants">
+        
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="5dp" 
+        android:id="@+id/chat_content_rela">
+
+        <ImageView
+            android:id="@+id/iv_userhead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="18dip"
+            android:background="@drawable/ic_launcher1"
+            android:focusable="false"
+        	android:clickable="false"
+            />
+
+        <TextView
+            android:id="@+id/tv_sendtime"
+            style="@style/chat_text_date_style"
+            android:layout_width="110dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_toRightOf="@id/iv_userhead" 
+            android:gravity="center|center"
+            android:text="2014/12/23 17:18:40"
+            android:focusable="false"
+        	android:clickable="false"/>
+
+         
+         <TextView
+		    android:id="@+id/tv_chatcontent"  
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_sendtime"
+            android:layout_marginTop="2dp"
+            android:layout_marginLeft="7dp"
+            android:layout_toRightOf="@id/iv_userhead"
+            android:background="@drawable/chatfrom_bg" 
+            style="@style/chat_content_date_style"
+     	/>
+    </RelativeLayout>
+    
+   <com.baidu.mapapi.map.MapView
+			android:id="@+id/chat_mapView"
+			android:layout_width="320dp"
+			android:layout_height="240dp"
+			android:layout_gravity="center"
+			android:clickable="false"
+			android:focusable="false"
+			android:visibility="gone" />
+    <!--  RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="240dp"
+        android:id="@+id/mp_rela"
+        android:visibility="gone">
+        <ProgressBar
+            android:id="@+id/mp_load_progress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            style="?android:attr/progressBarStyleLarge"
+            android:visibility="gone" />
+	    <ImageView
+	        android:id="@+id/mp_loc_track"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_marginLeft="8dp"
+	        android:layout_marginTop="5dp"
+	        android:clickable="true" 
+	        android:visibility="gone"/>
+
+	</RelativeLayout>-->
+</LinearLayout>

@@ -1,0 +1,40 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"    
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:orientation="vertical" >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="45dp">
+		<TextView
+		    android:layout_width="wrap_content"
+	        android:layout_height="45dp"
+	        android:layout_centerInParent="true"
+	        android:gravity="center"
+	        android:text="用户信息"
+	        android:textSize="18sp"
+	        android:textColor="@color/black"/>
+		<TextView
+		    android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:id="@+id/account_edit"
+	        android:layout_alignParentRight="true"
+	        android:layout_centerVertical="true"
+	        android:layout_marginRight="10dp"
+	        android:gravity="center"
+	        android:text="编辑"
+	        android:textColor="#10708e"
+	        android:textSize="18sp"
+	        android:background="@drawable/select_text"/>
+	</RelativeLayout>
+	<View
+	    android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#e3e3e3"/>
+    <ListView
+        android:id="@+id/account_info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</LinearLayout>  

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dcity_item_rela"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp" >
+
+    <TextView
+        android:id="@+id/dcity_item_header"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_alignParentLeft="true"
+        android:background="#87CEEB"
+        android:gravity="center"
+        android:text="热门城市"
+        android:visibility="gone"
+        android:textColor="@color/white" />
+
+    <RelativeLayout
+        android:id="@+id/dcity_item_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dcity_item_header" >
+
+        <TextView
+            android:id="@+id/dcity_name"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:gravity="center|center"
+            android:text="上海市" />
+
+        <TextView
+            android:id="@+id/dcity_stat"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="2dp"
+            android:layout_toRightOf="@id/dcity_name"
+            android:gravity="center|center"
+            android:text=""
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/dcity_icon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/icon_download" />
+
+        <TextView
+            android:id="@+id/dcity_size"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="6dp"
+            android:layout_toLeftOf="@id/dcity_icon"
+            android:gravity="center|center"
+            android:text="28.5M" />
+    </RelativeLayout>
+    
+    
+
+</RelativeLayout>

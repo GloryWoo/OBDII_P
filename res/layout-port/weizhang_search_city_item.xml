@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/weizhang_search_city_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+    <TextView
+        android:id="@+id/weizhang_search_city_short_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="xxx"
+        android:textColor="@color/blue"
+        android:textSize="17sp" />
+    
+    <TextView
+        android:id="@+id/weizhang_search_city_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="xxx"
+        android:textColor="@color/gray"
+        android:textSize="17sp" />
+
+</LinearLayout>

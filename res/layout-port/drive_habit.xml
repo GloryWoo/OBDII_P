@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ecf4f9"
+    android:orientation="vertical" >
+
+    <include layout="@layout/drive_habit_titlebar" />
+   
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_margin="8dp"
+        android:layout_weight="0.5" >
+
+        <Button
+            android:id="@+id/habit_ago"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:gravity="center"
+            android:text="更早"
+            android:textColor="@color/black"
+            android:textSize="15sp" >
+        </Button>
+
+        <Button
+            android:id="@+id/habit_yes"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:gravity="center"
+            android:text="昨天"
+            android:textColor="@color/black"
+            android:textSize="15sp" >
+        </Button>
+
+        <Button
+            android:id="@+id/habit_today"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:gravity="center"
+            android:text="今天"
+            android:textColor="@color/black"
+            android:textSize="15sp" >
+        </Button>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:orientation="horizontal"
+        android:background="#e3e3e3">
+        <ImageView
+            android:id="@+id/habit_scroll_line1"
+            android:layout_width="match_parent"
+            android:visibility="invisible"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:src="#0087cb" />
+
+        <ImageView
+            android:id="@+id/habit_scroll_line2"
+            android:layout_width="match_parent"
+            android:visibility="invisible"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:src="#0087cb" />
+
+        <ImageView
+            android:id="@+id/habit_scroll_line3"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_weight="1"
+            android:src="#0087cb" />
+    </LinearLayout>
+
+    <com.ctg.widget.XListView
+        android:id="@+id/habit_xlistview"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="7"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        android:listSelector="#00000000"
+        android:cacheColorHint="#00000000">
+    </com.ctg.widget.XListView>
+ 
+
+</LinearLayout>

@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.ctg.ui"
+    android:versionCode="2"
+    android:versionName="2.8.3" >
+    
+    
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />    
+    <uses-permission android:name="android.permission.WAKE_LOCK" />    
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />    
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />    
+    <uses-permission android:name="android.permission.VIBRATE" />    
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />    
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>      
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    
+	<uses-permission android:name="android.permission.INTERNET"/>  
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+	<uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+	<uses-permission android:name="android.permission.BLUETOOTH" />  
+	<uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+	<uses-permission android:name="android.permission.UPDATE_DEVICE_STATES" />
+	<uses-permission android:name="android.permission.WRITE_SETTINGS" />
+	
+
+	<!-- Optional. Required for location feature -->   
+	<!-- For JPush -->
+	<uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />    
+	<uses-permission android:name="android.permission.ACCESS_COARSE_UPDATES" />    
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />    
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />    
+	<uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> 
+	<uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"/>   
+	<uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS" />    
+	<uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+	
+		<!-- baidu map -->
+	<uses-permission android:name="android.permission.GET_ACCOUNTS" />  
+	<uses-permission android:name="android.permission.USE_CREDENTIALS" />  
+	<uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />  
+	<uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />  
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />  
+	<uses-permission android:name="android.permission.INTERNET" />  
+	<uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />  
+	<uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />  
+	<uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />  
+	<uses-permission android:name="android.permission.READ_PHONE_STATE" />  
+	<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />  
+	<uses-permission android:name="android.permission.BROADCAST_STICKY" />  
+	<uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.BAIDU_LOCATION_SERVICE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCES_MOCK_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_GPS" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    
+    <!-- phone -->
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_CALL_LOG" />
+
+    <!-- for monitor -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="19" />
+	<supports-screens android:smallScreens="true"
+		              android:normalScreens="true" 
+		              android:largeScreens="true"
+		              android:resizeable="true" 
+		              android:anyDensity="true" />
+	
+    <application     
+        android:name="OBDApplication"   			   
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme"
+        >
+        
+        <meta-data android:name="com.baidu.lbsapi.API_KEY"
+            android:value="C5hXmzBUptLOYKVhHF5ifeCc" />   
+        <meta-data
+			android:name="app_key"
+			android:value="223a9654bf8cbdb1dd44c78ee23ef0df"/>
+		<meta-data
+			android:name="pack_id"
+			android:value="com.ctg.netmusic"/>    
+     
+        <activity
+            android:name=".Main"
+            android:label="@string/app_name" 
+            android:screenOrientation="landscape"
+            android:uiOptions="splitActionBarWhenNarrow"
+            android:theme="@android:style/Theme.NoTitleBar"	
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize"
+            android:launchMode="singleTask">
+        </activity>                             
+        <activity
+            android:name=".Base"
+            android:label="@string/app_name" 
+            android:screenOrientation="landscape"
+            android:uiOptions="splitActionBarWhenNarrow"
+            android:theme="@android:style/Theme.NoTitleBar"	
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize"
+            android:configChanges="screenSize|keyboardHidden|orientation" 
+            android:launchMode="singleTask">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+        <service 
+            android:name="com.harman.hkwirelessapi.MusicPlayerService">
+            <intent-filter> 
+                <action android:name="com.pcm.codec.MusicPlayer" /> 
+            </intent-filter> 
+        </service>
+        <receiver android:name=".OBD2BroadcastReceiver">
+             <intent-filter>
+                  <action android:name="android.com.ctg.service"></action>  
+             </intent-filter>                    
+        </receiver>
+        
+        <activity android:name=".FragmentTestActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity> 
+        <activity
+            android:name=".GuideActivity"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>  
+        
+        <activity
+            android:name="com.ctg.trafficViolation.TrafficVioDetailActivity"
+            android:screenOrientation="landscape"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>  
+        <!-- User defined.    用户自定义的广播接收器-->
+        
+        <activity
+            android:name=".Weather"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        <activity
+            android:name=".EmptyActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <service android:name="com.ctg.service.CarDataService"></service>
+        <!--  uses-library android:name="com.google.android.maps" />-->
+        
+        <receiver android:name=".OBD2BroadcastReceiver">
+             <intent-filter>
+                  <action android:name="android.com.ctg.service"></action>  
+             </intent-filter>                    
+        </receiver>
+                
+        <activity
+            android:name=".GrpDlgActivity"
+            android:configChanges="orientation|screenSize|keyboard|keyboardHidden"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>  
+        <activity
+            android:name=".BaiduMapView"
+            android:configChanges="orientation|screenSize|keyboard|keyboardHidden"
+            android:theme="@android:style/Theme.NoTitleBar">
+        </activity>
+        <activity
+            android:name=".BNavigatorActivity"
+            android:configChanges="orientation|screenSize|keyboard|keyboardHidden"
+            android:theme="@android:style/Theme.NoTitleBar"/>
+        <activity
+            android:name=".DrivehabitActivity"
+            android:configChanges="orientation|screenSize|keyboard|keyboardHidden"
+            />
+        <activity
+            android:name=".DriveDetailActivity"
+            android:configChanges="orientation|screenSize|keyboard|keyboardHidden"
+            />
+         <activity
+            android:name=".CityDownActivity"
+            android:configChanges="orientation|screenSize|keyboard|keyboardHidden"
+            />
+         <activity
+            android:name=".TraceMapActivity"
+            android:theme="@android:style/Theme.NoTitleBar"
+            android:configChanges="orientation|screenSize|keyboard|keyboardHidden"
+            />
+         <activity
+            android:name=".ShareActivity"
+            android:configChanges="orientation|screenSize|keyboard|keyboardHidden"
+            />
+         <activity
+            android:name="com.ctg.land.Cascade"
+            android:configChanges="orientation|screenSize|keyboard|keyboardHidden"
+            android:theme="@android:style/Theme.NoTitleBar"
+            />
+         <activity
+            android:name="com.ctg.trafficViolation.TrafficVioSearchCity"
+            android:configChanges="orientation|screenSize|keyboard|keyboardHidden"
+            android:theme="@style/Theme.WeiZh_SearchCity"
+            />
+          
+        
+        <!-- baidu map -->
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" >
+            <intent-filter>
+                <action android:name="com.baidu.location.service_v2.2" >
+                </action>
+            </intent-filter>
+        </service>
+
+		
+        <service
+            android:name="com.ctg.service.MqttService"
+            android:enabled="true" >
+            <intent-filter android:priority="1000" >
+                <action android:name="com.ctg.service.MqttService" />
+            </intent-filter>
+        </service>
+
+        <activity android:name="com.harman.ctg.monitor.GalleryActivity"
+        android:theme="@style/Theme.Monitor" />
+        
+        <service
+            android:name="com.ximalaya.ting.android.opensdk.player.service.XmPlayerService"
+            android:process=":player"/>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,28 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:orientation="horizontal">
+	<TextView
+	    android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:id="@+id/account_type"
+        android:layout_weight="1"
+        android:layout_marginLeft="16dp"
+        android:gravity="left|center"
+        android:text="用户名"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/account_content"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="2"
+        android:layout_marginLeft="0dp"
+        android:gravity="left|center"
+        android:text="13818811556"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+</LinearLayout>  

@@ -1,0 +1,3645 @@
+<?xml version="1.0" encoding="UTF-8"?><root>
+  <province pid="010101">北京<district did="01010101">北京<country cid="01010101">北京</country>
+      <country cid="0101010108">门头沟</country>
+      <country cid="0101010112">顺义</country>
+      <country cid="0101010111">石景山</country>
+      <country cid="0101010107">怀柔</country>
+      <country cid="0101010110">平谷</country>
+      <country cid="0101010101">昌平</country>
+      <country cid="0101010106">海淀</country>
+      <country cid="0101010109">密云</country>
+      <country cid="0101010102">朝阳区</country>
+      <country cid="0101010114">宣武</country>
+      <country cid="0101010113">北京通州</country>
+      <country cid="0101010115">延庆</country>
+      <country cid="0101010104">房山</country>
+      <country cid="0101010103">大兴</country>
+      <country cid="0101010105">丰台</country>
+    </district>
+  </province>
+  <province pid="010132">新疆<district did="01013202">阿勒泰<country cid="0101320205">哈巴河</country>
+      <country cid="0101320206">吉木乃</country>
+      <country cid="0101320202">布尔津</country>
+      <country cid="01013202">阿勒泰</country>
+      <country cid="0101320203">福海</country>
+      <country cid="0101320204">富蕴</country>
+      <country cid="0101320207">青河</country>
+    </district>
+    <district did="01013213">乌鲁木齐<country cid="0101321303">沙依巴克</country>
+      <country cid="0101321302">米东</country>
+      <country cid="01013213">乌鲁木齐</country>
+      <country cid="0101321301">达坂城</country>
+      <country cid="0101321304">水磨沟</country>
+      <country cid="0101321305">天山</country>
+      <country cid="0101321312">小渠子</country>
+      <country cid="0101321310">蔡家湖</country>
+      <country cid="0101321311">天池</country>
+      <country cid="0101321306">头屯河</country>
+      <country cid="0101321308">新市</country>
+      <country cid="0101321313">乌鲁木齐牧试站</country>
+      <country cid="0101321309">白杨沟</country>
+    </district>
+    <district did="01013207">和田<country cid="0101320707">皮山</country>
+      <country cid="0101320706">墨玉</country>
+      <country cid="0101320701">策勒</country>
+      <country cid="0101320704">洛蒲</country>
+      <country cid="01013207">和田</country>
+      <country cid="0101320708">于田</country>
+      <country cid="0101320705">民丰</country>
+    </district>
+    <district did="01013211">塔城<country cid="0101321105">乌苏</country>
+      <country cid="0101321101">额敏</country>
+      <country cid="0101321102">沙湾</country>
+      <country cid="01013211">塔城</country>
+      <country cid="0101321107">和布克赛尔</country>
+      <country cid="0101321104">托里</country>
+      <country cid="0101321106">裕民</country>
+    </district>
+    <district did="01013203">巴音郭楞<country cid="0101320313">塔中</country>
+      <country cid="0101320302">和静</country>
+      <country cid="0101320310">巴仑台</country>
+      <country cid="0101320305">轮台</country>
+      <country cid="0101320306">且末</country>
+      <country cid="01013203">巴音郭楞</country>
+      <country cid="0101320304">库尔勒</country>
+      <country cid="0101320309">焉耆</country>
+      <country cid="0101320301">博湖</country>
+      <country cid="0101320312">铁干里克</country>
+      <country cid="0101320307">若羌</country>
+      <country cid="0101320303">和硕</country>
+      <country cid="0101320311">巴音布鲁克</country>
+      <country cid="0101320308">尉犁</country>
+    </district>
+    <district did="01013212">吐鲁番地区<country cid="0101321201">鄯善</country>
+      <country cid="01013212">吐鲁番</country>
+      <country cid="0101321203">托克逊</country>
+    </district>
+    <district did="01013210">克孜勒苏<country cid="0101321003">阿图什</country>
+      <country cid="01013210">克孜勒苏</country>
+      <country cid="0101321001">阿合奇</country>
+      <country cid="0101321004">乌恰</country>
+      <country cid="0101321002">阿克陶</country>
+    </district>
+    <district did="01013201">阿克苏<country cid="0101320101">阿克苏</country>
+      <country cid="0101320102">阿瓦提</country>
+      <country cid="0101320106">沙雅</country>
+      <country cid="0101320104">柯坪</country>
+      <country cid="0101320105">库车</country>
+      <country cid="0101320108">乌什</country>
+      <country cid="0101320103">拜城</country>
+      <country cid="0101320107">温宿</country>
+      <country cid="0101320109">新和</country>
+    </district>
+    <district did="01013205">昌吉<country cid="01013205">昌吉</country>
+      <country cid="0101320506">木垒</country>
+      <country cid="0101320505">玛纳斯</country>
+      <country cid="0101320503">呼图壁</country>
+      <country cid="0101320508">莫索湾</country>
+      <country cid="0101320504">吉木萨尔</country>
+      <country cid="0101320502">阜康</country>
+      <country cid="0101320507">奇台</country>
+    </district>
+    <district did="01013209">克拉玛依<country cid="0101320902">独山子</country>
+      <country cid="0101320901">白碱滩</country>
+      <country cid="0101320904">乌尔禾</country>
+      <country cid="01013209">克拉玛依</country>
+    </district>
+    <district did="01013208">喀什地区<country cid="0101320808">塔什库尔干</country>
+      <country cid="0101320802">伽师</country>
+      <country cid="0101320812">泽普</country>
+      <country cid="0101320803">喀什</country>
+      <country cid="0101320809">叶城</country>
+      <country cid="0101320804">麦盖提</country>
+      <country cid="0101320807">疏勒</country>
+      <country cid="0101320806">疏附</country>
+      <country cid="0101320810">英吉沙</country>
+      <country cid="0101320801">巴楚</country>
+      <country cid="0101320811">岳普湖</country>
+      <country cid="0101320805">莎车</country>
+    </district>
+    <district did="01013204">博尔塔拉<country cid="0101320403">温泉</country>
+      <country cid="01013204">博尔塔拉</country>
+      <country cid="0101320401">博乐</country>
+      <country cid="0101320404">阿拉山口</country>
+      <country cid="0101320402">精河</country>
+    </district>
+    <district did="01013206">哈密<country cid="01013206">哈密</country>
+      <country cid="0101320603">伊吾</country>
+      <country cid="0101320601">巴里坤</country>
+    </district>
+    <district did="01013215">自治区直辖<country cid="0101321501">石河子</country>
+      <country cid="0101321502">阿拉尔</country>
+    </district>
+    <district did="01013214">伊犁<country cid="0101321408">伊宁</country>
+      <country cid="0101321401">察布查尔</country>
+      <country cid="0101321410">昭苏</country>
+      <country cid="0101321407">新源</country>
+      <country cid="0101321405">尼勒克</country>
+      <country cid="0101321402">巩留</country>
+      <country cid="0101321403">霍城</country>
+      <country cid="0101321411">霍尔果斯</country>
+      <country cid="0101321406">特克斯</country>
+      <country cid="0101321409">伊宁县</country>
+      <country cid="0101321404">奎屯</country>
+      <country cid="01013214">伊犁</country>
+    </district>
+  </province>
+  <province pid="010104">重庆<district did="01010401">重庆<country cid="0101040120">彭水</country>
+      <country cid="01010401">重庆</country>
+      <country cid="0101040118">南岸</country>
+      <country cid="0101040136">酉阳</country>
+      <country cid="0101040135">永川</country>
+      <country cid="0101040111">涪陵</country>
+      <country cid="0101040125">石柱</country>
+      <country cid="0101040139">云阳</country>
+      <country cid="0101040105">城口</country>
+      <country cid="0101040126">双桥</country>
+      <country cid="0101040130">万州</country>
+      <country cid="0101040140">忠县</country>
+      <country cid="0101040101">巴南</country>
+      <country cid="0101040112">合川</country>
+      <country cid="0101040113">江北</country>
+      <country cid="0101040134">秀山</country>
+      <country cid="0101040106">大渡口</country>
+      <country cid="0101040132">巫溪</country>
+      <country cid="0101040137">渝北</country>
+      <country cid="0101040102">北碚</country>
+      <country cid="0101040115">九龙坡</country>
+      <country cid="0101040128">潼南</country>
+      <country cid="0101040138">渝中</country>
+      <country cid="0101040108">垫江</country>
+      <country cid="0101040104">长寿</country>
+      <country cid="0101040131">巫山</country>
+      <country cid="0101040114">江津</country>
+      <country cid="0101040117">梁平</country>
+      <country cid="0101040133">武隆</country>
+      <country cid="0101040110">奉节</country>
+      <country cid="0101040116">开县</country>
+      <country cid="0101040129">万盛</country>
+      <country cid="0101040123">荣昌</country>
+      <country cid="0101040122">黔江</country>
+      <country cid="0101040103">璧山</country>
+      <country cid="0101040119">南川</country>
+      <country cid="0101040107">大足</country>
+      <country cid="0101040109">丰都</country>
+      <country cid="0101040121">綦江</country>
+      <country cid="0101040127">铜梁</country>
+      <country cid="0101040124">沙坪坝</country>
+    </district>
+  </province>
+  <province pid="010107">广东<district did="01010708">揭阳<country cid="01010708">揭阳</country>
+      <country cid="0101070803">揭西</country>
+      <country cid="0101070804">普宁</country>
+      <country cid="0101070806">炮台</country>
+      <country cid="0101070805">榕城</country>
+      <country cid="0101070802">揭东</country>
+      <country cid="0101070801">惠来</country>
+    </district>
+    <district did="01010707">江门<country cid="01010707">江门</country>
+      <country cid="0101070701">恩平</country>
+      <country cid="0101070707">新会</country>
+      <country cid="0101070706">台山</country>
+      <country cid="0101070702">鹤山</country>
+      <country cid="0101070703">江海</country>
+      <country cid="0101070704">开平</country>
+      <country cid="0101070705">蓬江</country>
+    </district>
+    <district did="01010704">广州<country cid="0101070411">越秀</country>
+      <country cid="0101070403">海珠</country>
+      <country cid="0101070402">从化</country>
+      <country cid="0101070412">增城</country>
+      <country cid="0101070405">黄埔</country>
+      <country cid="01010704">广州</country>
+      <country cid="0101070407">萝岗</country>
+      <country cid="0101070404">花都</country>
+      <country cid="0101070410">天河</country>
+      <country cid="0101070401">广东白云</country>
+      <country cid="0101070408">南沙</country>
+      <country cid="0101070406">荔湾</country>
+      <country cid="0101070409">番禺</country>
+    </district>
+    <district did="01010717">云浮<country cid="0101071704">云安</country>
+      <country cid="0101071705">云城</country>
+      <country cid="0101071702">新兴</country>
+      <country cid="01010717">云浮</country>
+      <country cid="0101071701">罗定</country>
+      <country cid="0101071703">郁南</country>
+    </district>
+    <district did="01010716">阳江<country cid="0101071603">阳春</country>
+      <country cid="01010716">阳江</country>
+      <country cid="0101071601">江城区</country>
+      <country cid="0101071602">阳西</country>
+      <country cid="0101071604">阳东</country>
+    </district>
+    <district did="01010711">清远<country cid="0101071104">连州</country>
+      <country cid="01010711">清远</country>
+      <country cid="0101071107">阳山</country>
+      <country cid="0101071101">佛冈</country>
+      <country cid="0101071106">清新</country>
+      <country cid="0101071103">连山</country>
+      <country cid="0101071108">英德</country>
+      <country cid="0101071102">连南</country>
+      <country cid="0101071105">清城</country>
+    </district>
+    <district did="01010702">东莞市<country cid="01010702">东莞</country>
+    </district>
+    <district did="01010720">中山<country cid="01010720">中山</country>
+    </district>
+    <district did="01010706">惠州<country cid="0101070603">惠东</country>
+      <country cid="0101070602">惠城</country>
+      <country cid="0101070601">博罗</country>
+      <country cid="0101070604">惠阳</country>
+      <country cid="01010706">惠州</country>
+      <country cid="0101070605">龙门</country>
+    </district>
+    <district did="01010715">深圳<country cid="0101071504">罗湖</country>
+      <country cid="01010715">深圳</country>
+      <country cid="0101071503">龙岗</country>
+      <country cid="0101071506">盐田</country>
+      <country cid="0101071502">福田</country>
+      <country cid="0101071501">宝安</country>
+      <country cid="0101071505">南山</country>
+    </district>
+    <district did="01010721">珠海<country cid="0101072102">金湾</country>
+      <country cid="01010721">珠海</country>
+      <country cid="0101072101">斗门</country>
+      <country cid="0101072103">香洲</country>
+    </district>
+    <district did="01010709">茂名<country cid="0101070904">茂港</country>
+      <country cid="0101070906">信宜</country>
+      <country cid="0101070902">高州</country>
+      <country cid="0101070901">电白</country>
+      <country cid="0101070905">茂南</country>
+      <country cid="01010709">茂名</country>
+      <country cid="0101070903">化州</country>
+    </district>
+    <district did="01010713">汕尾<country cid="0101071303">陆丰</country>
+      <country cid="0101071304">陆河</country>
+      <country cid="0101071302">海丰</country>
+      <country cid="01010713">汕尾</country>
+    </district>
+    <district did="01010718">湛江<country cid="01010718">湛江</country>
+      <country cid="0101071804">麻章</country>
+      <country cid="0101071809">徐闻</country>
+      <country cid="0101071805">坡头</country>
+      <country cid="0101071806">遂溪</country>
+      <country cid="0101071803">廉江</country>
+      <country cid="0101071801">赤坎</country>
+      <country cid="0101071807">吴川</country>
+      <country cid="0101071808">霞山</country>
+      <country cid="0101071802">雷州</country>
+    </district>
+    <district did="01010710">梅州<country cid="01010710">梅州</country>
+      <country cid="0101071004">梅县</country>
+      <country cid="0101071007">五华</country>
+      <country cid="0101071002">丰顺</country>
+      <country cid="0101071003">蕉岭</country>
+      <country cid="0101071005">梅江</country>
+      <country cid="0101071001">大埔</country>
+      <country cid="0101071008">兴宁</country>
+      <country cid="0101071006">平远</country>
+    </district>
+    <district did="01010714">韶关<country cid="0101071405">乳源</country>
+      <country cid="0101071410">浈江</country>
+      <country cid="0101071409">新丰</country>
+      <country cid="0101071406">始兴</country>
+      <country cid="0101071401">乐昌</country>
+      <country cid="0101071408">武江</country>
+      <country cid="0101071403">曲江</country>
+      <country cid="0101071402">南雄</country>
+      <country cid="01010714">韶关</country>
+      <country cid="0101071407">翁源</country>
+      <country cid="0101071404">仁化</country>
+    </district>
+    <district did="01010703">佛山<country cid="0101070303">南海</country>
+      <country cid="0101070305">顺德</country>
+      <country cid="0101070302">高明</country>
+      <country cid="0101070301">禅城</country>
+      <country cid="0101070304">三水</country>
+      <country cid="01010703">佛山</country>
+    </district>
+    <district did="01010701">潮州<country cid="0101070101">潮安</country>
+      <country cid="01010701">潮州</country>
+      <country cid="0101070103">湘桥</country>
+      <country cid="0101070102">饶平</country>
+    </district>
+    <district did="01010705">河源<country cid="0101070501">东源</country>
+      <country cid="0101070503">连平</country>
+      <country cid="0101070504">龙川</country>
+      <country cid="01010705">河源</country>
+      <country cid="0101070505">源城</country>
+      <country cid="0101070502">和平</country>
+      <country cid="0101070506">紫金</country>
+    </district>
+    <district did="01010712">汕头<country cid="0101071201">潮南</country>
+      <country cid="0101071205">金平区</country>
+      <country cid="0101071207">南澳</country>
+      <country cid="0101071202">潮阳</country>
+      <country cid="0101071203">澄海</country>
+      <country cid="0101071204">濠江</country>
+      <country cid="01010712">汕头</country>
+      <country cid="0101071206">龙湖</country>
+    </district>
+    <district did="01010719">肇庆<country cid="0101071902">鼎湖</country>
+      <country cid="0101071906">广宁</country>
+      <country cid="0101071905">高要</country>
+      <country cid="0101071908">四会</country>
+      <country cid="0101071903">端州</country>
+      <country cid="0101071907">怀集</country>
+      <country cid="0101071904">封开</country>
+      <country cid="0101071901">德庆</country>
+      <country cid="01010719">肇庆</country>
+    </district>
+  </province>
+  <province pid="010134">浙江<district did="01013408">绍兴市<country cid="0101340801">上虞</country>
+      <country cid="0101340803">嵊州</country>
+      <country cid="0101340804">新昌</country>
+      <country cid="0101340805">越城</country>
+      <country cid="01013408">绍兴</country>
+      <country cid="0101340806">诸暨</country>
+    </district>
+    <district did="01013405">丽水<country cid="0101340501">缙云</country>
+      <country cid="0101340505">青田</country>
+      <country cid="0101340507">松阳</country>
+      <country cid="01013405">丽水</country>
+      <country cid="0101340502">景宁</country>
+      <country cid="0101340504">龙泉</country>
+      <country cid="0101340508">遂昌</country>
+      <country cid="0101340506">庆元</country>
+      <country cid="0101340503">莲都</country>
+      <country cid="0101340509">云和</country>
+    </district>
+    <district did="01013410">温州<country cid="0101341002">洞头</country>
+      <country cid="0101341009">泰顺</country>
+      <country cid="0101341010">文成</country>
+      <country cid="0101341007">平阳</country>
+      <country cid="0101341006">瓯海</country>
+      <country cid="01013410">温州</country>
+      <country cid="0101341011">永嘉</country>
+      <country cid="0101341005">鹿城</country>
+      <country cid="0101341008">瑞安</country>
+      <country cid="0101341003">乐清</country>
+      <country cid="0101341004">龙湾</country>
+      <country cid="0101341001">苍南</country>
+    </district>
+    <district did="01013406">宁波<country cid="0101340604">海曙</country>
+      <country cid="0101340601">北仑</country>
+      <country cid="0101340607">宁海</country>
+      <country cid="0101340611">鄞州</country>
+      <country cid="0101340606">江东</country>
+      <country cid="0101340602">慈溪</country>
+      <country cid="0101340609">余姚</country>
+      <country cid="01013406">宁波</country>
+      <country cid="0101340610">镇海</country>
+      <country cid="0101340608">象山</country>
+      <country cid="0101340603">奉化</country>
+      <country cid="0101340605">江北</country>
+    </district>
+    <district did="01013407">衢州<country cid="0101340703">开化</country>
+      <country cid="01013407">衢州</country>
+      <country cid="0101340702">江山</country>
+      <country cid="0101340706">衢江</country>
+      <country cid="0101340705">龙游</country>
+      <country cid="0101340704">柯城</country>
+      <country cid="0101340701">常山</country>
+    </district>
+    <district did="01013403">嘉兴<country cid="0101340306">桐乡</country>
+      <country cid="0101340303">嘉善</country>
+      <country cid="0101340301">海宁</country>
+      <country cid="01013403">嘉兴</country>
+      <country cid="0101340304">南湖</country>
+      <country cid="0101340305">平湖</country>
+      <country cid="0101340302">海盐</country>
+      <country cid="0101340307">秀洲</country>
+    </district>
+    <district did="01013401">杭州<country cid="0101340104">拱墅</country>
+      <country cid="0101340102">淳安</country>
+      <country cid="0101340113">余杭</country>
+      <country cid="0101340105">建德</country>
+      <country cid="0101340114">三峡</country>
+      <country cid="0101340106">江干</country>
+      <country cid="0101340103">富阳</country>
+      <country cid="0101340111">下城</country>
+      <country cid="0101340112">萧山</country>
+      <country cid="0101340101">滨江</country>
+      <country cid="0101340110">西湖</country>
+      <country cid="0101340108">上城</country>
+      <country cid="0101340109">桐庐</country>
+      <country cid="0101340107">临安</country>
+      <country cid="01013401">杭州</country>
+    </district>
+    <district did="01013409">台州<country cid="0101340902">椒江</country>
+      <country cid="0101340903">临海</country>
+      <country cid="0101340910">洪家</country>
+      <country cid="0101340908">仙居</country>
+      <country cid="0101340901">黄岩</country>
+      <country cid="0101340909">玉环</country>
+      <country cid="0101340904">路桥</country>
+      <country cid="0101340905">三门</country>
+      <country cid="01013409">台州</country>
+      <country cid="0101340906">天台</country>
+      <country cid="0101340907">温岭</country>
+    </district>
+    <district did="01013404">金华<country cid="0101340403">兰溪</country>
+      <country cid="0101340409">永康</country>
+      <country cid="0101340401">东阳</country>
+      <country cid="0101340405">浦江</country>
+      <country cid="0101340408">义乌</country>
+      <country cid="0101340407">婺城</country>
+      <country cid="0101340404">磐安</country>
+      <country cid="0101340402">金东</country>
+      <country cid="0101340406">武义</country>
+      <country cid="01013404">金华</country>
+    </district>
+    <district did="01013411">舟山<country cid="0101341104">嵊泗</country>
+      <country cid="0101341103">普陀</country>
+      <country cid="0101341102">定海</country>
+      <country cid="0101341101">岱山</country>
+      <country cid="01013411">舟山</country>
+    </district>
+    <district did="01013402">湖州<country cid="0101340202">长兴</country>
+      <country cid="0101340205">吴兴</country>
+      <country cid="0101340204">南浔</country>
+      <country cid="0101340203">德清</country>
+      <country cid="0101340201">安吉</country>
+      <country cid="01013402">湖州</country>
+    </district>
+  </province>
+  <province pid="010129">天津<district did="01012901">天津<country cid="0101290114">南开</country>
+      <country cid="0101290107">河东</country>
+      <country cid="01012901">天津</country>
+      <country cid="0101290104">东丽</country>
+      <country cid="0101290110">红桥</country>
+      <country cid="0101290105">汉沽</country>
+      <country cid="0101290106">河北</country>
+      <country cid="0101290101">宝坻</country>
+      <country cid="0101290111">蓟县</country>
+      <country cid="0101290117">武清</country>
+      <country cid="0101290109">河西</country>
+      <country cid="0101290113">静海</country>
+      <country cid="0101290102">北辰</country>
+      <country cid="0101290118">西青</country>
+      <country cid="0101290116">塘沽</country>
+      <country cid="0101290115">宁河</country>
+      <country cid="0101290103">大港</country>
+      <country cid="0101290108">天津和平</country>
+      <country cid="0101290112">津南</country>
+    </district>
+  </province>
+  <province pid="010103">澳门<district did="01010303">路环岛<country cid="01010303">路环岛</country>
+    </district>
+    <district did="01010301">澳门半岛<country cid="01010301">澳门半岛</country>
+    </district>
+    <district did="01010302">氹仔岛<country cid="01010302">氹仔岛</country>
+    </district>
+  </province>
+  <province pid="010108">广西<district did="01010802">北海<country cid="0101080201">海城区</country>
+      <country cid="01010802">北海</country>
+      <country cid="0101080202">合浦</country>
+      <country cid="0101080204">银海</country>
+      <country cid="0101080205">涠洲岛</country>
+      <country cid="0101080203">铁山港</country>
+    </district>
+    <district did="01010810">柳州<country cid="0101081010">鱼峰</country>
+      <country cid="0101081008">融水</country>
+      <country cid="0101081007">融安</country>
+      <country cid="01010810">柳州</country>
+      <country cid="0101081003">柳城</country>
+      <country cid="0101081005">柳南</country>
+      <country cid="0101081004">柳江</country>
+      <country cid="0101081001">城中</country>
+      <country cid="0101081009">三江</country>
+      <country cid="0101081002">柳北</country>
+      <country cid="0101081006">鹿寨</country>
+    </district>
+    <district did="01010805">贵港<country cid="0101080502">港南</country>
+      <country cid="0101080503">桂平</country>
+      <country cid="0101080504">平南</country>
+      <country cid="0101080505">覃塘</country>
+      <country cid="01010805">贵港</country>
+      <country cid="0101080501">港北</country>
+    </district>
+    <district did="01010812">钦州<country cid="0101081203">钦北</country>
+      <country cid="01010812">钦州</country>
+      <country cid="0101081201">灵山</country>
+      <country cid="0101081204">钦南</country>
+      <country cid="0101081202">浦北</country>
+    </district>
+    <district did="01010811">南宁<country cid="0101081113">邕宁</country>
+      <country cid="0101081108">青秀</country>
+      <country cid="0101081110">武鸣</country>
+      <country cid="0101081109">上林</country>
+      <country cid="0101081107">马山</country>
+      <country cid="0101081101">宾阳</country>
+      <country cid="0101081104">良庆</country>
+      <country cid="0101081103">江南</country>
+      <country cid="0101081112">兴宁区</country>
+      <country cid="0101081105">隆安</country>
+      <country cid="0101081111">西乡塘</country>
+      <country cid="01010811">南宁</country>
+      <country cid="0101081106">龙州</country>
+      <country cid="0101081102">横县</country>
+    </district>
+    <district did="01010808">贺州<country cid="01010808">贺州</country>
+      <country cid="0101080802">富川</country>
+      <country cid="0101080804">钟山</country>
+      <country cid="0101080803">昭平</country>
+      <country cid="0101080801">八步</country>
+    </district>
+    <district did="01010809">来宾<country cid="0101080902">金秀</country>
+      <country cid="0101080904">象州</country>
+      <country cid="0101080903">武宣</country>
+      <country cid="0101080905">忻城</country>
+      <country cid="01010809">来宾</country>
+      <country cid="0101080901">合山</country>
+      <country cid="0101080906">兴宾</country>
+    </district>
+    <district did="01010807">河池<country cid="0101080703">东兰</country>
+      <country cid="01010807">河池</country>
+      <country cid="0101080702">大化</country>
+      <country cid="0101080704">都安</country>
+      <country cid="0101080708">罗城</country>
+      <country cid="0101080701">巴马</country>
+      <country cid="0101080711">宜州</country>
+      <country cid="0101080709">南丹</country>
+      <country cid="0101080710">天峨</country>
+      <country cid="0101080705">凤山</country>
+      <country cid="0101080706">环江</country>
+      <country cid="0101080707">金城江</country>
+    </district>
+    <district did="01010803">崇左<country cid="0101080302">扶绥</country>
+      <country cid="0101080303">江州</country>
+      <country cid="0101080306">天等</country>
+      <country cid="0101080301">大新</country>
+      <country cid="0101080305">凭祥</country>
+      <country cid="0101080304">宁明</country>
+      <country cid="01010803">崇左</country>
+    </district>
+    <district did="01010801">百色<country cid="0101080103">乐业</country>
+      <country cid="0101080102">靖西</country>
+      <country cid="0101080105">隆林</country>
+      <country cid="0101080104">凌云</country>
+      <country cid="0101080106">那坡</country>
+      <country cid="0101080108">田东</country>
+      <country cid="0101080109">田林</country>
+      <country cid="0101080107">平果</country>
+      <country cid="01010801">百色</country>
+      <country cid="0101080101">德保</country>
+      <country cid="0101080110">田阳</country>
+      <country cid="0101080111">西林</country>
+      <country cid="0101080112">右江</country>
+    </district>
+    <district did="01010804">防城港<country cid="01010804">防城港</country>
+      <country cid="0101080403">港口</country>
+      <country cid="0101080401">东兴</country>
+      <country cid="0101080404">上思</country>
+      <country cid="0101080402">防城</country>
+    </district>
+    <district did="01010813">梧州<country cid="0101081306">藤县</country>
+      <country cid="0101081302">岑溪</country>
+      <country cid="0101081301">苍梧</country>
+      <country cid="0101081305">蒙山</country>
+      <country cid="0101081304">蝶山</country>
+      <country cid="0101081303">长洲</country>
+      <country cid="01010813">梧州</country>
+      <country cid="0101081307">万秀</country>
+    </district>
+    <district did="01010814">玉林<country cid="0101081402">博白</country>
+      <country cid="0101081403">陆川</country>
+      <country cid="0101081405">兴业</country>
+      <country cid="0101081401">北流</country>
+      <country cid="0101081406">玉州</country>
+      <country cid="0101081404">容县</country>
+      <country cid="01010814">玉林</country>
+    </district>
+    <district did="01010806">桂林<country cid="0101080607">龙胜</country>
+      <country cid="0101080603">灌阳</country>
+      <country cid="0101080615">阳朔</country>
+      <country cid="0101080605">灵川</country>
+      <country cid="0101080604">荔浦</country>
+      <country cid="0101080612">兴安</country>
+      <country cid="0101080617">资源</country>
+      <country cid="0101080613">秀峰</country>
+      <country cid="0101080614">雁山</country>
+      <country cid="0101080616">永福</country>
+      <country cid="0101080606">临桂</country>
+      <country cid="0101080608">平乐</country>
+      <country cid="0101080602">恭城</country>
+      <country cid="0101080610">全州</country>
+      <country cid="0101080611">象山区</country>
+      <country cid="0101080601">叠彩</country>
+      <country cid="0101080609">七星</country>
+      <country cid="01010806">桂林</country>
+    </district>
+  </province>
+  <province pid="010120">内蒙古<district did="01012008">阿拉善盟<country cid="01012008">阿拉善盟</country>
+      <country cid="0101200802">阿拉善右旗</country>
+      <country cid="0101200801">阿拉善左旗</country>
+      <country cid="0101200806">乌斯泰</country>
+      <country cid="0101200805">雅布赖</country>
+      <country cid="0101200809">巴彦诺尔贡</country>
+      <country cid="0101200812">中泉子</country>
+      <country cid="0101200810">诺尔公</country>
+      <country cid="0101200804">拐子湖</country>
+      <country cid="0101200803">额济纳旗</country>
+      <country cid="0101200807">吉兰太</country>
+      <country cid="0101200808">孪井滩</country>
+      <country cid="0101200811">锡林高勒</country>
+    </district>
+    <district did="01012002">赤峰<country cid="0101200206">喀喇沁旗</country>
+      <country cid="0101200202">敖汉旗</country>
+      <country cid="0101200203">巴林右旗</country>
+      <country cid="0101200207">克什克腾旗</country>
+      <country cid="0101200217">高力板</country>
+      <country cid="0101200211">翁牛特旗</country>
+      <country cid="0101200209">宁城</country>
+      <country cid="0101200216">岗子</country>
+      <country cid="0101200208">林西</country>
+      <country cid="01012002">赤峰</country>
+      <country cid="0101200212">元宝山区</country>
+      <country cid="0101200215">浩尔吐</country>
+      <country cid="0101200205">红山区</country>
+      <country cid="0101200201">阿鲁科尔沁旗</country>
+      <country cid="0101200204">巴林左旗</country>
+      <country cid="0101200210">松山区</country>
+      <country cid="0101200213">宝国吐</country>
+      <country cid="0101200214">八里罕</country>
+    </district>
+    <district did="01012003">鄂尔多斯<country cid="0101200302">达拉特旗</country>
+      <country cid="01012003">鄂尔多斯</country>
+      <country cid="0101200310">伊克乌素</country>
+      <country cid="0101200303">准格尔旗</country>
+      <country cid="0101200309">乌审召</country>
+      <country cid="0101200305">鄂托克旗</country>
+      <country cid="0101200307">乌审旗</country>
+      <country cid="0101200304">鄂托克前旗</country>
+      <country cid="0101200306">杭锦旗</country>
+      <country cid="0101200308">伊金霍洛旗</country>
+      <country cid="0101200301">东胜</country>
+    </district>
+    <district did="01012004">呼和浩特<country cid="0101200406">托克托</country>
+      <country cid="0101200404">赛罕区</country>
+      <country cid="01012004">呼和浩特</country>
+      <country cid="0101200407">武川</country>
+      <country cid="0101200401">和林格尔</country>
+      <country cid="0101200408">新城区</country>
+      <country cid="0101200411">托县</country>
+      <country cid="0101200410">呼市郊区</country>
+      <country cid="0101200405">土默特左旗</country>
+      <country cid="0101200403">清水河</country>
+      <country cid="0101200409">玉泉区</country>
+    </district>
+    <district did="01012001">包头<country cid="0101200105">九原区</country>
+      <country cid="0101200101">白云鄂博</country>
+      <country cid="01012001">包头</country>
+      <country cid="0101200108">石拐区</country>
+      <country cid="0101200103">东河区</country>
+      <country cid="0101200106">昆都仑区</country>
+      <country cid="0101200111">希拉穆仁</country>
+      <country cid="0101200110">满都拉</country>
+      <country cid="0101200104">固阳</country>
+      <country cid="0101200107">青山区</country>
+      <country cid="0101200109">土默特右旗</country>
+      <country cid="0101200102">达尔罕茂明安联合旗</country>
+    </district>
+    <district did="01012007">乌海<country cid="0101200701">海勃湾区</country>
+      <country cid="0101200703">乌达区</country>
+      <country cid="0101200702">海南区</country>
+      <country cid="01012007">乌海</country>
+    </district>
+    <district did="01012010">兴安盟<country cid="0101201003">突泉</country>
+      <country cid="0101201007">胡尔勒</country>
+      <country cid="0101201002">阿尔山</country>
+      <country cid="0101201008">索伦</country>
+      <country cid="0101201004">科尔沁右翼前旗</country>
+      <country cid="01012010">兴安盟</country>
+      <country cid="0101201001">乌兰浩特</country>
+      <country cid="0101201006">扎赉特旗</country>
+      <country cid="0101201005">科尔沁右翼中旗</country>
+    </district>
+    <district did="01012012">乌兰察布<country cid="0101201207">凉城</country>
+      <country cid="0101201210">察哈尔右翼后旗</country>
+      <country cid="0101201211">四子王旗</country>
+      <country cid="0101201204">化德</country>
+      <country cid="0101201209">察哈尔右翼中旗</country>
+      <country cid="0101201202">丰镇</country>
+      <country cid="0101201208">察哈尔右翼前旗</country>
+      <country cid="01012012">乌兰察布</country>
+      <country cid="0101201206">兴和</country>
+      <country cid="0101201203">卓资</country>
+      <country cid="0101201205">商都</country>
+      <country cid="0101201201">集宁</country>
+    </district>
+    <district did="01012006">通辽<country cid="0101200604">科尔沁左翼后旗</country>
+      <country cid="0101200607">奈曼旗</country>
+      <country cid="0101200605">科尔沁左翼中旗</country>
+      <country cid="0101200606">库伦旗</country>
+      <country cid="0101200609">巴雅尔吐胡硕</country>
+      <country cid="01012006">通辽</country>
+      <country cid="0101200608">扎鲁特旗</country>
+      <country cid="0101200601">霍林郭勒</country>
+      <country cid="0101200603">科尔沁区</country>
+      <country cid="0101200610">舍伯吐</country>
+      <country cid="0101200602">开鲁</country>
+    </district>
+    <district did="01012009">锡林郭勒盟<country cid="0101200906">苏尼特右旗</country>
+      <country cid="0101200909">太仆寺旗</country>
+      <country cid="0101200908">西乌珠穆沁旗</country>
+      <country cid="0101200901">锡林浩特</country>
+      <country cid="0101200905">苏尼特左旗</country>
+      <country cid="0101200902">二连浩特</country>
+      <country cid="0101200907">东乌珠穆沁旗</country>
+      <country cid="01012009">锡林郭勒盟</country>
+      <country cid="0101200912">正蓝旗</country>
+      <country cid="0101200915">乌拉盖</country>
+      <country cid="0101200910">镶黄旗</country>
+      <country cid="0101200911">正镶白旗</country>
+      <country cid="0101200903">多伦</country>
+      <country cid="0101200914">朱日和</country>
+      <country cid="0101200904">阿巴嘎旗</country>
+      <country cid="0101200913">博克图</country>
+    </district>
+    <district did="01012011">巴彦淖尔<country cid="0101201106">乌拉特后旗</country>
+      <country cid="0101201110">那仁宝力格</country>
+      <country cid="0101201108">大佘太</country>
+      <country cid="0101201105">乌拉特中旗</country>
+      <country cid="0101201102">五原</country>
+      <country cid="0101201109">海力素</country>
+      <country cid="01012011">巴彦淖尔</country>
+      <country cid="0101201103">磴口</country>
+      <country cid="0101201104">乌拉特前旗</country>
+      <country cid="0101201107">杭锦后旗</country>
+      <country cid="0101201101">临河</country>
+    </district>
+    <district did="01012005">呼伦贝尔<country cid="0101200512">牙克石</country>
+      <country cid="0101200516">加格达奇</country>
+      <country cid="0101200505">鄂温克旗</country>
+      <country cid="0101200508">满洲里</country>
+      <country cid="0101200507">海拉尔</country>
+      <country cid="0101200506">根河</country>
+      <country cid="0101200511">新巴尔虎左旗</country>
+      <country cid="0101200504">鄂伦春旗</country>
+      <country cid="0101200501">阿荣旗</country>
+      <country cid="0101200502">陈巴尔虎旗</country>
+      <country cid="0101200514">图里河</country>
+      <country cid="0101200509">莫力达瓦旗</country>
+      <country cid="0101200503">额尔古纳</country>
+      <country cid="0101200515">小二沟</country>
+      <country cid="0101200510">新巴尔虎右旗</country>
+      <country cid="0101200513">扎兰屯</country>
+      <country cid="01012005">呼伦贝尔</country>
+    </district>
+  </province>
+  <province pid="010121">宁夏<district did="01012103">吴忠<country cid="01012103">吴忠</country>
+      <country cid="0101210301">利通区</country>
+      <country cid="0101210302">青铜峡</country>
+      <country cid="0101210303">同心</country>
+      <country cid="0101210304">盐池</country>
+    </district>
+    <district did="01012102">石嘴山<country cid="01012102">石嘴山</country>
+      <country cid="0101210203">平罗</country>
+      <country cid="0101210202">惠农</country>
+      <country cid="0101210201">大武口</country>
+      <country cid="0101210204">陶乐</country>
+    </district>
+    <district did="01012105">中卫<country cid="0101210502">沙坡头区</country>
+      <country cid="01012105">中卫</country>
+      <country cid="0101210501">海原</country>
+      <country cid="0101210503">中宁</country>
+    </district>
+    <district did="01012101">固原<country cid="01012101">固原</country>
+      <country cid="0101210101">泾源</country>
+      <country cid="0101210105">原州区</country>
+      <country cid="0101210104">西吉</country>
+      <country cid="0101210102">隆德</country>
+      <country cid="0101210103">彭阳</country>
+    </district>
+    <district did="01012104">银川<country cid="0101210406">永宁</country>
+      <country cid="0101210401">贺兰</country>
+      <country cid="0101210403">灵武</country>
+      <country cid="0101210405">兴庆区</country>
+      <country cid="0101210404">西夏区</country>
+      <country cid="01012104">银川</country>
+      <country cid="0101210402">金凤区</country>
+    </district>
+  </province>
+  <province pid="010118">江西<district did="01011803">吉安市<country cid="0101180310">峡江</country>
+      <country cid="0101180307">遂川</country>
+      <country cid="0101180314">吉安县</country>
+      <country cid="0101180305">井冈山</country>
+      <country cid="0101180313">永新</country>
+      <country cid="0101180309">万安</country>
+      <country cid="0101180304">吉州</country>
+      <country cid="0101180303">吉水</country>
+      <country cid="0101180306">青原</country>
+      <country cid="0101180311">新干</country>
+      <country cid="0101180315">宁冈</country>
+      <country cid="0101180301">安福</country>
+      <country cid="01011803">吉安</country>
+      <country cid="0101180308">泰和</country>
+      <country cid="0101180312">永丰</country>
+    </district>
+    <district did="01011805">九江市<country cid="0101180506">彭泽</country>
+      <country cid="0101180502">都昌</country>
+      <country cid="0101180512">永修</country>
+      <country cid="0101180509">星子</country>
+      <country cid="0101180505">庐山</country>
+      <country cid="0101180508">武宁</country>
+      <country cid="0101180510">修水</country>
+      <country cid="0101180501">德安</country>
+      <country cid="0101180507">瑞昌</country>
+      <country cid="0101180511">浔阳</country>
+      <country cid="01011805">九江</country>
+      <country cid="0101180503">湖口</country>
+    </district>
+    <district did="01011811">鹰潭<country cid="0101181103">月湖</country>
+      <country cid="0101181101">贵溪</country>
+      <country cid="01011811">鹰潭</country>
+      <country cid="0101181102">余江</country>
+    </district>
+    <district did="01011804">景德镇<country cid="0101180404">珠山</country>
+      <country cid="0101180403">乐平</country>
+      <country cid="0101180402">浮梁</country>
+      <country cid="0101180401">昌江区</country>
+      <country cid="01011804">景德镇</country>
+    </district>
+    <district did="01011809">新余<country cid="0101180901">分宜</country>
+      <country cid="01011809">新余</country>
+      <country cid="0101180902">渝水</country>
+    </district>
+    <district did="01011801">抚州<country cid="0101180105">乐安</country>
+      <country cid="0101180111">资溪</country>
+      <country cid="0101180108">南城</country>
+      <country cid="0101180103">广昌</country>
+      <country cid="0101180107">临川</country>
+      <country cid="0101180109">南丰</country>
+      <country cid="0101180101">崇仁</country>
+      <country cid="01011801">抚州</country>
+      <country cid="0101180102">江西东乡</country>
+      <country cid="0101180104">金溪</country>
+      <country cid="0101180106">黎川</country>
+      <country cid="0101180110">宜黄</country>
+    </district>
+    <district did="01011810">宜春<country cid="0101181010">樟树</country>
+      <country cid="0101181008">宜丰</country>
+      <country cid="01011810">宜春</country>
+      <country cid="0101181005">上高</country>
+      <country cid="0101181004">靖安</country>
+      <country cid="0101181001">丰城</country>
+      <country cid="0101181003">高安</country>
+      <country cid="0101181006">铜鼓</country>
+      <country cid="0101181007">万载</country>
+      <country cid="0101181002">奉新</country>
+      <country cid="0101181009">袁州</country>
+    </district>
+    <district did="01011802">赣州<country cid="0101180218">章贡</country>
+      <country cid="0101180208">南康</country>
+      <country cid="0101180213">石城</country>
+      <country cid="0101180215">兴国</country>
+      <country cid="0101180214">信丰</country>
+      <country cid="01011802">赣州</country>
+      <country cid="0101180212">上犹</country>
+      <country cid="0101180203">大余</country>
+      <country cid="0101180217">于都</country>
+      <country cid="0101180206">会昌</country>
+      <country cid="0101180216">寻乌</country>
+      <country cid="0101180207">龙南</country>
+      <country cid="0101180210">全南</country>
+      <country cid="0101180202">崇义</country>
+      <country cid="0101180211">瑞金</country>
+      <country cid="0101180205">赣县</country>
+      <country cid="0101180204">定南</country>
+      <country cid="0101180201">安远</country>
+      <country cid="0101180209">宁都</country>
+    </district>
+    <district did="01011806">南昌市<country cid="0101180602">东湖</country>
+      <country cid="0101180606">青云谱</country>
+      <country cid="0101180601">安义</country>
+      <country cid="0101180608">西湖</country>
+      <country cid="0101180610">南昌县</country>
+      <country cid="0101180609">新建</country>
+      <country cid="0101180605">青山湖</country>
+      <country cid="01011806">南昌市</country>
+      <country cid="0101180607">湾里</country>
+      <country cid="0101180603">进贤</country>
+    </district>
+    <district did="01011808">上饶市<country cid="0101180801">德兴</country>
+      <country cid="0101180809">信州</country>
+      <country cid="01011808">上饶</country>
+      <country cid="0101180804">鄱阳</country>
+      <country cid="0101180802">广丰</country>
+      <country cid="0101180812">玉山</country>
+      <country cid="0101180808">婺源</country>
+      <country cid="0101180803">横峰</country>
+      <country cid="0101180811">余干</country>
+      <country cid="0101180813">上饶县</country>
+      <country cid="0101180810">弋阳</country>
+      <country cid="0101180807">万年</country>
+      <country cid="0101180805">铅山</country>
+    </district>
+    <district did="01011807">萍乡<country cid="0101180702">莲花</country>
+      <country cid="0101180704">上栗</country>
+      <country cid="01011807">萍乡</country>
+      <country cid="0101180705">湘东</country>
+      <country cid="0101180703">芦溪</country>
+      <country cid="0101180701">安源</country>
+    </district>
+  </province>
+  <province pid="010128">台湾<district did="01012802">高雄<country cid="0101280201">屏东</country>
+      <country cid="01012802">高雄</country>
+      <country cid="0101280202">台南</country>
+    </district>
+    <district did="01012803">台中<country cid="01012803">台中</country>
+      <country cid="0101280307">台东</country>
+      <country cid="0101280304">嘉义</country>
+      <country cid="0101280302">云林</country>
+      <country cid="0101280305">苗栗</country>
+      <country cid="0101280301">膨化</country>
+      <country cid="0101280306">南投</country>
+      <country cid="0101280303">花莲</country>
+    </district>
+    <district did="01012801">台北<country cid="0101280102">新竹</country>
+      <country cid="0101280101">桃园</country>
+      <country cid="01012801">台北</country>
+      <country cid="0101280103">宜兰</country>
+    </district>
+  </province>
+  <province pid="010102">安徽<district did="01010212">六安<country cid="01010212">六安</country>
+      <country cid="0101021202">霍山</country>
+      <country cid="0101021203">金安</country>
+      <country cid="0101021207">裕安</country>
+      <country cid="0101021205">寿县</country>
+      <country cid="0101021201">霍邱</country>
+      <country cid="0101021204">金寨</country>
+      <country cid="0101021206">舒城</country>
+    </district>
+    <district did="01010202">蚌埠<country cid="0101020206">五河</country>
+      <country cid="0101020204">怀远</country>
+      <country cid="0101020201">蚌山</country>
+      <country cid="0101020202">固镇</country>
+      <country cid="01010202">蚌埠</country>
+      <country cid="0101020205">龙子湖</country>
+      <country cid="0101020207">禹会</country>
+      <country cid="0101020203">淮上</country>
+    </district>
+    <district did="01010216">芜湖<country cid="0101021603">鸠江</country>
+      <country cid="0101021608">芜湖县</country>
+      <country cid="0101021607">弋江</country>
+      <country cid="01010216">芜湖</country>
+      <country cid="0101021604">南陵</country>
+      <country cid="0101021605">三山</country>
+      <country cid="0101021602">镜湖</country>
+      <country cid="0101021601">繁昌</country>
+    </district>
+    <district did="01010205">池州<country cid="01010205">池州</country>
+      <country cid="0101020505">九华山</country>
+      <country cid="0101020501">东至</country>
+      <country cid="0101020503">青阳</country>
+      <country cid="0101020504">石台</country>
+      <country cid="0101020502">贵池</country>
+    </district>
+    <district did="01010201">安庆<country cid="0101020104">宿松</country>
+      <country cid="0101020109">迎江</country>
+      <country cid="0101020105">太湖</country>
+      <country cid="01010201">安庆</country>
+      <country cid="0101020106">桐城</country>
+      <country cid="0101020101">大观</country>
+      <country cid="0101020111">枞阳</country>
+      <country cid="0101020102">怀宁</country>
+      <country cid="0101020107">望江</country>
+      <country cid="0101020103">潜山</country>
+      <country cid="0101020108">宜秀</country>
+      <country cid="0101020110">岳西</country>
+    </district>
+    <district did="01010215">铜陵<country cid="0101021502">狮子山</country>
+      <country cid="0101021503">铜官山</country>
+      <country cid="01010215">铜陵</country>
+    </district>
+    <district did="01010210">淮南<country cid="0101021003">凤台</country>
+      <country cid="0101021004">潘集</country>
+      <country cid="01010210">淮南</country>
+      <country cid="0101021002">大通区</country>
+      <country cid="0101021005">田家庵</country>
+      <country cid="0101021006">谢家集</country>
+      <country cid="0101021001">八公山</country>
+    </district>
+    <district did="01010214">宿州<country cid="0101021404">萧县</country>
+      <country cid="0101021405">埇桥</country>
+      <country cid="0101021403">泗县</country>
+      <country cid="0101021402">灵璧</country>
+      <country cid="01010214">宿州</country>
+      <country cid="0101021401">砀山</country>
+    </district>
+    <district did="01010203">亳州<country cid="0101020303">蒙城</country>
+      <country cid="0101020301">涡阳</country>
+      <country cid="0101020304">谯城</country>
+      <country cid="0101020302">利辛</country>
+      <country cid="01010203">亳州</country>
+    </district>
+    <district did="01010204">巢湖<country cid="01010204">巢湖</country>
+      <country cid="0101020403">居巢</country>
+      <country cid="0101020405">无为</country>
+      <country cid="0101020402">和县</country>
+      <country cid="0101020404">庐江</country>
+      <country cid="0101020401">含山</country>
+    </district>
+    <district did="01010206">滁州<country cid="01010206">滁州</country>
+      <country cid="0101020602">凤阳</country>
+      <country cid="0101020601">定远</country>
+      <country cid="0101020606">南谯</country>
+      <country cid="0101020607">全椒</country>
+      <country cid="0101020604">琅玡</country>
+      <country cid="0101020603">来安</country>
+      <country cid="0101020605">明光</country>
+      <country cid="0101020608">天长</country>
+    </district>
+    <district did="01010211">黄山市<country cid="0101021104">歙县</country>
+      <country cid="0101021106">休宁</country>
+      <country cid="0101021102">徽州</country>
+      <country cid="01010211">黄山市</country>
+      <country cid="0101021107">黟县</country>
+      <country cid="0101021103">祁门</country>
+      <country cid="0101021108">黄山风景区</country>
+      <country cid="0101021101">黄山</country>
+      <country cid="0101021105">屯溪</country>
+    </district>
+    <district did="01010207">阜阳<country cid="0101020704">太和</country>
+      <country cid="0101020708">颖州</country>
+      <country cid="01010207">阜阳</country>
+      <country cid="0101020701">阜南</country>
+      <country cid="0101020703">临泉</country>
+      <country cid="0101020706">颖泉</country>
+      <country cid="0101020702">界首</country>
+      <country cid="0101020705">颖东</country>
+      <country cid="0101020707">颍上</country>
+    </district>
+    <district did="01010209">淮北<country cid="0101020903">濉溪</country>
+      <country cid="0101020901">杜集</country>
+      <country cid="01010209">淮北</country>
+      <country cid="0101020902">烈山</country>
+      <country cid="0101020904">相山</country>
+    </district>
+    <district did="01010213">马鞍山<country cid="0101021302">花山</country>
+      <country cid="01010213">马鞍山</country>
+      <country cid="0101021301">当涂</country>
+      <country cid="0101021303">金家庄</country>
+      <country cid="0101021304">雨山</country>
+    </district>
+    <district did="01010208">合肥<country cid="0101020801">包河</country>
+      <country cid="0101020803">肥东</country>
+      <country cid="0101020806">蜀山</country>
+      <country cid="0101020804">肥西</country>
+      <country cid="0101020807">瑶海</country>
+      <country cid="0101020805">庐阳</country>
+      <country cid="0101020802">长丰</country>
+      <country cid="01010208">合肥</country>
+    </district>
+    <district did="01010217">宣城<country cid="0101021704">泾县</country>
+      <country cid="0101021707">宣州</country>
+      <country cid="0101021702">绩溪</country>
+      <country cid="0101021705">郎溪</country>
+      <country cid="0101021701">广德</country>
+      <country cid="0101021703">旌德</country>
+      <country cid="0101021706">宁国</country>
+      <country cid="01010217">宣城</country>
+    </district>
+  </province>
+  <province pid="010109">贵州<district did="01010903">贵阳<country cid="01010903">贵阳</country>
+      <country cid="0101090309">修文</country>
+      <country cid="0101090305">清镇</country>
+      <country cid="0101090303">开阳</country>
+      <country cid="0101090301">白云</country>
+      <country cid="0101090307">息烽</country>
+      <country cid="0101090304">南明</country>
+      <country cid="0101090308">小河</country>
+      <country cid="0101090302">花溪</country>
+      <country cid="0101090310">云岩</country>
+      <country cid="0101090306">乌当</country>
+    </district>
+    <district did="01010905">黔东南<country cid="0101090513">施秉</country>
+      <country cid="0101090514">台江</country>
+      <country cid="0101090509">黎平</country>
+      <country cid="0101090515">天柱</country>
+      <country cid="0101090511">榕江</country>
+      <country cid="0101090508">雷山</country>
+      <country cid="0101090505">剑河</country>
+      <country cid="01010905">黔东南</country>
+      <country cid="0101090507">凯里</country>
+      <country cid="0101090512">三穗</country>
+      <country cid="0101090504">黄平</country>
+      <country cid="0101090510">麻江</country>
+      <country cid="0101090506">锦屏</country>
+      <country cid="0101090501">岑巩</country>
+      <country cid="0101090502">从江</country>
+      <country cid="0101090503">丹寨</country>
+      <country cid="0101090516">镇远</country>
+    </district>
+    <district did="01010909">遵义<country cid="01010909">遵义</country>
+      <country cid="0101090908">绥阳</country>
+      <country cid="0101090904">红花岗</country>
+      <country cid="0101090912">余庆</country>
+      <country cid="0101090911">习水</country>
+      <country cid="0101090907">仁怀</country>
+      <country cid="0101090913">正安</country>
+      <country cid="0101090909">桐梓</country>
+      <country cid="0101090906">湄潭</country>
+      <country cid="0101090914">遵义县</country>
+      <country cid="0101090902">道真</country>
+      <country cid="0101090903">凤冈</country>
+      <country cid="0101090901">赤水</country>
+      <country cid="0101090910">务川</country>
+      <country cid="0101090905">汇川</country>
+    </district>
+    <district did="01010906">黔南<country cid="0101090607">荔波</country>
+      <country cid="0101090606">惠水</country>
+      <country cid="0101090602">独山</country>
+      <country cid="0101090612">瓮安</country>
+      <country cid="0101090608">龙里</country>
+      <country cid="01010906">黔南</country>
+      <country cid="0101090603">都匀</country>
+      <country cid="0101090611">三都</country>
+      <country cid="0101090610">平塘</country>
+      <country cid="0101090601">长顺</country>
+      <country cid="0101090605">贵定</country>
+      <country cid="0101090609">罗甸</country>
+      <country cid="0101090604">福泉</country>
+    </district>
+    <district did="01010902">毕节市<country cid="0101090206">纳雍</country>
+      <country cid="0101090209">织金</country>
+      <country cid="0101090204">赫章</country>
+      <country cid="0101090208">威宁</country>
+      <country cid="01010902">毕节</country>
+      <country cid="0101090203">大方</country>
+      <country cid="0101090207">黔西</country>
+      <country cid="0101090205">金沙</country>
+    </district>
+    <district did="01010901">安顺<country cid="0101090101">关岭</country>
+      <country cid="0101090105">镇宁</country>
+      <country cid="0101090104">西秀</country>
+      <country cid="01010901">安顺</country>
+      <country cid="0101090103">普定</country>
+      <country cid="0101090102">平坝</country>
+      <country cid="0101090106">紫云</country>
+    </district>
+    <district did="01010908">铜仁<country cid="0101090803">石阡</country>
+      <country cid="0101090809">玉屏</country>
+      <country cid="0101090810">沿河</country>
+      <country cid="0101090801">德江</country>
+      <country cid="0101090807">万山特</country>
+      <country cid="0101090806">铜仁</country>
+      <country cid="0101090805">松桃</country>
+      <country cid="0101090802">江口</country>
+      <country cid="0101090804">思南</country>
+      <country cid="0101090808">印江</country>
+    </district>
+    <district did="01010907">黔西南<country cid="0101090702">册亨</country>
+      <country cid="0101090703">普安</country>
+      <country cid="0101090708">贞丰</country>
+      <country cid="0101090704">晴隆</country>
+      <country cid="0101090701">安龙</country>
+      <country cid="01010907">黔西南</country>
+      <country cid="0101090705">望谟</country>
+      <country cid="0101090707">兴义</country>
+      <country cid="0101090706">兴仁</country>
+    </district>
+    <district did="01010904">六盘水<country cid="0101090402">盘县</country>
+      <country cid="0101090401">六枝特</country>
+      <country cid="0101090403">水城</country>
+      <country cid="01010904">六盘水</country>
+      <country cid="0101090404">钟山区</country>
+    </district>
+  </province>
+  <province pid="010125">陕西<district did="01012507">西安<country cid="0101250706">蓝田</country>
+      <country cid="0101250712">雁塔</country>
+      <country cid="0101250711">阎良</country>
+      <country cid="0101250710">新城</country>
+      <country cid="0101250702">碑林</country>
+      <country cid="0101250703">长安</country>
+      <country cid="0101250708">临潼</country>
+      <country cid="0101250705">户县</country>
+      <country cid="0101250701">灞桥</country>
+      <country cid="01012507">西安</country>
+      <country cid="0101250713">周至</country>
+      <country cid="0101250704">高陵</country>
+      <country cid="0101250707">莲湖</country>
+      <country cid="0101250709">未央</country>
+    </district>
+    <district did="01012506">渭南<country cid="0101250608">潼关</country>
+      <country cid="0101250606">临渭</country>
+      <country cid="01012506">渭南</country>
+      <country cid="0101250602">澄城</country>
+      <country cid="0101250604">合阳</country>
+      <country cid="0101250601">白水</country>
+      <country cid="0101250605">华县</country>
+      <country cid="0101250603">大荔</country>
+      <country cid="0101250607">蒲城</country>
+    </district>
+    <district did="01012509">延安<country cid="0101250908">吴起</country>
+      <country cid="01012509">延安</country>
+      <country cid="0101250904">甘泉</country>
+      <country cid="0101250911">宜川</country>
+      <country cid="0101250901">安塞</country>
+      <country cid="0101250902">宝塔</country>
+      <country cid="0101250912">志丹</country>
+      <country cid="0101250910">延川</country>
+      <country cid="0101250913">子长</country>
+      <country cid="0101250903">富县</country>
+      <country cid="0101250909">延长</country>
+      <country cid="0101250907">洛川</country>
+      <country cid="0101250905">黄陵</country>
+      <country cid="0101250906">黄龙</country>
+    </district>
+    <district did="01012505">铜川<country cid="0101250505">耀县</country>
+      <country cid="0101250504">印台</country>
+      <country cid="0101250503">宜君</country>
+      <country cid="0101250502">耀州</country>
+      <country cid="01012505">铜川</country>
+      <country cid="0101250501">王益</country>
+    </district>
+    <district did="01012503">汉中<country cid="0101250311">镇巴</country>
+      <country cid="0101250310">洋县</country>
+      <country cid="0101250305">略阳</country>
+      <country cid="0101250303">汉台</country>
+      <country cid="0101250301">城固</country>
+      <country cid="01012503">汉中</country>
+      <country cid="0101250302">佛坪</country>
+      <country cid="0101250309">西乡</country>
+      <country cid="0101250304">留坝</country>
+      <country cid="0101250306">勉县</country>
+      <country cid="0101250308">宁强</country>
+      <country cid="0101250307">南郑</country>
+    </district>
+    <district did="01012508">咸阳<country cid="0101250804">富平</country>
+      <country cid="0101250811">三原</country>
+      <country cid="0101250802">长武</country>
+      <country cid="01012508">咸阳</country>
+      <country cid="0101250803">淳化</country>
+      <country cid="0101250809">乾县</country>
+      <country cid="0101250808">礼泉</country>
+      <country cid="0101250806">华阴</country>
+      <country cid="0101250815">旬邑</country>
+      <country cid="0101250805">韩城</country>
+      <country cid="0101250814">兴平</country>
+      <country cid="0101250810">秦都</country>
+      <country cid="0101250813">武功</country>
+      <country cid="0101250801">彬县</country>
+      <country cid="0101250807">泾阳</country>
+      <country cid="0101250816">杨凌</country>
+      <country cid="0101250817">永寿</country>
+      <country cid="0101250812">渭城</country>
+    </district>
+    <district did="01012504">商洛<country cid="0101250404">商南</country>
+      <country cid="0101250402">洛南</country>
+      <country cid="0101250403">山阳</country>
+      <country cid="0101250401">丹凤</country>
+      <country cid="0101250407">镇安</country>
+      <country cid="01012504">商洛</country>
+      <country cid="0101250406">柞水</country>
+      <country cid="0101250405">商州</country>
+    </district>
+    <district did="01012502">宝鸡<country cid="0101250211">太白</country>
+      <country cid="0101250210">千阳</country>
+      <country cid="0101250212">渭滨</country>
+      <country cid="0101250206">麟游</country>
+      <country cid="0101250208">眉县</country>
+      <country cid="0101250204">扶风</country>
+      <country cid="0101250207">陇县</country>
+      <country cid="0101250201">陈仓</country>
+      <country cid="0101250205">金台</country>
+      <country cid="0101250202">凤县</country>
+      <country cid="01012502">宝鸡</country>
+      <country cid="0101250203">凤翔</country>
+      <country cid="0101250209">岐山</country>
+    </district>
+    <district did="01012501">安康<country cid="0101250109">镇坪</country>
+      <country cid="0101250108">旬阳</country>
+      <country cid="0101250107">石泉</country>
+      <country cid="0101250101">白河</country>
+      <country cid="0101250106">平利</country>
+      <country cid="0101250102">汉滨</country>
+      <country cid="0101250110">紫阳</country>
+      <country cid="0101250104">岚皋</country>
+      <country cid="0101250103">汉阴</country>
+      <country cid="0101250105">宁陕</country>
+      <country cid="01012501">安康</country>
+    </district>
+    <district did="01012510">榆林<country cid="0101251006">米脂</country>
+      <country cid="0101251004">佳县</country>
+      <country cid="0101251001">定边</country>
+      <country cid="0101251002">府谷</country>
+      <country cid="0101251012">子洲</country>
+      <country cid="0101251007">清涧</country>
+      <country cid="0101251005">靖边</country>
+      <country cid="0101251011">榆阳</country>
+      <country cid="0101251009">绥德</country>
+      <country cid="0101251010">吴堡</country>
+      <country cid="0101251008">神木</country>
+      <country cid="01012510">榆林</country>
+      <country cid="0101251003">横山</country>
+    </district>
+  </province>
+  <province pid="010119">辽宁<district did="01011909">锦州<country cid="01011909">锦州</country>
+      <country cid="0101190907">义县</country>
+      <country cid="0101190905">凌河</country>
+      <country cid="0101190906">太和区</country>
+      <country cid="0101190903">黑山</country>
+      <country cid="0101190901">北镇</country>
+      <country cid="0101190904">凌海</country>
+      <country cid="0101190902">古塔</country>
+    </district>
+    <district did="01011902">本溪市<country cid="0101190204">南芬</country>
+      <country cid="0101190202">桓仁</country>
+      <country cid="0101190206">溪湖</country>
+      <country cid="01011902">本溪</country>
+      <country cid="0101190205">平山区</country>
+      <country cid="0101190207">本溪县</country>
+      <country cid="0101190203">明山</country>
+    </district>
+    <district did="01011912">沈阳<country cid="0101191201">大东</country>
+      <country cid="01011912">沈阳</country>
+      <country cid="0101191205">皇姑</country>
+      <country cid="0101191204">沈阳和平</country>
+      <country cid="0101191213">于洪</country>
+      <country cid="0101191209">沈河</country>
+      <country cid="0101191206">康平</country>
+      <country cid="0101191211">铁西</country>
+      <country cid="0101191207">辽中</country>
+      <country cid="0101191203">法库</country>
+      <country cid="0101191202">东陵</country>
+      <country cid="0101191212">新民</country>
+      <country cid="0101191208">沈北新区</country>
+      <country cid="0101191210">苏家屯</country>
+    </district>
+    <district did="01011914">营口<country cid="0101191403">盖州</country>
+      <country cid="0101191406">站前</country>
+      <country cid="0101191402">大石桥</country>
+      <country cid="01011914">营口</country>
+      <country cid="0101191404">老边</country>
+      <country cid="0101191401">鲅鱼圈</country>
+      <country cid="0101191407">青龙山</country>
+      <country cid="0101191405">西市</country>
+    </district>
+    <district did="01011904">大连<country cid="0101190406">沙河口</country>
+      <country cid="0101190408">西岗</country>
+      <country cid="0101190405">普兰店</country>
+      <country cid="0101190403">金州</country>
+      <country cid="0101190401">长海</country>
+      <country cid="0101190404">旅顺</country>
+      <country cid="01011904">大连</country>
+      <country cid="0101190409">中山区</country>
+      <country cid="0101190402">甘井子</country>
+      <country cid="0101190407">瓦房店</country>
+      <country cid="0101190410">庄河</country>
+    </district>
+    <district did="01011911">盘锦<country cid="01011911">盘锦</country>
+      <country cid="0101191101">大洼</country>
+      <country cid="0101191102">盘山</country>
+      <country cid="0101191103">双台子</country>
+      <country cid="0101191104">兴隆台</country>
+    </district>
+    <district did="01011905">丹东<country cid="01011905">丹东</country>
+      <country cid="0101190501">东港</country>
+      <country cid="0101190503">宽甸</country>
+      <country cid="0101190504">元宝</country>
+      <country cid="0101190505">振安</country>
+      <country cid="0101190502">凤城</country>
+      <country cid="0101190506">振兴</country>
+    </district>
+    <district did="01011910">辽阳市<country cid="0101191004">宏伟</country>
+      <country cid="0101191002">灯塔</country>
+      <country cid="0101191008">辽阳县</country>
+      <country cid="0101191001">白塔</country>
+      <country cid="01011910">辽阳</country>
+      <country cid="0101191003">弓长岭</country>
+      <country cid="0101191007">文圣</country>
+      <country cid="0101191006">太子河</country>
+    </district>
+    <district did="01011903">朝阳市<country cid="0101190307">双塔</country>
+      <country cid="0101190304">喀左</country>
+      <country cid="0101190303">建平</country>
+      <country cid="0101190305">凌源</country>
+      <country cid="0101190301">北票</country>
+      <country cid="0101190302">朝阳县</country>
+      <country cid="0101190306">龙城</country>
+    </district>
+    <district did="01011907">阜新市<country cid="0101190702">海州</country>
+      <country cid="0101190705">细河</country>
+      <country cid="0101190706">新邱</country>
+      <country cid="01011907">阜新</country>
+      <country cid="0101190704">太平</country>
+      <country cid="0101190703">清河门</country>
+      <country cid="0101190707">彰武</country>
+    </district>
+    <district did="01011908">葫芦岛<country cid="01011908">葫芦岛</country>
+      <country cid="0101190803">龙港</country>
+      <country cid="0101190802">连山区</country>
+      <country cid="0101190804">南票</country>
+      <country cid="0101190805">绥中</country>
+      <country cid="0101190806">兴城</country>
+      <country cid="0101190801">建昌</country>
+    </district>
+    <district did="01011901">鞍山<country cid="0101190107">岫岩</country>
+      <country cid="0101190101">海城</country>
+      <country cid="0101190106">铁西</country>
+      <country cid="0101190104">台安</country>
+      <country cid="0101190103">千山</country>
+      <country cid="0101190105">铁东</country>
+      <country cid="01011901">鞍山</country>
+      <country cid="0101190102">立山</country>
+    </district>
+    <district did="01011913">铁岭市<country cid="0101191303">开原</country>
+      <country cid="0101191302">调兵山</country>
+      <country cid="0101191307">银州</country>
+      <country cid="0101191304">辽宁清河</country>
+      <country cid="01011913">铁岭</country>
+      <country cid="0101191306">西丰</country>
+      <country cid="0101191301">昌图</country>
+    </district>
+    <district did="01011906">抚顺市<country cid="0101190606">新宾</country>
+      <country cid="0101190603">清原</country>
+      <country cid="0101190608">章党</country>
+      <country cid="01011906">抚顺</country>
+      <country cid="0101190605">望花</country>
+      <country cid="0101190607">新抚</country>
+      <country cid="0101190601">东洲</country>
+      <country cid="0101190604">顺城</country>
+    </district>
+  </province>
+  <province pid="010124">山西<district did="01012406">吕梁<country cid="0101240604">交口</country>
+      <country cid="0101240605">岚县</country>
+      <country cid="0101240611">孝义</country>
+      <country cid="0101240602">汾阳</country>
+      <country cid="0101240607">临县</country>
+      <country cid="0101240609">石楼</country>
+      <country cid="0101240613">中阳</country>
+      <country cid="0101240612">兴县</country>
+      <country cid="01012406">吕梁</country>
+      <country cid="0101240606">离石</country>
+      <country cid="0101240601">方山</country>
+      <country cid="0101240608">柳林</country>
+      <country cid="0101240610">文水</country>
+      <country cid="0101240603">交城</country>
+    </district>
+    <district did="01012404">晋中<country cid="0101240406">寿阳</country>
+      <country cid="0101240408">昔阳</country>
+      <country cid="01012404">晋中</country>
+      <country cid="0101240401">和顺</country>
+      <country cid="0101240409">榆次</country>
+      <country cid="0101240407">太谷</country>
+      <country cid="0101240411">左权</country>
+      <country cid="0101240410">榆社</country>
+      <country cid="0101240404">平遥</country>
+      <country cid="0101240402">介休</country>
+      <country cid="0101240405">祁县</country>
+      <country cid="0101240403">灵石</country>
+    </district>
+    <district did="01012401">长治市<country cid="0101240106">黎城</country>
+      <country cid="0101240103">城区</country>
+      <country cid="0101240113">襄垣</country>
+      <country cid="0101240105">郊区</country>
+      <country cid="0101240102">长子</country>
+      <country cid="0101240112">武乡</country>
+      <country cid="01012401">长治</country>
+      <country cid="0101240107">潞城</country>
+      <country cid="0101240111">屯留</country>
+      <country cid="0101240104">壶关</country>
+      <country cid="0101240110">沁源</country>
+      <country cid="0101240108">平顺</country>
+      <country cid="0101240109">沁县</country>
+    </district>
+    <district did="01012409">忻州<country cid="0101240907">岢岚</country>
+      <country cid="0101240905">河曲</country>
+      <country cid="0101240912">五寨</country>
+      <country cid="0101240913">忻府</country>
+      <country cid="0101240909">偏关</country>
+      <country cid="0101240906">静乐</country>
+      <country cid="0101240915">五台山</country>
+      <country cid="0101240904">繁峙</country>
+      <country cid="0101240910">神池</country>
+      <country cid="0101240914">原平</country>
+      <country cid="0101240901">保德</country>
+      <country cid="0101240903">定襄</country>
+      <country cid="0101240908">宁武</country>
+      <country cid="01012409">忻州</country>
+      <country cid="0101240911">五台</country>
+      <country cid="0101240902">代县</country>
+    </district>
+    <district did="01012410">阳泉<country cid="0101241004">盂县</country>
+      <country cid="01012410">阳泉</country>
+      <country cid="0101241005">平定</country>
+    </district>
+    <district did="01012402">大同市<country cid="0101240201">城区</country>
+      <country cid="0101240208">天镇</country>
+      <country cid="0101240207">南郊</country>
+      <country cid="0101240211">左云</country>
+      <country cid="0101240204">浑源</country>
+      <country cid="0101240203">广灵</country>
+      <country cid="0101240206">灵丘</country>
+      <country cid="01012402">大同</country>
+      <country cid="0101240205">矿区</country>
+      <country cid="0101240210">阳高</country>
+      <country cid="0101240212">大同县</country>
+      <country cid="0101240209">新荣</country>
+    </district>
+    <district did="01012405">临汾<country cid="0101240512">隰县</country>
+      <country cid="0101240503">汾西</country>
+      <country cid="0101240504">浮山</country>
+      <country cid="0101240517">永和</country>
+      <country cid="0101240510">蒲县</country>
+      <country cid="0101240511">曲沃</country>
+      <country cid="0101240501">安泽</country>
+      <country cid="0101240505">古县</country>
+      <country cid="0101240515">尧都</country>
+      <country cid="0101240514">乡宁</country>
+      <country cid="0101240513">襄汾</country>
+      <country cid="01012405">临汾</country>
+      <country cid="0101240509">吉县</country>
+      <country cid="0101240516">翼城</country>
+      <country cid="0101240507">侯马</country>
+      <country cid="0101240506">洪洞</country>
+      <country cid="0101240508">霍州</country>
+      <country cid="0101240502">大宁</country>
+    </district>
+    <district did="01012408">太原<country cid="0101240802">尖草坪</country>
+      <country cid="0101240810">迎泽</country>
+      <country cid="0101240807">小店</country>
+      <country cid="0101240804">娄烦</country>
+      <country cid="0101240801">古交</country>
+      <country cid="0101240809">阳曲</country>
+      <country cid="0101240808">杏花岭</country>
+      <country cid="0101240806">万柏林</country>
+      <country cid="0101240805">清徐</country>
+      <country cid="01012408">太原</country>
+      <country cid="0101240803">晋源</country>
+    </district>
+    <district did="01012407">朔州<country cid="0101240706">右玉</country>
+      <country cid="0101240705">应县</country>
+      <country cid="0101240701">怀仁</country>
+      <country cid="01012407">朔州</country>
+      <country cid="0101240703">山阴</country>
+      <country cid="0101240702">平鲁</country>
+      <country cid="0101240704">朔城</country>
+    </district>
+    <district did="01012411">运城<country cid="0101241107">万荣</country>
+      <country cid="0101241102">稷山</country>
+      <country cid="0101241110">新绛</country>
+      <country cid="0101241101">河津</country>
+      <country cid="0101241113">垣曲</country>
+      <country cid="0101241106">芮城</country>
+      <country cid="01012411">运城</country>
+      <country cid="0101241105">平陆</country>
+      <country cid="0101241112">永济</country>
+      <country cid="0101241104">临猗</country>
+      <country cid="0101241103">绛县</country>
+      <country cid="0101241108">闻喜</country>
+      <country cid="0101241109">夏县</country>
+      <country cid="0101241111">盐湖</country>
+    </district>
+    <district did="01012403">晋城<country cid="0101240301">城区</country>
+      <country cid="0101240305">阳城</country>
+      <country cid="0101240303">陵川</country>
+      <country cid="0101240304">沁水</country>
+      <country cid="0101240306">泽州</country>
+      <country cid="0101240302">高平</country>
+      <country cid="01012403">晋城</country>
+    </district>
+  </province>
+  <province pid="010122">青海<district did="01012205">海南<country cid="01012205">海南</country>
+      <country cid="0101220504">同德</country>
+      <country cid="0101220505">兴海</country>
+      <country cid="0101220501">共和</country>
+      <country cid="0101220503">贵南</country>
+      <country cid="0101220502">贵德</country>
+    </district>
+    <district did="01012208">玉树<country cid="01012208">玉树</country>
+      <country cid="0101220802">囊谦</country>
+      <country cid="0101220805">杂多</country>
+      <country cid="0101220801">称多</country>
+      <country cid="0101220803">曲麻莱</country>
+      <country cid="0101220806">治多</country>
+    </district>
+    <district did="01012206">黄南<country cid="01012206">黄南</country>
+      <country cid="0101220603">同仁</country>
+      <country cid="0101220604">泽库</country>
+      <country cid="0101220602">尖扎</country>
+      <country cid="0101220601">河南</country>
+    </district>
+    <district did="01012201">果洛<country cid="0101220101">班玛</country>
+      <country cid="0101220105">玛多</country>
+      <country cid="0101220103">甘德</country>
+      <country cid="01012201">果洛</country>
+      <country cid="0101220106">玛沁</country>
+      <country cid="0101220102">达日</country>
+      <country cid="0101220104">久治</country>
+    </district>
+    <district did="01012203">海西<country cid="0101220307">冷湖</country>
+      <country cid="0101220308">茫崖</country>
+      <country cid="01012203">海西</country>
+      <country cid="0101220305">乌兰</country>
+      <country cid="0101220301">德令哈</country>
+      <country cid="0101220304">天峻</country>
+      <country cid="0101220303">格尔木</country>
+      <country cid="0101220306">大柴旦</country>
+      <country cid="0101220302">都兰</country>
+    </district>
+    <district did="01012204">海北<country cid="0101220401">刚察</country>
+      <country cid="0101220403">门源</country>
+      <country cid="0101220402">海晏</country>
+      <country cid="01012204">海北</country>
+      <country cid="0101220404">祁连</country>
+    </district>
+    <district did="01012202">海东<country cid="0101220205">平安</country>
+      <country cid="0101220206">循化</country>
+      <country cid="0101220201">互助</country>
+      <country cid="0101220204">民和</country>
+      <country cid="0101220203">乐都</country>
+      <country cid="01012202">海东</country>
+      <country cid="0101220202">化隆</country>
+    </district>
+    <district did="01012207">西宁<country cid="0101220706">湟源</country>
+      <country cid="0101220707">湟中</country>
+      <country cid="01012207">西宁</country>
+      <country cid="0101220705">大通</country>
+    </district>
+  </province>
+  <province pid="010131">香港<district did="01013115">湾仔<country cid="01013115">湾仔</country>
+    </district>
+    <district did="01013113">深水埗<country cid="01013113">深水埗</country>
+    </district>
+    <district did="01013106">黄大仙<country cid="01013106">黄大仙</country>
+      <country cid="0101310601">新界</country>
+    </district>
+    <district did="01013101">香港<country cid="01013101">香港</country>
+    </district>
+    <district did="01013118">元朗<country cid="01013118">元朗</country>
+    </district>
+    <district did="01013117">油尖旺<country cid="01013117">油尖旺</country>
+    </district>
+    <district did="01013107">九龙城<country cid="01013107">九龙城</country>
+    </district>
+    <district did="01013103">大埔<country cid="01013103">大埔区</country>
+    </district>
+    <district did="01013112">沙田<country cid="01013112">沙田</country>
+    </district>
+    <district did="01013109">离岛<country cid="01013109">离岛</country>
+    </district>
+    <district did="01013108">葵青<country cid="01013108">葵青</country>
+    </district>
+    <district did="01013111">荃湾<country cid="01013111">荃湾</country>
+    </district>
+    <district did="01013114">屯门<country cid="01013114">屯门</country>
+    </district>
+    <district did="01013105">观塘<country cid="01013105">观塘</country>
+    </district>
+    <district did="01013119">中西<country cid="01013119">中西</country>
+    </district>
+    <district did="01013116">西贡<country cid="01013116">西贡</country>
+    </district>
+  </province>
+  <province pid="010127">四川<district did="01012717">遂宁<country cid="0101271704">蓬溪</country>
+      <country cid="01012717">遂宁</country>
+      <country cid="0101271703">大英</country>
+      <country cid="0101271705">射洪</country>
+      <country cid="0101271702">船山</country>
+      <country cid="0101271701">安居</country>
+    </district>
+    <district did="01012719">宜宾<country cid="0101271906">兴文</country>
+      <country cid="0101271901">长宁</country>
+      <country cid="01012719">宜宾</country>
+      <country cid="0101271905">屏山</country>
+      <country cid="0101271910">江安</country>
+      <country cid="0101271902">翠屏</country>
+      <country cid="0101271904">珙县</country>
+      <country cid="0101271907">宜宾县</country>
+      <country cid="0101271909">南溪</country>
+      <country cid="0101271903">高县</country>
+      <country cid="0101271908">筠连</country>
+    </district>
+    <district did="01012706">甘孜<country cid="0101270611">理塘</country>
+      <country cid="0101270609">九龙</country>
+      <country cid="01012706">甘孜</country>
+      <country cid="0101270607">得荣</country>
+      <country cid="0101270604">稻城</country>
+      <country cid="0101270601">巴塘</country>
+      <country cid="0101270617">新龙</country>
+      <country cid="0101270616">乡城</country>
+      <country cid="0101270615">石渠</country>
+      <country cid="0101270603">丹巴</country>
+      <country cid="0101270610">康定</country>
+      <country cid="0101270605">道孚</country>
+      <country cid="0101270614">色达</country>
+      <country cid="0101270612">泸定</country>
+      <country cid="0101270606">德格</country>
+      <country cid="0101270602">白玉</country>
+      <country cid="0101270613">炉霍</country>
+      <country cid="0101270618">雅江</country>
+    </district>
+    <district did="01012709">乐山<country cid="0101270907">马边</country>
+      <country cid="0101270906">井研</country>
+      <country cid="0101270911">五通桥</country>
+      <country cid="0101270901">峨边</country>
+      <country cid="01012709">乐山</country>
+      <country cid="0101270905">金口河</country>
+      <country cid="0101270909">沙湾区</country>
+      <country cid="0101270908">沐川</country>
+      <country cid="0101270912">峨眉</country>
+      <country cid="0101270902">峨眉山</country>
+      <country cid="0101270904">犍为</country>
+      <country cid="0101270903">夹江</country>
+    </district>
+    <district did="01012703">成都<country cid="0101270316">武侯</country>
+      <country cid="0101270313">邛崃</country>
+      <country cid="0101270304">金牛</country>
+      <country cid="0101270305">金堂</country>
+      <country cid="0101270312">青羊</country>
+      <country cid="0101270307">龙泉驿</country>
+      <country cid="0101270306">锦江</country>
+      <country cid="01012703">成都</country>
+      <country cid="0101270302">大邑</country>
+      <country cid="0101270303">都江堰</country>
+      <country cid="0101270311">青白江</country>
+      <country cid="0101270315">温江</country>
+      <country cid="0101270317">新都</country>
+      <country cid="0101270309">郫县</country>
+      <country cid="0101270310">蒲江</country>
+      <country cid="0101270308">彭州</country>
+      <country cid="0101270314">双流</country>
+      <country cid="0101270318">新津</country>
+      <country cid="0101270301">崇州</country>
+    </district>
+    <district did="01012716">攀枝花<country cid="0101271602">米易</country>
+      <country cid="0101271605">盐边</country>
+      <country cid="0101271603">仁和</country>
+      <country cid="01012716">攀枝花</country>
+    </district>
+    <district did="01012712">眉山<country cid="0101271201">丹棱</country>
+      <country cid="0101271203">洪雅</country>
+      <country cid="0101271202">东坡</country>
+      <country cid="0101271205">青神</country>
+      <country cid="01012712">眉山</country>
+      <country cid="0101271204">彭山</country>
+      <country cid="0101271206">仁寿</country>
+    </district>
+    <district did="01012718">雅安<country cid="01012718">雅安</country>
+      <country cid="0101271802">汉源</country>
+      <country cid="0101271804">名山</country>
+      <country cid="0101271805">石棉</country>
+      <country cid="0101271806">天全</country>
+      <country cid="0101271808">雨城</country>
+      <country cid="0101271801">宝兴</country>
+      <country cid="0101271807">荥经</country>
+      <country cid="0101271803">芦山</country>
+    </district>
+    <district did="01012720">资阳<country cid="01012720">资阳</country>
+      <country cid="0101272002">简阳</country>
+      <country cid="0101272003">乐至</country>
+      <country cid="0101272004">雁江</country>
+      <country cid="0101272001">安岳</country>
+    </district>
+    <district did="01012711">泸州<country cid="0101271101">古蔺</country>
+      <country cid="0101271102">合江</country>
+      <country cid="01012711">泸州</country>
+      <country cid="0101271103">江阳</country>
+      <country cid="0101271105">泸县</country>
+      <country cid="0101271104">龙马潭</country>
+      <country cid="0101271107">叙永</country>
+      <country cid="0101271106">纳溪</country>
+    </district>
+    <district did="01012715">内江<country cid="0101271502">隆昌</country>
+      <country cid="0101271505">资中</country>
+      <country cid="0101271504">威远</country>
+      <country cid="01012715">内江</country>
+      <country cid="0101271501">东兴区</country>
+    </district>
+    <district did="01012707">广安市<country cid="0101270705">岳池</country>
+      <country cid="01012707">广安</country>
+      <country cid="0101270703">邻水</country>
+      <country cid="0101270704">武胜</country>
+      <country cid="0101270702">华蓥山</country>
+    </district>
+    <district did="01012721">自贡<country cid="0101272102">富顺</country>
+      <country cid="0101272103">贡井</country>
+      <country cid="0101272105">沿滩</country>
+      <country cid="0101272106">自流井</country>
+      <country cid="0101272104">荣县</country>
+      <country cid="0101272101">大安区</country>
+      <country cid="01012721">自贡</country>
+    </district>
+    <district did="01012701">阿坝<country cid="0101270104">四川金川</country>
+      <country cid="0101270112">汶川</country>
+      <country cid="0101270108">茂县</country>
+      <country cid="0101270110">若尔盖</country>
+      <country cid="0101270105">九寨沟</country>
+      <country cid="0101270113">小金</country>
+      <country cid="0101270109">壤塘</country>
+      <country cid="0101270106">理县</country>
+      <country cid="0101270103">红原</country>
+      <country cid="01012701">阿坝</country>
+      <country cid="0101270107">马尔康</country>
+      <country cid="0101270111">松潘</country>
+      <country cid="0101270102">黑水</country>
+    </district>
+    <district did="01012713">绵阳<country cid="0101271308">游仙</country>
+      <country cid="0101271309">梓潼</country>
+      <country cid="0101271304">江油</country>
+      <country cid="0101271307">盐亭</country>
+      <country cid="0101271305">平武</country>
+      <country cid="01012713">绵阳</country>
+      <country cid="0101271303">涪城</country>
+      <country cid="0101271302">北川</country>
+      <country cid="0101271301">安县</country>
+      <country cid="0101271306">三台</country>
+    </district>
+    <district did="01012704">达州<country cid="0101270401">达县</country>
+      <country cid="0101270404">渠县</country>
+      <country cid="0101270403">开江</country>
+      <country cid="0101270402">大竹</country>
+      <country cid="0101270406">万源</country>
+      <country cid="01012704">达州</country>
+      <country cid="0101270405">通川</country>
+      <country cid="0101270407">宣汉</country>
+    </district>
+    <district did="01012710">凉山<country cid="0101271003">甘洛</country>
+      <country cid="0101271006">金阳</country>
+      <country cid="0101271012">普格</country>
+      <country cid="0101271002">德昌</country>
+      <country cid="0101271008">美姑</country>
+      <country cid="0101271013">西昌</country>
+      <country cid="0101271016">越西</country>
+      <country cid="0101271004">会东</country>
+      <country cid="0101271007">雷波</country>
+      <country cid="0101271005">会理</country>
+      <country cid="0101271009">冕宁</country>
+      <country cid="0101271014">喜德</country>
+      <country cid="0101271011">宁南</country>
+      <country cid="0101271001">布拖</country>
+      <country cid="01012710">凉山</country>
+      <country cid="0101271015">盐源</country>
+      <country cid="0101271010">木里</country>
+      <country cid="0101271017">昭觉</country>
+    </district>
+    <district did="01012705">德阳<country cid="0101270504">绵竹</country>
+      <country cid="0101270502">旌阳</country>
+      <country cid="0101270503">罗江</country>
+      <country cid="0101270501">广汉</country>
+      <country cid="01012705">德阳</country>
+      <country cid="0101270506">中江</country>
+      <country cid="0101270505">什邡</country>
+    </district>
+    <district did="01012708">广元<country cid="0101270804">剑阁</country>
+      <country cid="0101270801">苍溪</country>
+      <country cid="0101270805">利州</country>
+      <country cid="0101270803">元坝</country>
+      <country cid="0101270807">旺苍</country>
+      <country cid="0101270806">青川</country>
+      <country cid="0101270802">朝天</country>
+      <country cid="01012708">广元</country>
+    </district>
+    <district did="01012714">南充<country cid="0101271405">蓬安</country>
+      <country cid="0101271408">仪陇</country>
+      <country cid="0101271401">高坪</country>
+      <country cid="0101271404">南部</country>
+      <country cid="0101271409">营山</country>
+      <country cid="0101271402">嘉陵</country>
+      <country cid="0101271406">顺庆</country>
+      <country cid="01012714">南充</country>
+      <country cid="0101271403">阆中</country>
+      <country cid="0101271407">西充</country>
+    </district>
+    <district did="01012702">巴中<country cid="0101270201">巴州</country>
+      <country cid="0101270202">南江</country>
+      <country cid="0101270203">平昌</country>
+      <country cid="0101270204">通江</country>
+      <country cid="01012702">巴中</country>
+    </district>
+  </province>
+  <province pid="010117">江苏<district did="01011709">无锡<country cid="01011709">无锡</country>
+      <country cid="0101170902">滨湖</country>
+      <country cid="0101170905">江阴</country>
+      <country cid="0101170908">宜兴</country>
+      <country cid="0101170906">南长</country>
+      <country cid="0101170907">锡山</country>
+      <country cid="0101170903">崇安</country>
+      <country cid="0101170904">惠山</country>
+      <country cid="0101170901">北塘</country>
+    </district>
+    <district did="01011711">盐城<country cid="0101171107">亭湖</country>
+      <country cid="01011711">盐城</country>
+      <country cid="0101171101">滨海</country>
+      <country cid="0101171106">射阳</country>
+      <country cid="0101171104">阜宁</country>
+      <country cid="0101171108">响水</country>
+      <country cid="0101171103">东台</country>
+      <country cid="0101171109">盐都</country>
+      <country cid="0101171105">建湖</country>
+      <country cid="0101171102">大丰</country>
+    </district>
+    <district did="01011712">扬州<country cid="0101171204">邗江</country>
+      <country cid="01011712">扬州</country>
+      <country cid="0101171206">维扬</country>
+      <country cid="0101171207">仪征</country>
+      <country cid="0101171203">广陵</country>
+      <country cid="0101171201">宝应</country>
+      <country cid="0101171205">江都</country>
+      <country cid="0101171202">高邮</country>
+    </district>
+    <district did="01011704">南京<country cid="0101170402">高淳</country>
+      <country cid="0101170414">江浦</country>
+      <country cid="0101170409">栖霞区</country>
+      <country cid="0101170413">雨花台</country>
+      <country cid="0101170407">六合</country>
+      <country cid="0101170403">鼓楼</country>
+      <country cid="01011704">南京</country>
+      <country cid="0101170401">白下</country>
+      <country cid="0101170410">秦淮</country>
+      <country cid="0101170411">下关</country>
+      <country cid="0101170408">浦口</country>
+      <country cid="0101170412">玄武</country>
+      <country cid="0101170404">建邺</country>
+      <country cid="0101170406">溧水</country>
+      <country cid="0101170405">江宁</country>
+    </district>
+    <district did="01011705">南通<country cid="0101170503">海安</country>
+      <country cid="0101170505">启东</country>
+      <country cid="0101170506">如东</country>
+      <country cid="0101170508">江苏通州</country>
+      <country cid="01011705">南通</country>
+      <country cid="0101170507">如皋</country>
+      <country cid="0101170502">港闸</country>
+      <country cid="0101170504">海门</country>
+      <country cid="0101170501">崇川</country>
+    </district>
+    <district did="01011701">常州<country cid="0101170107">钟楼</country>
+      <country cid="0101170106">新北</country>
+      <country cid="0101170105">武进</country>
+      <country cid="0101170102">溧阳</country>
+      <country cid="0101170101">金坛</country>
+      <country cid="01011701">常州</country>
+      <country cid="0101170104">天宁</country>
+      <country cid="0101170103">戚墅堰</country>
+    </district>
+    <district did="01011706">苏州<country cid="0101170610">相城</country>
+      <country cid="0101170606">平江区</country>
+      <country cid="0101170605">昆山</country>
+      <country cid="0101170604">金阊</country>
+      <country cid="0101170602">常熟</country>
+      <country cid="0101170601">沧浪</country>
+      <country cid="01011706">苏州</country>
+      <country cid="0101170607">太仓</country>
+      <country cid="0101170603">虎丘</country>
+      <country cid="0101170609">吴中</country>
+      <country cid="0101170611">张家港</country>
+      <country cid="0101170608">吴江</country>
+    </district>
+    <district did="01011708">泰州<country cid="0101170804">靖江</country>
+      <country cid="0101170806">兴化</country>
+      <country cid="01011708">泰州</country>
+      <country cid="0101170803">姜堰</country>
+      <country cid="0101170801">高港</country>
+      <country cid="0101170805">泰兴</country>
+      <country cid="0101170802">海陵</country>
+    </district>
+    <district did="01011707">宿迁<country cid="0101170704">宿城</country>
+      <country cid="0101170702">泗洪</country>
+      <country cid="01011707">宿迁</country>
+      <country cid="0101170701">沭阳</country>
+      <country cid="0101170705">宿豫</country>
+      <country cid="0101170703">泗阳</country>
+    </district>
+    <district did="01011703">连云港<country cid="0101170302">赣榆</country>
+      <country cid="0101170307">新浦</country>
+      <country cid="0101170304">灌云</country>
+      <country cid="0101170301">东海</country>
+      <country cid="0101170303">灌南</country>
+      <country cid="0101170305">海州</country>
+      <country cid="0101170306">连云</country>
+      <country cid="01011703">连云港</country>
+    </district>
+    <district did="01011702">淮安<country cid="0101170206">江苏清河</country>
+      <country cid="0101170207">清浦</country>
+      <country cid="0101170205">涟水</country>
+      <country cid="0101170208">盱眙</country>
+      <country cid="0101170204">金湖</country>
+      <country cid="0101170203">淮阴</country>
+      <country cid="0101170201">楚州</country>
+      <country cid="01011702">淮安</country>
+      <country cid="0101170202">洪泽</country>
+    </district>
+    <district did="01011713">镇江<country cid="0101171304">句容</country>
+      <country cid="0101171305">润州</country>
+      <country cid="0101171306">扬中</country>
+      <country cid="0101171301">丹徒</country>
+      <country cid="0101171303">京口</country>
+      <country cid="0101171302">丹阳</country>
+      <country cid="01011713">镇江</country>
+    </district>
+    <district did="01011710">徐州<country cid="0101171010">新沂</country>
+      <country cid="0101171007">泉山</country>
+      <country cid="0101171005">沛县</country>
+      <country cid="0101171001">丰县</country>
+      <country cid="0101171009">铜山</country>
+      <country cid="0101171003">贾汪</country>
+      <country cid="0101171002">鼓楼</country>
+      <country cid="0101171008">睢宁</country>
+      <country cid="0101171006">邳州</country>
+      <country cid="0101171004">九里</country>
+      <country cid="0101171011">云龙区</country>
+      <country cid="01011710">徐州</country>
+    </district>
+  </province>
+  <province pid="010111">河北<district did="01011111">张家口<country cid="0101111106">康保</country>
+      <country cid="01011111">张家口</country>
+      <country cid="0101111103">沽源</country>
+      <country cid="0101111108">桥西</country>
+      <country cid="0101111113">宣化区</country>
+      <country cid="0101111117">涿鹿</country>
+      <country cid="0101111101">赤城</country>
+      <country cid="0101111111">蔚县</country>
+      <country cid="0101111112">下花园</country>
+      <country cid="0101111109">尚义</country>
+      <country cid="0101111115">阳原</country>
+      <country cid="0101111102">崇礼</country>
+      <country cid="0101111105">怀来</country>
+      <country cid="0101111116">张北</country>
+      <country cid="0101111114">宣化县</country>
+      <country cid="0101111104">怀安</country>
+      <country cid="0101111107">桥东</country>
+      <country cid="0101111110">万全</country>
+    </district>
+    <district did="01011109">唐山<country cid="01011109">唐山</country>
+      <country cid="0101110913">玉田</country>
+      <country cid="0101110915">曹妃甸</country>
+      <country cid="0101110911">迁西</country>
+      <country cid="0101110904">开平区</country>
+      <country cid="0101110903">古冶</country>
+      <country cid="0101110907">路南</country>
+      <country cid="0101110908">滦南</country>
+      <country cid="0101110909">滦县</country>
+      <country cid="0101110906">路北</country>
+      <country cid="0101110912">唐海</country>
+      <country cid="0101110901">丰南</country>
+      <country cid="0101110905">乐亭</country>
+      <country cid="0101110914">遵化</country>
+      <country cid="0101110902">丰润</country>
+      <country cid="0101110910">迁安</country>
+    </district>
+    <district did="01011104">邯郸<country cid="0101110402">丛台</country>
+      <country cid="0101110408">广平</country>
+      <country cid="0101110411">邱县</country>
+      <country cid="0101110416">永年</country>
+      <country cid="0101110406">复兴</country>
+      <country cid="0101110401">磁县</country>
+      <country cid="0101110415">武安</country>
+      <country cid="0101110404">肥乡</country>
+      <country cid="0101110405">峰峰</country>
+      <country cid="0101110418">临漳</country>
+      <country cid="0101110407">馆陶</country>
+      <country cid="0101110414">魏县</country>
+      <country cid="0101110417">成安</country>
+      <country cid="01011104">邯郸</country>
+      <country cid="0101110409">邯山</country>
+      <country cid="0101110413">涉县</country>
+      <country cid="0101110412">曲周</country>
+      <country cid="0101110403">大名</country>
+      <country cid="0101110410">鸡泽</country>
+    </district>
+    <district did="01011106">廊坊<country cid="0101110601">安次</country>
+      <country cid="0101110604">大城</country>
+      <country cid="0101110605">固安</country>
+      <country cid="0101110610">永清</country>
+      <country cid="0101110609">香河</country>
+      <country cid="0101110608">文安</country>
+      <country cid="01011106">廊坊</country>
+      <country cid="0101110602">霸州</country>
+      <country cid="0101110607">三河</country>
+      <country cid="0101110603">大厂</country>
+      <country cid="0101110606">广阳</country>
+    </district>
+    <district did="01011108">石家庄<country cid="0101110803">藁城</country>
+      <country cid="0101110812">桥西</country>
+      <country cid="0101110821">赞皇</country>
+      <country cid="0101110814">无极</country>
+      <country cid="0101110815">新华</country>
+      <country cid="0101110822">赵县</country>
+      <country cid="0101110805">井陉矿区</country>
+      <country cid="0101110809">栾城</country>
+      <country cid="0101110806">井陉</country>
+      <country cid="0101110807">灵寿</country>
+      <country cid="0101110818">行唐</country>
+      <country cid="0101110813">深泽</country>
+      <country cid="0101110817">新乐</country>
+      <country cid="0101110811">桥东</country>
+      <country cid="0101110810">平山</country>
+      <country cid="0101110802">高邑</country>
+      <country cid="0101110820">元氏</country>
+      <country cid="01011108">石家庄</country>
+      <country cid="0101110816">辛集</country>
+      <country cid="0101110804">晋州</country>
+      <country cid="0101110808">鹿泉</country>
+      <country cid="0101110823">正定</country>
+      <country cid="0101110801">长安区</country>
+      <country cid="0101110819">裕华</country>
+    </district>
+    <district did="01011103">承德<country cid="0101110312">承德县</country>
+      <country cid="0101110310">兴隆</country>
+      <country cid="0101110303">宽城</country>
+      <country cid="0101110309">围场</country>
+      <country cid="0101110305">滦平</country>
+      <country cid="0101110306">平泉</country>
+      <country cid="0101110304">隆化</country>
+      <country cid="0101110302">丰宁</country>
+      <country cid="0101110308">双桥</country>
+      <country cid="0101110307">双滦</country>
+      <country cid="0101110311">鹰手营</country>
+      <country cid="01011103">承德</country>
+    </district>
+    <district did="01011107">秦皇岛<country cid="0101110705">卢龙</country>
+      <country cid="0101110702">昌黎</country>
+      <country cid="0101110706">青龙</country>
+      <country cid="0101110703">抚宁</country>
+      <country cid="0101110707">山海关</country>
+      <country cid="0101110704">海港</country>
+      <country cid="01011107">秦皇岛</country>
+      <country cid="0101110701">北戴河</country>
+    </district>
+    <district did="01011110">邢台市<country cid="0101111003">巨鹿</country>
+      <country cid="0101111008">南和</country>
+      <country cid="0101111013">桥西</country>
+      <country cid="0101111011">平乡</country>
+      <country cid="0101111017">威县</country>
+      <country cid="0101111010">宁晋</country>
+      <country cid="0101111007">南宫</country>
+      <country cid="0101111004">临城</country>
+      <country cid="0101111018">新河</country>
+      <country cid="0101111014">清河</country>
+      <country cid="0101111006">隆尧</country>
+      <country cid="0101111009">内丘</country>
+      <country cid="0101111012">桥东</country>
+      <country cid="0101111001">柏乡</country>
+      <country cid="0101111002">广宗</country>
+      <country cid="0101111015">任县</country>
+      <country cid="0101111016">沙河</country>
+      <country cid="01011110">邢台市</country>
+      <country cid="0101111005">临西</country>
+    </district>
+    <district did="01011101">保定<country cid="0101110110">涞水</country>
+      <country cid="0101110115">清苑</country>
+      <country cid="0101110107">阜平</country>
+      <country cid="0101110112">蠡县</country>
+      <country cid="0101110119">唐县</country>
+      <country cid="0101110123">徐水</country>
+      <country cid="0101110111">涞源</country>
+      <country cid="0101110113">满城</country>
+      <country cid="0101110106">定州</country>
+      <country cid="01011101">保定</country>
+      <country cid="0101110120">望都</country>
+      <country cid="0101110114">南市区</country>
+      <country cid="0101110103">北市区</country>
+      <country cid="0101110125">涿州</country>
+      <country cid="0101110104">博野</country>
+      <country cid="0101110117">容城</country>
+      <country cid="0101110116">曲阳</country>
+      <country cid="0101110105">定兴</country>
+      <country cid="0101110124">易县</country>
+      <country cid="0101110121">新市</country>
+      <country cid="0101110108">高碑店</country>
+      <country cid="0101110109">高阳</country>
+      <country cid="0101110102">安新</country>
+      <country cid="0101110101">安国</country>
+      <country cid="0101110118">顺平</country>
+      <country cid="0101110122">雄县</country>
+    </district>
+    <district did="01011105">衡水<country cid="0101110502">阜城</country>
+      <country cid="0101110505">景县</country>
+      <country cid="0101110510">武邑</country>
+      <country cid="0101110509">武强</country>
+      <country cid="0101110507">深州</country>
+      <country cid="0101110508">桃城</country>
+      <country cid="0101110503">故城</country>
+      <country cid="0101110504">冀州</country>
+      <country cid="0101110511">枣强</country>
+      <country cid="0101110506">饶阳</country>
+      <country cid="01011105">衡水</country>
+      <country cid="0101110501">安平</country>
+    </district>
+    <district did="01011102">沧州<country cid="0101110215">盐山</country>
+      <country cid="0101110206">黄骅</country>
+      <country cid="0101110204">海兴</country>
+      <country cid="0101110214">新华</country>
+      <country cid="0101110208">南皮</country>
+      <country cid="0101110202">沧县</country>
+      <country cid="0101110211">肃宁</country>
+      <country cid="0101110212">吴桥</country>
+      <country cid="01011102">沧州</country>
+      <country cid="0101110216">运河</country>
+      <country cid="0101110201">泊头</country>
+      <country cid="0101110209">青县</country>
+      <country cid="0101110205">河间</country>
+      <country cid="0101110210">任丘</country>
+      <country cid="0101110213">献县</country>
+      <country cid="0101110207">孟村</country>
+      <country cid="0101110203">东光</country>
+    </district>
+  </province>
+  <province pid="010130">西藏<district did="01013001">阿里<country cid="01013001">阿里</country>
+      <country cid="0101300107">札达</country>
+      <country cid="0101300104">革吉</country>
+      <country cid="0101300102">噶尔</country>
+      <country cid="0101300105">普兰</country>
+      <country cid="0101300106">日土</country>
+      <country cid="0101300103">改则</country>
+      <country cid="0101300101">措勤</country>
+    </district>
+    <district did="01013006">日喀则<country cid="0101300603">定结</country>
+      <country cid="0101300608">拉孜</country>
+      <country cid="0101300606">吉隆</country>
+      <country cid="01013006">日喀则</country>
+      <country cid="0101300605">岗巴</country>
+      <country cid="0101300601">昂仁</country>
+      <country cid="0101300609">南木林</country>
+      <country cid="0101300611">仁布</country>
+      <country cid="0101300610">聂拉木</country>
+      <country cid="0101300614">萨迦</country>
+      <country cid="0101300613">萨嘎</country>
+      <country cid="0101300604">定日</country>
+      <country cid="0101300618">康马</country>
+      <country cid="0101300615">谢通门</country>
+      <country cid="0101300617">仲巴</country>
+      <country cid="0101300602">白朗</country>
+      <country cid="0101300607">江孜</country>
+      <country cid="0101300616">亚东</country>
+    </district>
+    <district did="01013005">那曲<country cid="0101300505">嘉黎</country>
+      <country cid="0101300508">聂荣</country>
+      <country cid="0101300504">比如</country>
+      <country cid="0101300502">巴青</country>
+      <country cid="0101300501">安多</country>
+      <country cid="0101300507">尼玛</country>
+      <country cid="01013005">那曲</country>
+      <country cid="0101300509">申扎</country>
+      <country cid="0101300510">索县</country>
+      <country cid="0101300503">班戈</country>
+    </district>
+    <district did="01013002">昌都<country cid="0101300207">江达</country>
+      <country cid="0101300203">察雅</country>
+      <country cid="0101300211">左贡</country>
+      <country cid="0101300208">类乌齐</country>
+      <country cid="0101300201">八宿</country>
+      <country cid="0101300202">边坝</country>
+      <country cid="0101300206">贡觉</country>
+      <country cid="0101300204">昌都</country>
+      <country cid="0101300209">洛隆</country>
+      <country cid="0101300210">芒康</country>
+      <country cid="0101300205">丁青</country>
+    </district>
+    <district did="01013007">山南<country cid="0101300706">隆子</country>
+      <country cid="0101300703">贡嘎</country>
+      <country cid="0101300702">错那</country>
+      <country cid="0101300712">扎囊</country>
+      <country cid="0101300704">加查</country>
+      <country cid="01013007">山南</country>
+      <country cid="0101300701">措美</country>
+      <country cid="0101300705">浪卡子</country>
+      <country cid="0101300709">琼结</country>
+      <country cid="0101300711">桑日</country>
+      <country cid="0101300710">曲松</country>
+      <country cid="0101300707">洛扎</country>
+      <country cid="0101300708">乃东</country>
+      <country cid="0101300713">泽当</country>
+    </district>
+    <district did="01013003">拉萨<country cid="0101300303">当雄</country>
+      <country cid="0101300301">城关</country>
+      <country cid="0101300302">达孜</country>
+      <country cid="0101300305">林周</country>
+      <country cid="01013003">拉萨</country>
+      <country cid="0101300306">墨竹工卡</country>
+      <country cid="0101300304">堆龙德庆</country>
+      <country cid="0101300307">尼木</country>
+      <country cid="0101300308">曲水</country>
+    </district>
+    <district did="01013004">林芝<country cid="0101300402">察隅</country>
+      <country cid="0101300407">墨脱</country>
+      <country cid="0101300401">波密</country>
+      <country cid="0101300404">朗县</country>
+      <country cid="0101300406">米林</country>
+      <country cid="0101300403">工布江达</country>
+      <country cid="0101300405">林芝</country>
+    </district>
+  </province>
+  <province pid="010105">福建<district did="01010509">漳州<country cid="01010509">漳州</country>
+      <country cid="0101050907">平和</country>
+      <country cid="0101050910">漳浦</country>
+      <country cid="0101050901">长泰</country>
+      <country cid="0101050909">云霄</country>
+      <country cid="0101050911">诏安</country>
+      <country cid="0101050905">龙文</country>
+      <country cid="0101050908">芗城</country>
+      <country cid="0101050903">华安</country>
+      <country cid="0101050904">龙海</country>
+      <country cid="0101050902">东山</country>
+      <country cid="0101050906">南靖</country>
+    </district>
+    <district did="01010507">三明<country cid="01010507">三明</country>
+      <country cid="0101050703">将乐</country>
+      <country cid="0101050711">永安</country>
+      <country cid="0101050708">三元</country>
+      <country cid="0101050710">泰宁</country>
+      <country cid="0101050704">梅列</country>
+      <country cid="0101050701">大田</country>
+      <country cid="0101050707">清流</country>
+      <country cid="0101050712">尤溪</country>
+      <country cid="0101050702">建宁</country>
+      <country cid="0101050705">明溪</country>
+      <country cid="0101050709">沙县</country>
+      <country cid="0101050706">宁化</country>
+    </district>
+    <district did="01010503">南平<country cid="0101050304">浦城</country>
+      <country cid="01010503">南平</country>
+      <country cid="0101050309">延平</country>
+      <country cid="0101050310">政和</country>
+      <country cid="0101050308">武夷山</country>
+      <country cid="0101050302">建瓯</country>
+      <country cid="0101050306">顺昌</country>
+      <country cid="0101050305">邵武</country>
+      <country cid="0101050307">松溪</country>
+      <country cid="0101050303">建阳</country>
+      <country cid="0101050301">光泽</country>
+    </district>
+    <district did="01010504">宁德<country cid="0101050409">周宁</country>
+      <country cid="0101050408">柘荣</country>
+      <country cid="0101050405">屏南</country>
+      <country cid="0101050407">霞浦</country>
+      <country cid="01010504">宁德</country>
+      <country cid="0101050406">寿宁</country>
+      <country cid="0101050403">古田</country>
+      <country cid="0101050404">蕉城</country>
+      <country cid="0101050401">福安</country>
+      <country cid="0101050402">福鼎</country>
+    </district>
+    <district did="01010506">泉州<country cid="0101050604">惠安</country>
+      <country cid="0101050613">崇武</country>
+      <country cid="0101050609">南安</country>
+      <country cid="0101050607">鲤城</country>
+      <country cid="0101050610">泉港</country>
+      <country cid="0101050612">永春</country>
+      <country cid="01010506">泉州</country>
+      <country cid="0101050605">金门</country>
+      <country cid="0101050606">晋江</country>
+      <country cid="0101050611">石狮</country>
+      <country cid="0101050602">德化</country>
+      <country cid="0101050608">洛江</country>
+      <country cid="0101050603">丰泽</country>
+      <country cid="0101050601">安溪</country>
+    </district>
+    <district did="01010502">龙岩<country cid="0101050207">漳平</country>
+      <country cid="0101050202">连城</country>
+      <country cid="0101050206">永定</country>
+      <country cid="0101050205">新罗</country>
+      <country cid="0101050204">武平</country>
+      <country cid="01010502">龙岩</country>
+      <country cid="0101050203">上杭</country>
+      <country cid="0101050201">长汀</country>
+    </district>
+    <district did="01010508">厦门<country cid="0101050805">同安</country>
+      <country cid="0101050806">翔安</country>
+      <country cid="0101050801">海沧</country>
+      <country cid="0101050802">湖里</country>
+      <country cid="01010508">厦门</country>
+      <country cid="0101050803">集美</country>
+      <country cid="0101050804">思明</country>
+    </district>
+    <district did="01010505">莆田<country cid="0101050503">荔城</country>
+      <country cid="0101050501">城厢</country>
+      <country cid="0101050502">涵江</country>
+      <country cid="0101050504">仙游</country>
+      <country cid="0101050505">秀屿港</country>
+      <country cid="01010505">莆田</country>
+    </district>
+    <district did="01010501">福州<country cid="0101050103">福清</country>
+      <country cid="0101050109">闽侯</country>
+      <country cid="0101050110">闽清</country>
+      <country cid="0101050111">平潭</country>
+      <country cid="0101050112">台江区</country>
+      <country cid="0101050105">晋安</country>
+      <country cid="0101050104">鼓楼</country>
+      <country cid="0101050113">永泰</country>
+      <country cid="0101050101">仓山</country>
+      <country cid="0101050108">马尾</country>
+      <country cid="0101050106">连江</country>
+      <country cid="0101050102">长乐</country>
+      <country cid="01010501">福州</country>
+      <country cid="0101050107">罗源</country>
+    </district>
+  </province>
+  <province pid="010116">吉林<district did="01011602">白山<country cid="01011602">白山</country>
+      <country cid="0101160201">八道江</country>
+      <country cid="0101160207">东岗</country>
+      <country cid="0101160205">靖宇</country>
+      <country cid="0101160204">江源</country>
+      <country cid="0101160202">长白</country>
+      <country cid="0101160206">临江</country>
+      <country cid="0101160203">抚松</country>
+    </district>
+    <district did="01011603">长春<country cid="0101160301">朝阳</country>
+      <country cid="0101160305">宽城区</country>
+      <country cid="01011603">长春</country>
+      <country cid="0101160304">九台</country>
+      <country cid="0101160306">绿园</country>
+      <country cid="0101160308">农安</country>
+      <country cid="0101160302">德惠</country>
+      <country cid="0101160309">双阳</country>
+      <country cid="0101160307">南关</country>
+      <country cid="0101160310">榆树</country>
+      <country cid="0101160303">二道</country>
+    </district>
+    <district did="01011606">四平<country cid="0101160606">伊通</country>
+      <country cid="0101160602">梨树</country>
+      <country cid="0101160604">铁东</country>
+      <country cid="0101160605">铁西</country>
+      <country cid="0101160601">公主岭</country>
+      <country cid="0101160603">双辽</country>
+      <country cid="01011606">四平</country>
+    </district>
+    <district did="01011605">辽源<country cid="0101160502">东辽</country>
+      <country cid="0101160503">龙山区</country>
+      <country cid="0101160504">吉林西安</country>
+      <country cid="0101160501">东丰</country>
+      <country cid="01011605">辽源</country>
+    </district>
+    <district did="01011607">松原<country cid="0101160702">扶余</country>
+      <country cid="01011607">松原</country>
+      <country cid="0101160703">宁江</country>
+      <country cid="0101160704">乾安</country>
+      <country cid="0101160701">长岭</country>
+      <country cid="0101160705">前郭</country>
+    </district>
+    <district did="01011609">延边<country cid="0101160905">龙井</country>
+      <country cid="0101160902">敦化</country>
+      <country cid="0101160901">安图</country>
+      <country cid="01011609">延边</country>
+      <country cid="0101160903">和龙</country>
+      <country cid="0101160904">珲春</country>
+      <country cid="0101160906">图们</country>
+      <country cid="0101160908">延吉</country>
+      <country cid="0101160907">汪清</country>
+    </district>
+    <district did="01011601">白城<country cid="0101160102">洮北</country>
+      <country cid="0101160101">大安</country>
+      <country cid="0101160104">通榆</country>
+      <country cid="01011601">白城</country>
+      <country cid="0101160103">洮南</country>
+      <country cid="0101160105">镇赉</country>
+    </district>
+    <district did="01011608">通化<country cid="0101160803">辉南</country>
+      <country cid="0101160801">东昌</country>
+      <country cid="0101160802">二道江</country>
+      <country cid="0101160805">柳河</country>
+      <country cid="0101160804">集安</country>
+      <country cid="0101160806">梅河口</country>
+      <country cid="01011608">通化</country>
+      <country cid="0101160807">通化县</country>
+    </district>
+    <district did="01011604">吉林<country cid="0101160403">丰满</country>
+      <country cid="0101160406">龙潭</country>
+      <country cid="0101160405">蛟河</country>
+      <country cid="0101160401">昌邑区</country>
+      <country cid="0101160404">桦甸</country>
+      <country cid="0101160408">舒兰</country>
+      <country cid="0101160402">船营</country>
+      <country cid="0101160409">永吉</country>
+      <country cid="0101160407">磐石</country>
+      <country cid="01011604">吉林</country>
+    </district>
+  </province>
+  <province pid="010110">海南<district did="01011017">文昌市<country cid="0101101701">文昌</country>
+    </district>
+    <district did="01011014">三亚市<country cid="0101101401">三亚</country>
+      <country cid="0101101402">西沙</country>
+    </district>
+    <district did="01011008">海口<country cid="0101100803">琼山</country>
+      <country cid="0101100804">秀英</country>
+      <country cid="0101100802">美兰</country>
+      <country cid="0101100801">龙华</country>
+      <country cid="01011008">海口</country>
+    </district>
+    <district did="01011003">昌江市<country cid="0101100301">昌江</country>
+    </district>
+    <district did="01011015">屯昌市<country cid="0101101501">屯昌</country>
+    </district>
+    <district did="01011001">白沙市<country cid="0101100101">白沙</country>
+    </district>
+    <district did="01011005">儋州市<country cid="0101100501">儋州</country>
+    </district>
+    <district did="01011004">澄迈市<country cid="0101100401">澄迈</country>
+    </district>
+    <district did="01011002">保亭市<country cid="0101100201">保亭</country>
+    </district>
+    <district did="01011016">万宁市<country cid="0101101601">万宁</country>
+    </district>
+    <district did="01011009">乐东市<country cid="0101100901">乐东</country>
+    </district>
+    <district did="01011006">定安市<country cid="0101100601">定安</country>
+    </district>
+    <district did="01011018">五指山<country cid="0101101801">五指山</country>
+    </district>
+    <district did="01011011">陵水市<country cid="0101101101">陵水</country>
+    </district>
+    <district did="01011010">临高<country cid="0101101001">临高</country>
+    </district>
+    <district did="01011007">东方市<country cid="0101100701">东方</country>
+    </district>
+    <district did="01011013">琼中市<country cid="0101101301">琼中</country>
+    </district>
+    <district did="01011012">琼海市<country cid="0101101201">琼海</country>
+    </district>
+  </province>
+  <province pid="010114">湖北<district did="01011412">襄樊<country cid="0101141207">襄阳</country>
+      <country cid="01011412">襄樊</country>
+      <country cid="0101141201">保康</country>
+      <country cid="0101141203">谷城</country>
+      <country cid="0101141206">襄城区</country>
+      <country cid="0101141202">樊城</country>
+      <country cid="0101141209">枣阳</country>
+      <country cid="0101141205">南漳</country>
+      <country cid="0101141204">老河口</country>
+      <country cid="0101141208">宜城</country>
+      <country cid="0101141210">襄州</country>
+    </district>
+    <district did="01011408">十堰<country cid="0101140801">丹江口</country>
+      <country cid="0101140808">竹溪</country>
+      <country cid="0101140805">郧县</country>
+      <country cid="0101140804">郧西</country>
+      <country cid="0101140803">茅箭</country>
+      <country cid="0101140806">张湾</country>
+      <country cid="01011408">十堰</country>
+      <country cid="0101140807">竹山</country>
+      <country cid="0101140802">房县</country>
+    </district>
+    <district did="01011414">宜昌<country cid="0101141403">点军</country>
+      <country cid="0101141406">西陵</country>
+      <country cid="0101141404">五峰</country>
+      <country cid="0101141401">长阳</country>
+      <country cid="01011414">宜昌</country>
+      <country cid="0101141410">夷陵</country>
+      <country cid="0101141409">宜都</country>
+      <country cid="0101141413">秭归</country>
+      <country cid="0101141408">兴山</country>
+      <country cid="0101141405">伍家岗</country>
+      <country cid="0101141412">枝江</country>
+      <country cid="0101141402">当阳</country>
+      <country cid="0101141407">猇亭</country>
+      <country cid="0101141411">远安</country>
+    </district>
+    <district did="01011406">荆州市<country cid="0101140602">洪湖</country>
+      <country cid="0101140603">监利</country>
+      <country cid="0101140608">松滋</country>
+      <country cid="0101140601">公安</country>
+      <country cid="0101140604">江陵</country>
+      <country cid="0101140606">沙市</country>
+      <country cid="01011406">荆州</country>
+      <country cid="0101140607">石首</country>
+    </district>
+    <district did="01011413">孝感<country cid="0101141306">应城</country>
+      <country cid="0101141303">汉川</country>
+      <country cid="0101141301">安陆</country>
+      <country cid="0101141305">孝南</country>
+      <country cid="0101141307">云梦</country>
+      <country cid="0101141304">孝昌</country>
+      <country cid="01011413">孝感</country>
+      <country cid="0101141302">大悟</country>
+    </district>
+    <district did="01011411">咸宁<country cid="0101141104">通城</country>
+      <country cid="0101141101">赤壁</country>
+      <country cid="01011411">咸宁</country>
+      <country cid="0101141106">咸安</country>
+      <country cid="0101141105">通山</country>
+      <country cid="0101141103">嘉鱼</country>
+      <country cid="0101141102">崇阳</country>
+    </district>
+    <district did="01011407">省直辖<country cid="0101140704">仙桃</country>
+      <country cid="0101140702">神农架</country>
+      <country cid="0101140701">潜江</country>
+      <country cid="0101140703">天门</country>
+    </district>
+    <district did="01011403">黄冈<country cid="0101140301">红安</country>
+      <country cid="0101140304">罗田</country>
+      <country cid="0101140310">英山</country>
+      <country cid="0101140303">黄州</country>
+      <country cid="0101140307">团风</country>
+      <country cid="0101140309">浠水</country>
+      <country cid="0101140306">蕲春</country>
+      <country cid="0101140302">黄梅</country>
+      <country cid="0101140305">麻城</country>
+      <country cid="0101140308">武穴</country>
+      <country cid="01011403">黄冈</country>
+    </district>
+    <district did="01011405">荆门<country cid="0101140504">沙洋</country>
+      <country cid="0101140503">京山</country>
+      <country cid="0101140502">掇刀</country>
+      <country cid="0101140505">钟祥</country>
+      <country cid="0101140501">东宝</country>
+      <country cid="01011405">荆门</country>
+    </district>
+    <district did="01011409">随州<country cid="0101140901">广水</country>
+      <country cid="01011409">随州</country>
+      <country cid="0101140902">曾都</country>
+    </district>
+    <district did="01011410">武汉<country cid="0101141012">武昌</country>
+      <country cid="0101141001">蔡甸</country>
+      <country cid="0101141013">新洲</country>
+      <country cid="0101141010">硚口</country>
+      <country cid="0101141004">汉阳</country>
+      <country cid="0101141011">青山</country>
+      <country cid="0101141006">黄陂</country>
+      <country cid="0101141005">洪山</country>
+      <country cid="0101141009">江夏</country>
+      <country cid="0101141008">江汉</country>
+      <country cid="0101141003">汉南</country>
+      <country cid="01011410">武汉</country>
+      <country cid="0101141007">江岸</country>
+      <country cid="0101141002">东西湖</country>
+    </district>
+    <district did="01011402">恩施<country cid="0101140205">来凤</country>
+      <country cid="0101140203">鹤峰</country>
+      <country cid="0101140204">建始</country>
+      <country cid="0101140206">利川</country>
+      <country cid="0101140208">宣恩</country>
+      <country cid="0101140202">恩施</country>
+      <country cid="0101140207">咸丰</country>
+      <country cid="0101140201">巴东</country>
+    </district>
+    <district did="01011401">鄂州<country cid="0101140103">梁子湖</country>
+      <country cid="0101140102">华容区</country>
+      <country cid="0101140101">鄂城</country>
+      <country cid="01011401">鄂州</country>
+    </district>
+    <district did="01011404">黄石<country cid="0101140401">大冶</country>
+      <country cid="0101140405">下陆</country>
+      <country cid="0101140406">阳新</country>
+      <country cid="01011404">黄石</country>
+      <country cid="0101140403">铁山</country>
+      <country cid="0101140402">黄石港</country>
+      <country cid="0101140404">西塞山</country>
+    </district>
+  </province>
+  <province pid="010133">云南<district did="01013303">大理<country cid="0101330303">洱源</country>
+      <country cid="0101330308">巍山</country>
+      <country cid="0101330311">永平</country>
+      <country cid="01013303">大理</country>
+      <country cid="0101330305">剑川</country>
+      <country cid="0101330310">漾濞</country>
+      <country cid="0101330312">云龙</country>
+      <country cid="0101330306">弥渡</country>
+      <country cid="0101330304">鹤庆</country>
+      <country cid="0101330307">南涧</country>
+      <country cid="0101330301">宾川</country>
+      <country cid="0101330309">祥云</country>
+    </district>
+    <district did="01013311">普洱<country cid="0101331104">澜沧</country>
+      <country cid="0101331108">思茅</country>
+      <country cid="01013311">普洱</country>
+      <country cid="0101331106">墨江</country>
+      <country cid="0101331110">镇沅</country>
+      <country cid="0101331103">景谷</country>
+      <country cid="0101331102">景东</country>
+      <country cid="0101331105">孟连</country>
+      <country cid="0101331107">宁洱</country>
+      <country cid="0101331109">西盟</country>
+      <country cid="0101331101">江城</country>
+    </district>
+    <district did="01013306">红河市<country cid="0101330604">建水</country>
+      <country cid="01013306">红河</country>
+      <country cid="0101330602">云南河口</country>
+      <country cid="0101330605">金平</country>
+      <country cid="0101330613">元阳</country>
+      <country cid="0101330612">石屏</country>
+      <country cid="0101330611">屏边</country>
+      <country cid="0101330608">绿春</country>
+      <country cid="0101330609">蒙自</country>
+      <country cid="0101330606">开远</country>
+      <country cid="0101330601">个旧</country>
+      <country cid="0101330610">弥勒</country>
+      <country cid="0101330607">泸西</country>
+    </district>
+    <district did="01013309">临沧<country cid="0101330907">云县</country>
+      <country cid="01013309">临沧</country>
+      <country cid="0101330905">双江</country>
+      <country cid="0101330904">临翔</country>
+      <country cid="0101330908">镇康</country>
+      <country cid="0101330906">永德</country>
+      <country cid="0101330903">耿马</country>
+      <country cid="0101330901">沧源</country>
+      <country cid="0101330902">凤庆</country>
+    </district>
+    <district did="01013308">丽江<country cid="01013308">丽江</country>
+      <country cid="0101330804">永胜</country>
+      <country cid="0101330803">宁蒗</country>
+      <country cid="0101330801">古城</country>
+      <country cid="0101330805">玉龙</country>
+      <country cid="0101330802">华坪</country>
+    </district>
+    <district did="01013304">德宏<country cid="0101330405">盈江</country>
+      <country cid="0101330402">陇川</country>
+      <country cid="0101330401">梁河</country>
+      <country cid="0101330403">潞西</country>
+      <country cid="01013304">德宏</country>
+      <country cid="0101330404">瑞丽</country>
+    </district>
+    <district did="01013307">昆明<country cid="0101330702">呈贡</country>
+      <country cid="0101330711">五华区</country>
+      <country cid="0101330710">嵩明</country>
+      <country cid="0101330707">盘龙</country>
+      <country cid="0101330708">晋宁</country>
+      <country cid="01013307">昆明</country>
+      <country cid="0101330703">东川</country>
+      <country cid="0101330705">官渡</country>
+      <country cid="0101330706">禄劝</country>
+      <country cid="0101330714">宜良</country>
+      <country cid="0101330713">寻甸</country>
+      <country cid="0101330701">安宁</country>
+      <country cid="0101330712">西山</country>
+      <country cid="0101330704">富民</country>
+      <country cid="0101330709">石林</country>
+    </district>
+    <district did="01013302">楚雄<country cid="0101330210">元谋</country>
+      <country cid="0101330208">姚安</country>
+      <country cid="0101330205">南华</country>
+      <country cid="0101330206">双柏</country>
+      <country cid="0101330209">永仁</country>
+      <country cid="01013302">楚雄</country>
+      <country cid="0101330202">大姚</country>
+      <country cid="0101330203">禄丰</country>
+      <country cid="0101330207">武定</country>
+      <country cid="0101330204">牟定</country>
+    </district>
+    <district did="01013316">昭通<country cid="0101331603">巧家</country>
+      <country cid="0101331607">盐津</country>
+      <country cid="0101331609">永善</country>
+      <country cid="0101331610">昭阳</country>
+      <country cid="0101331606">威信</country>
+      <country cid="0101331611">镇雄</country>
+      <country cid="01013316">昭通</country>
+      <country cid="0101331608">彝良</country>
+      <country cid="0101331602">鲁甸</country>
+      <country cid="0101331605">绥江</country>
+      <country cid="0101331604">水富</country>
+      <country cid="0101331601">大关</country>
+    </district>
+    <district did="01013301">保山<country cid="0101330101">昌宁</country>
+      <country cid="01013301">保山</country>
+      <country cid="0101330105">腾冲</country>
+      <country cid="0101330104">施甸</country>
+      <country cid="0101330102">龙陵</country>
+      <country cid="0101330103">隆阳</country>
+    </district>
+    <district did="01013314">西双版纳<country cid="0101331402">勐海</country>
+      <country cid="01013314">西双版纳</country>
+      <country cid="0101331403">勐腊</country>
+      <country cid="0101331401">景洪</country>
+    </district>
+    <district did="01013312">曲靖<country cid="0101331206">麒麟</country>
+      <country cid="0101331204">罗平</country>
+      <country cid="0101331203">陆良</country>
+      <country cid="0101331209">沾益</country>
+      <country cid="0101331205">马龙</country>
+      <country cid="0101331202">会泽</country>
+      <country cid="0101331201">富源</country>
+      <country cid="0101331207">师宗</country>
+      <country cid="0101331208">宣威</country>
+      <country cid="01013312">曲靖</country>
+    </district>
+    <district did="01013315">玉溪<country cid="0101331508">易门</country>
+      <country cid="0101331509">元江</country>
+      <country cid="0101331503">红塔</country>
+      <country cid="0101331504">华宁</country>
+      <country cid="01013315">玉溪</country>
+      <country cid="0101331507">新平</country>
+      <country cid="0101331501">澄江</country>
+      <country cid="0101331506">通海</country>
+      <country cid="0101331505">江川</country>
+      <country cid="0101331502">峨山</country>
+    </district>
+    <district did="01013310">怒江<country cid="0101331003">兰坪</country>
+      <country cid="0101331002">贡山</country>
+      <country cid="0101331001">福贡</country>
+      <country cid="01013310">怒江</country>
+      <country cid="0101331004">泸水</country>
+      <country cid="0101331005">六库</country>
+    </district>
+    <district did="01013305">迪庆<country cid="01013305">迪庆</country>
+      <country cid="0101330502">维西</country>
+      <country cid="0101330503">香格里拉</country>
+      <country cid="0101330501">德钦</country>
+      <country cid="0101330504">中甸</country>
+    </district>
+    <district did="01013313">文山<country cid="0101331308">砚山</country>
+      <country cid="0101331304">马关</country>
+      <country cid="0101331301">富宁</country>
+      <country cid="0101331305">丘北</country>
+      <country cid="0101331307">西畴</country>
+      <country cid="0101331302">广南</country>
+      <country cid="0101331306">文山</country>
+      <country cid="0101331303">麻栗坡</country>
+    </district>
+  </province>
+  <province pid="010126">上海<district did="01012601">上海<country cid="0101260116">松江</country>
+      <country cid="0101260109">静安</country>
+      <country cid="0101260102">长宁区</country>
+      <country cid="0101260105">虹口</country>
+      <country cid="0101260111">闵行</country>
+      <country cid="0101260110">卢湾</country>
+      <country cid="0101260101">宝山</country>
+      <country cid="0101260112">南汇</country>
+      <country cid="0101260115">青浦</country>
+      <country cid="0101260113">浦东</country>
+      <country cid="0101260114">普陀区</country>
+      <country cid="0101260119">闸北</country>
+      <country cid="0101260107">嘉定</country>
+      <country cid="01012601">上海</country>
+      <country cid="0101260104">奉贤</country>
+      <country cid="0101260106">黄浦</country>
+      <country cid="0101260108">金山</country>
+      <country cid="0101260117">徐汇</country>
+      <country cid="0101260118">杨浦</country>
+      <country cid="0101260103">崇明</country>
+    </district>
+  </province>
+  <province pid="010115">湖南<district did="01011503">郴州<country cid="0101150304">桂阳</country>
+      <country cid="0101150305">嘉禾</country>
+      <country cid="0101150303">桂东</country>
+      <country cid="0101150307">汝城</country>
+      <country cid="0101150311">资兴</country>
+      <country cid="01011503">郴州</country>
+      <country cid="0101150306">临武</country>
+      <country cid="0101150301">安仁</country>
+      <country cid="0101150310">永兴</country>
+      <country cid="0101150302">北湖</country>
+      <country cid="0101150309">宜章</country>
+      <country cid="0101150308">苏仙</country>
+    </district>
+    <district did="01011511">永州<country cid="0101151104">江永</country>
+      <country cid="0101151111">新田</country>
+      <country cid="0101151110">双牌</country>
+      <country cid="0101151109">祁阳</country>
+      <country cid="0101151108">宁远</country>
+      <country cid="0101151106">冷水滩</country>
+      <country cid="0101151105">蓝山</country>
+      <country cid="0101151101">道县</country>
+      <country cid="01011511">永州</country>
+      <country cid="0101151102">东安</country>
+      <country cid="0101151107">零陵</country>
+      <country cid="0101151103">江华</country>
+    </district>
+    <district did="01011512">岳阳市<country cid="0101151201">华容</country>
+      <country cid="0101151207">岳阳楼</country>
+      <country cid="0101151203">临湘</country>
+      <country cid="0101151206">湘阴</country>
+      <country cid="0101151205">平江</country>
+      <country cid="01011512">岳阳</country>
+      <country cid="0101151202">君山</country>
+      <country cid="0101151209">云溪</country>
+      <country cid="0101151204">汨罗</country>
+    </district>
+    <district did="01011504">衡阳市<country cid="0101150411">蒸湘</country>
+      <country cid="0101150401">常宁</country>
+      <country cid="0101150412">珠晖</country>
+      <country cid="0101150406">耒阳</country>
+      <country cid="0101150403">衡南</country>
+      <country cid="0101150413">衡阳县</country>
+      <country cid="0101150402">衡东</country>
+      <country cid="0101150407">南岳</country>
+      <country cid="01011504">衡阳</country>
+      <country cid="0101150408">祁东</country>
+      <country cid="0101150404">衡山</country>
+      <country cid="0101150410">雁峰</country>
+      <country cid="0101150409">石鼓</country>
+    </district>
+    <district did="01011513">张家界<country cid="0101151301">慈利</country>
+      <country cid="0101151302">桑植</country>
+      <country cid="01011513">张家界</country>
+      <country cid="0101151303">武陵源</country>
+      <country cid="0101151304">永定区</country>
+    </district>
+    <district did="01011508">湘潭市<country cid="0101150802">湘潭县</country>
+      <country cid="0101150803">湘乡</country>
+      <country cid="0101150804">雨湖</country>
+      <country cid="0101150805">岳塘</country>
+      <country cid="0101150801">韶山</country>
+      <country cid="01011508">湘潭市</country>
+    </district>
+    <district did="01011510">益阳<country cid="0101151005">沅江</country>
+      <country cid="0101151001">安化</country>
+      <country cid="01011510">益阳</country>
+      <country cid="0101151006">资阳区</country>
+      <country cid="0101151002">赫山</country>
+      <country cid="0101151004">桃江</country>
+      <country cid="0101151003">南县</country>
+    </district>
+    <district did="01011502">长沙市<country cid="01011502">长沙</country>
+      <country cid="0101150209">岳麓</country>
+      <country cid="0101150203">开福</country>
+      <country cid="0101150208">雨花</country>
+      <country cid="0101150202">芙蓉</country>
+      <country cid="0101150205">宁乡</country>
+      <country cid="0101150207">望城</country>
+      <country cid="0101150204">浏阳</country>
+      <country cid="0101150206">天心</country>
+      <country cid="0101150210">马坡岭</country>
+    </district>
+    <district did="01011506">娄底<country cid="0101150604">双峰</country>
+      <country cid="0101150605">新化</country>
+      <country cid="0101150602">涟源</country>
+      <country cid="0101150601">冷水江</country>
+      <country cid="01011506">娄底</country>
+      <country cid="0101150603">娄星</country>
+    </district>
+    <district did="01011505">怀化<country cid="0101150508">新晃</country>
+      <country cid="0101150512">中方</country>
+      <country cid="0101150501">辰溪</country>
+      <country cid="0101150506">麻阳</country>
+      <country cid="0101150505">靖州</country>
+      <country cid="01011505">怀化</country>
+      <country cid="0101150509">溆浦</country>
+      <country cid="0101150511">芷江</country>
+      <country cid="0101150504">会同</country>
+      <country cid="0101150502">鹤城</country>
+      <country cid="0101150507">通道</country>
+      <country cid="0101150510">沅陵</country>
+      <country cid="0101150503">洪江</country>
+    </district>
+    <district did="01011509">湘西<country cid="0101150901">保靖</country>
+      <country cid="0101150906">龙山</country>
+      <country cid="0101150904">花垣</country>
+      <country cid="0101150902">凤凰</country>
+      <country cid="0101150908">永顺</country>
+      <country cid="01011509">湘西</country>
+      <country cid="0101150905">吉首</country>
+      <country cid="0101150907">泸溪</country>
+      <country cid="0101150903">古丈</country>
+    </district>
+    <district did="01011501">常德<country cid="0101150103">汉寿</country>
+      <country cid="0101150102">鼎城</country>
+      <country cid="0101150106">临澧</country>
+      <country cid="0101150104">津市</country>
+      <country cid="0101150108">桃源</country>
+      <country cid="0101150107">石门</country>
+      <country cid="0101150105">澧县</country>
+      <country cid="0101150109">武陵</country>
+      <country cid="0101150101">安乡</country>
+      <country cid="01011501">常德</country>
+    </district>
+    <district did="01011507">邵阳市<country cid="0101150706">邵东</country>
+      <country cid="0101150710">武冈</country>
+      <country cid="0101150701">北塔</country>
+      <country cid="0101150702">城步</country>
+      <country cid="0101150705">隆回</country>
+      <country cid="0101150712">新邵</country>
+      <country cid="01011507">邵阳</country>
+      <country cid="0101150708">双清</country>
+      <country cid="0101150709">绥宁</country>
+      <country cid="0101150703">大祥</country>
+      <country cid="0101150704">洞口</country>
+      <country cid="0101150713">邵阳县</country>
+      <country cid="0101150711">新宁</country>
+    </district>
+    <district did="01011514">株洲市<country cid="0101151408">攸县</country>
+      <country cid="0101151403">醴陵</country>
+      <country cid="01011514">株洲</country>
+      <country cid="0101151401">茶陵</country>
+      <country cid="0101151406">天元</country>
+      <country cid="0101151404">芦淞</country>
+      <country cid="0101151402">荷塘</country>
+      <country cid="0101151407">炎陵</country>
+      <country cid="0101151405">石峰</country>
+    </district>
+  </province>
+  <province pid="010106">甘肃<district did="01010612">天水<country cid="01010612">天水</country>
+      <country cid="0101061202">麦积</country>
+      <country cid="0101061206">武山</country>
+      <country cid="0101061203">秦安</country>
+      <country cid="0101061207">张家川</country>
+      <country cid="0101061205">清水</country>
+      <country cid="0101061201">甘谷</country>
+      <country cid="0101061204">秦州</country>
+    </district>
+    <district did="01010613">武威<country cid="0101061305">头道湖</country>
+      <country cid="0101061301">古浪</country>
+      <country cid="01010613">武威</country>
+      <country cid="0101061302">凉州</country>
+      <country cid="0101061304">天祝</country>
+      <country cid="0101061303">民勤</country>
+    </district>
+    <district did="01010604">嘉峪关<country cid="01010604">嘉峪关</country>
+    </district>
+    <district did="01010602">定西<country cid="0101060202">临洮</country>
+      <country cid="01010602">定西</country>
+      <country cid="0101060207">漳县</country>
+      <country cid="0101060205">通渭</country>
+      <country cid="0101060203">陇西</country>
+      <country cid="0101060201">安定</country>
+      <country cid="0101060206">渭源</country>
+      <country cid="0101060204">岷县</country>
+    </district>
+    <district did="01010601">白银市<country cid="0101060105">平川</country>
+      <country cid="0101060104">靖远</country>
+      <country cid="0101060102">会宁</country>
+      <country cid="01010601">白银</country>
+      <country cid="0101060103">景泰</country>
+    </district>
+    <district did="01010603">甘南<country cid="0101060301">迭部</country>
+      <country cid="0101060302">合作</country>
+      <country cid="0101060304">碌曲</country>
+      <country cid="0101060308">卓尼</country>
+      <country cid="0101060307">舟曲</country>
+      <country cid="0101060305">玛曲</country>
+      <country cid="0101060303">临潭</country>
+      <country cid="01010603">甘南迭部</country>
+      <country cid="0101060306">夏河</country>
+    </district>
+    <district did="01010605">金昌<country cid="0101060502">永昌</country>
+      <country cid="0101060501">甘肃金川</country>
+      <country cid="01010605">金昌</country>
+    </district>
+    <district did="01010607">兰州<country cid="0101060707">永登</country>
+      <country cid="0101060702">城关</country>
+      <country cid="0101060701">甘肃安宁</country>
+      <country cid="01010607">兰州</country>
+      <country cid="0101060708">榆中</country>
+      <country cid="0101060705">七里河</country>
+      <country cid="0101060706">西固</country>
+      <country cid="0101060703">皋兰</country>
+      <country cid="0101060704">红古</country>
+    </district>
+    <district did="01010614">张掖<country cid="0101061404">民乐</country>
+      <country cid="0101061402">高台</country>
+      <country cid="0101061406">肃南</country>
+      <country cid="0101061403">临泽</country>
+      <country cid="0101061401">甘州</country>
+      <country cid="0101061405">山丹</country>
+      <country cid="01010614">张掖</country>
+    </district>
+    <district did="01010611">庆阳<country cid="0101061106">西峰</country>
+      <country cid="0101061107">镇原</country>
+      <country cid="01010611">庆阳</country>
+      <country cid="0101061104">宁县</country>
+      <country cid="0101061108">正宁</country>
+      <country cid="0101061102">华池</country>
+      <country cid="0101061105">庆城</country>
+      <country cid="0101061101">合水</country>
+      <country cid="0101061103">环县</country>
+    </district>
+    <district did="01010606">酒泉<country cid="0101060601">阿克塞</country>
+      <country cid="0101060603">瓜州</country>
+      <country cid="01010606">酒泉</country>
+      <country cid="0101060607">玉门</country>
+      <country cid="0101060604">金塔</country>
+      <country cid="0101060602">敦煌</country>
+      <country cid="0101060606">肃州</country>
+      <country cid="0101060605">肃北</country>
+    </district>
+    <district did="01010610">平凉<country cid="0101061003">泾川</country>
+      <country cid="0101061001">崇信</country>
+      <country cid="0101061005">崆峒</country>
+      <country cid="01010610">平凉</country>
+      <country cid="0101061002">华亭</country>
+      <country cid="0101061004">静宁</country>
+      <country cid="0101061007">庄浪</country>
+      <country cid="0101061006">灵台</country>
+    </district>
+    <district did="01010608">临夏<country cid="0101060801">甘肃东乡</country>
+      <country cid="0101060804">积石山</country>
+      <country cid="01010608">临夏</country>
+      <country cid="0101060805">康乐</country>
+      <country cid="0101060808">永靖</country>
+      <country cid="0101060803">和政</country>
+      <country cid="0101060802">广河</country>
+    </district>
+    <district did="01010609">陇南<country cid="0101060902">宕昌</country>
+      <country cid="0101060907">文县</country>
+      <country cid="0101060908">武都</country>
+      <country cid="0101060904">康县</country>
+      <country cid="0101060905">礼县</country>
+      <country cid="0101060909">西和</country>
+      <country cid="0101060903">徽县</country>
+      <country cid="0101060906">两当</country>
+      <country cid="0101060901">成县</country>
+      <country cid="01010609">陇南</country>
+    </district>
+  </province>
+  <province pid="010112">河南<district did="01011205">漯河<country cid="0101120503">郾城</country>
+      <country cid="0101120502">舞阳</country>
+      <country cid="0101120504">源汇</country>
+      <country cid="01011205">漯河</country>
+      <country cid="0101120505">召陵</country>
+      <country cid="0101120501">临颍</country>
+    </district>
+    <district did="01011217">周口<country cid="0101121705">鹿邑</country>
+      <country cid="0101121710">项城</country>
+      <country cid="01011217">周口</country>
+      <country cid="0101121707">沈丘</country>
+      <country cid="0101121701">川汇</country>
+      <country cid="0101121709">西华</country>
+      <country cid="0101121704">淮阳</country>
+      <country cid="0101121706">商水</country>
+      <country cid="0101121708">太康</country>
+      <country cid="0101121702">郸城</country>
+      <country cid="0101121703">扶沟</country>
+    </district>
+    <district did="01011211">商丘<country cid="0101121107">永城</country>
+      <country cid="0101121103">宁陵</country>
+      <country cid="0101121108">虞城</country>
+      <country cid="0101121102">民权</country>
+      <country cid="0101121104">睢县</country>
+      <country cid="0101121105">睢阳</country>
+      <country cid="0101121106">夏邑</country>
+      <country cid="01011211">商丘</country>
+      <country cid="0101121101">梁园</country>
+      <country cid="0101121109">柘城</country>
+    </district>
+    <district did="01011201">安阳市<country cid="0101120102">北关</country>
+      <country cid="0101120104">林州</country>
+      <country cid="0101120105">龙安</country>
+      <country cid="0101120106">内黄</country>
+      <country cid="0101120101">安阳县</country>
+      <country cid="0101120103">滑县</country>
+      <country cid="0101120109">殷都</country>
+      <country cid="0101120108">文峰</country>
+      <country cid="01011201">安阳市</country>
+      <country cid="0101120107">汤阴</country>
+    </district>
+    <district did="01011212">省直辖<country cid="0101121201">济源</country>
+    </district>
+    <district did="01011210">三门峡<country cid="0101121003">卢氏</country>
+      <country cid="0101121004">渑池</country>
+      <country cid="0101121001">湖滨</country>
+      <country cid="0101121005">陕县</country>
+      <country cid="0101121002">灵宝</country>
+      <country cid="01011210">三门峡</country>
+      <country cid="0101121006">义马</country>
+    </district>
+    <district did="01011209">濮阳市<country cid="01011209">濮阳</country>
+      <country cid="0101120905">清丰</country>
+      <country cid="0101120903">南乐</country>
+      <country cid="0101120906">台前</country>
+      <country cid="0101120902">华龙</country>
+      <country cid="0101120901">范县</country>
+    </district>
+    <district did="01011208">平顶山<country cid="0101120801">宝丰</country>
+      <country cid="0101120809">湛河</country>
+      <country cid="0101120808">叶县</country>
+      <country cid="0101120803">汝州</country>
+      <country cid="01011208">平顶山</country>
+      <country cid="0101120802">鲁山</country>
+      <country cid="0101120804">石龙</country>
+      <country cid="0101120807">新华</country>
+      <country cid="0101120806">舞钢</country>
+      <country cid="0101120810">郏县</country>
+      <country cid="0101120805">卫东</country>
+    </district>
+    <district did="01011203">焦作<country cid="0101120306">山阳区</country>
+      <country cid="0101120301">博爱</country>
+      <country cid="0101120309">修武</country>
+      <country cid="01011203">焦作</country>
+      <country cid="0101120303">马村</country>
+      <country cid="0101120308">武陟</country>
+      <country cid="0101120304">孟州</country>
+      <country cid="0101120305">沁阳</country>
+      <country cid="0101120310">中站</country>
+      <country cid="0101120302">解放</country>
+      <country cid="0101120307">温县</country>
+    </district>
+    <district did="01011202">鹤壁<country cid="0101120202">浚县</country>
+      <country cid="0101120203">淇滨</country>
+      <country cid="0101120205">山城</country>
+      <country cid="0101120204">淇县</country>
+      <country cid="01011202">鹤壁</country>
+      <country cid="0101120201">鹤山区</country>
+    </district>
+    <district did="01011218">驻马店<country cid="0101121807">西平</country>
+      <country cid="0101121806">遂平</country>
+      <country cid="0101121805">上蔡</country>
+      <country cid="01011218">驻马店</country>
+      <country cid="0101121809">驿城</country>
+      <country cid="0101121810">正阳</country>
+      <country cid="0101121802">平舆</country>
+      <country cid="0101121808">新蔡</country>
+      <country cid="0101121801">泌阳</country>
+      <country cid="0101121803">确山</country>
+      <country cid="0101121804">汝南</country>
+    </district>
+    <district did="01011206">洛阳<country cid="0101120613">偃师</country>
+      <country cid="0101120603">涧西</country>
+      <country cid="0101120614">伊川</country>
+      <country cid="0101120602">吉利</country>
+      <country cid="0101120611">西工</country>
+      <country cid="0101120607">洛宁</country>
+      <country cid="0101120601">瀍河</country>
+      <country cid="0101120604">老城</country>
+      <country cid="0101120605">栾川</country>
+      <country cid="0101120612">新安</country>
+      <country cid="0101120610">嵩县</country>
+      <country cid="01011206">洛阳</country>
+      <country cid="0101120606">洛龙</country>
+      <country cid="0101120608">孟津</country>
+      <country cid="0101120615">宜阳</country>
+      <country cid="0101120609">汝阳</country>
+    </district>
+    <district did="01011215">许昌市<country cid="0101121506">禹州</country>
+      <country cid="0101121503">襄城</country>
+      <country cid="0101121505">鄢陵</country>
+      <country cid="0101121501">长葛</country>
+      <country cid="0101121502">魏都</country>
+      <country cid="01011215">许昌</country>
+    </district>
+    <district did="01011204">开封市<country cid="0101120408">通许</country>
+      <country cid="0101120406">杞县</country>
+      <country cid="0101120402">金明</country>
+      <country cid="0101120409">尉氏</country>
+      <country cid="0101120401">鼓楼</country>
+      <country cid="0101120403">开封县</country>
+      <country cid="0101120407">顺河</country>
+      <country cid="0101120405">龙亭</country>
+      <country cid="0101120410">禹王台</country>
+      <country cid="01011204">开封</country>
+      <country cid="0101120404">兰考</country>
+    </district>
+    <district did="01011213">新乡市<country cid="0101121305">辉县</country>
+      <country cid="0101121304">红旗</country>
+      <country cid="0101121308">卫滨</country>
+      <country cid="0101121307">牧野</country>
+      <country cid="0101121303">凤泉</country>
+      <country cid="01011213">新乡</country>
+      <country cid="0101121306">获嘉</country>
+      <country cid="0101121301">长垣</country>
+      <country cid="0101121309">卫辉</country>
+      <country cid="0101121311">延津</country>
+      <country cid="0101121310">新乡县</country>
+      <country cid="0101121302">封丘</country>
+      <country cid="0101121312">原阳</country>
+    </district>
+    <district did="01011216">郑州<country cid="0101121612">中原</country>
+      <country cid="0101121609">新郑</country>
+      <country cid="0101121604">管城</country>
+      <country cid="0101121606">金水</country>
+      <country cid="0101121610">荥阳</country>
+      <country cid="0101121603">巩义</country>
+      <country cid="0101121601">登封</country>
+      <country cid="0101121607">上街</country>
+      <country cid="0101121605">惠济</country>
+      <country cid="0101121608">新密</country>
+      <country cid="0101121611">中牟</country>
+      <country cid="0101121602">二七</country>
+      <country cid="01011216">郑州</country>
+    </district>
+    <district did="01011207">南阳<country cid="0101120701">邓州</country>
+      <country cid="0101120707">桐柏</country>
+      <country cid="0101120708">宛城</country>
+      <country cid="0101120706">唐河</country>
+      <country cid="0101120705">社旗</country>
+      <country cid="0101120709">卧龙</country>
+      <country cid="0101120711">西峡</country>
+      <country cid="0101120702">方城</country>
+      <country cid="0101120710">淅川</country>
+      <country cid="0101120712">新野</country>
+      <country cid="0101120704">内乡</country>
+      <country cid="0101120703">南召</country>
+      <country cid="01011207">南阳</country>
+      <country cid="0101120713">镇平</country>
+    </district>
+    <district did="01011214">信阳<country cid="0101121410">新县</country>
+      <country cid="0101121406">平桥</country>
+      <country cid="0101121401">固始</country>
+      <country cid="0101121404">潢川</country>
+      <country cid="0101121408">浉河</country>
+      <country cid="0101121405">罗山</country>
+      <country cid="0101121403">淮滨</country>
+      <country cid="0101121407">商城</country>
+      <country cid="0101121402">光山</country>
+      <country cid="0101121409">息县</country>
+      <country cid="01011214">信阳</country>
+    </district>
+  </province>
+  <province pid="010123">山东<district did="01012316">枣庄<country cid="0101231604">滕州</country>
+      <country cid="01012316">枣庄</country>
+      <country cid="0101231605">薛城</country>
+      <country cid="0101231603">台儿庄</country>
+      <country cid="0101231601">山亭区</country>
+      <country cid="0101231606">峄城</country>
+    </district>
+    <district did="01012307">莱芜<country cid="0101230702">莱城区</country>
+      <country cid="0101230701">钢城区</country>
+      <country cid="01012307">莱芜</country>
+    </district>
+    <district did="01012302">德州<country cid="0101230207">齐河</country>
+      <country cid="0101230208">庆云</country>
+      <country cid="0101230209">武城</country>
+      <country cid="0101230211">禹城</country>
+      <country cid="0101230206">平原</country>
+      <country cid="01012302">德州</country>
+      <country cid="0101230202">乐陵</country>
+      <country cid="0101230205">宁津</country>
+      <country cid="0101230203">临邑</country>
+      <country cid="0101230204">陵县</country>
+      <country cid="0101230210">夏津</country>
+    </district>
+    <district did="01012304">菏泽<country cid="0101230409">郓城</country>
+      <country cid="0101230403">定陶</country>
+      <country cid="0101230408">单县</country>
+      <country cid="0101230404">东明</country>
+      <country cid="0101230407">牡丹区</country>
+      <country cid="0101230402">成武</country>
+      <country cid="0101230406">鄄城</country>
+      <country cid="0101230405">巨野</country>
+      <country cid="01012304">菏泽</country>
+      <country cid="0101230401">曹县</country>
+    </district>
+    <district did="01012301">滨州<country cid="0101230102">博兴</country>
+      <country cid="0101230107">邹平</country>
+      <country cid="0101230104">无棣</country>
+      <country cid="0101230103">惠民</country>
+      <country cid="01012301">滨州</country>
+      <country cid="0101230106">沾化</country>
+      <country cid="0101230105">阳信</country>
+    </district>
+    <district did="01012315">烟台<country cid="01012315">烟台</country>
+      <country cid="0101231505">莱阳</country>
+      <country cid="0101231511">招远</country>
+      <country cid="0101231509">蓬莱</country>
+      <country cid="0101231501">长岛</country>
+      <country cid="0101231502">福山</country>
+      <country cid="0101231507">龙口</country>
+      <country cid="0101231508">牟平</country>
+      <country cid="0101231510">栖霞</country>
+      <country cid="0101231504">莱山区</country>
+      <country cid="0101231503">海阳</country>
+      <country cid="0101231512">芝罘区</country>
+      <country cid="0101231506">莱州</country>
+    </district>
+    <district did="01012311">日照<country cid="0101231102">莒县</country>
+      <country cid="01012311">日照</country>
+      <country cid="0101231101">东港区</country>
+      <country cid="0101231104">五莲</country>
+      <country cid="0101231103">岚山区</country>
+    </district>
+    <district did="01012303">东营<country cid="0101230305">利津</country>
+      <country cid="0101230302">广饶</country>
+      <country cid="0101230304">垦利</country>
+      <country cid="01012303">东营</country>
+      <country cid="0101230303">山东河口</country>
+    </district>
+    <district did="01012310">青岛<country cid="0101231004">胶南</country>
+      <country cid="0101231012">四方区</country>
+      <country cid="0101231009">平度</country>
+      <country cid="0101231006">莱西</country>
+      <country cid="0101231001">城阳区</country>
+      <country cid="0101231008">李沧区</country>
+      <country cid="0101231005">胶州</country>
+      <country cid="01012310">青岛</country>
+      <country cid="0101231003">即墨</country>
+      <country cid="0101231007">崂山</country>
+      <country cid="0101231002">黄岛区</country>
+    </district>
+    <district did="01012314">潍坊<country cid="0101231408">临朐</country>
+      <country cid="01012314">潍坊</country>
+      <country cid="0101231407">奎文区</country>
+      <country cid="0101231405">高密</country>
+      <country cid="0101231412">诸城</country>
+      <country cid="0101231406">寒亭区</country>
+      <country cid="0101231409">青州</country>
+      <country cid="0101231402">昌乐</country>
+      <country cid="0101231401">安丘</country>
+      <country cid="0101231403">昌邑</country>
+      <country cid="0101231404">坊子区</country>
+      <country cid="0101231410">寿光</country>
+    </district>
+    <district did="01012306">济宁<country cid="0101230611">鱼台</country>
+      <country cid="0101230605">任城区</country>
+      <country cid="0101230612">邹城</country>
+      <country cid="0101230603">梁山</country>
+      <country cid="0101230601">嘉祥</country>
+      <country cid="01012306">济宁</country>
+      <country cid="0101230609">汶上</country>
+      <country cid="0101230610">兖州</country>
+      <country cid="0101230604">曲阜</country>
+      <country cid="0101230608">微山</country>
+      <country cid="0101230602">金乡</country>
+      <country cid="0101230607">泗水</country>
+    </district>
+    <district did="01012313">威海<country cid="0101231304">文登</country>
+      <country cid="0101231302">荣成</country>
+      <country cid="0101231301">环翠区</country>
+      <country cid="0101231306">成山头</country>
+      <country cid="0101231303">乳山</country>
+      <country cid="01012313">威海</country>
+      <country cid="0101231305">石岛</country>
+    </district>
+    <district did="01012308">聊城<country cid="0101230804">高唐</country>
+      <country cid="0101230801">茌平</country>
+      <country cid="0101230808">阳谷</country>
+      <country cid="0101230807">莘县</country>
+      <country cid="0101230803">东阿</country>
+      <country cid="01012308">聊城</country>
+      <country cid="0101230805">冠县</country>
+      <country cid="0101230802">东昌府区</country>
+      <country cid="0101230806">临清</country>
+    </district>
+    <district did="01012312">泰安<country cid="0101231206">新泰</country>
+      <country cid="0101231202">东平</country>
+      <country cid="0101231204">宁阳</country>
+      <country cid="0101231203">肥城</country>
+      <country cid="0101231201">岱岳区</country>
+      <country cid="01012312">泰安</country>
+      <country cid="0101231205">泰山</country>
+    </district>
+    <district did="01012309">临沂<country cid="0101230908">蒙阴</country>
+      <country cid="0101230910">郯城</country>
+      <country cid="0101230911">沂南</country>
+      <country cid="0101230903">河东区</country>
+      <country cid="0101230907">罗庄区</country>
+      <country cid="0101230905">兰山区</country>
+      <country cid="0101230902">费县</country>
+      <country cid="0101230909">平邑</country>
+      <country cid="0101230904">莒南</country>
+      <country cid="0101230912">沂水</country>
+      <country cid="0101230901">苍山</country>
+      <country cid="0101230906">临沭</country>
+      <country cid="01012309">临沂</country>
+    </district>
+    <district did="01012305">济南<country cid="0101230504">历城区</country>
+      <country cid="0101230509">天桥区</country>
+      <country cid="0101230506">平阴</country>
+      <country cid="0101230502">槐荫区</country>
+      <country cid="0101230505">历下区</country>
+      <country cid="0101230507">商河</country>
+      <country cid="0101230501">长清</country>
+      <country cid="0101230510">章丘</country>
+      <country cid="0101230503">济阳</country>
+      <country cid="01012305">济南</country>
+    </district>
+    <district did="01012317">淄博<country cid="0101231706">张店区</country>
+      <country cid="0101231702">高青</country>
+      <country cid="0101231701">博山</country>
+      <country cid="0101231708">淄川</country>
+      <country cid="0101231707">周村</country>
+      <country cid="0101231705">沂源</country>
+      <country cid="0101231704">临淄</country>
+      <country cid="0101231703">桓台</country>
+      <country cid="01012317">淄博</country>
+    </district>
+  </province>
+  <province pid="010113">黑龙江<district did="01011301">大庆<country cid="01011301">大庆</country>
+      <country cid="0101130104">林甸</country>
+      <country cid="0101130107">萨尔图</country>
+      <country cid="0101130103">红岗</country>
+      <country cid="0101130109">肇州</country>
+      <country cid="0101130101">大同区</country>
+      <country cid="0101130106">让胡路</country>
+      <country cid="0101130108">肇源</country>
+      <country cid="0101130105">龙凤</country>
+      <country cid="0101130102">杜尔伯特</country>
+    </district>
+    <district did="01011311">双鸭山<country cid="0101131107">四方台</country>
+      <country cid="01011311">双鸭山</country>
+      <country cid="0101131106">饶河</country>
+      <country cid="0101131105">岭东</country>
+      <country cid="0101131108">友谊</country>
+      <country cid="0101131101">宝清</country>
+      <country cid="0101131103">集贤</country>
+      <country cid="0101131102">黑龙江宝山</country>
+      <country cid="0101131104">尖山</country>
+    </district>
+    <district did="01011313">伊春市<country cid="0101131306">美溪</country>
+      <country cid="0101131302">带岭</country>
+      <country cid="0101131303">红星</country>
+      <country cid="0101131311">乌马河</country>
+      <country cid="0101131313">五营</country>
+      <country cid="0101131309">汤旺河</country>
+      <country cid="0101131314">西林区</country>
+      <country cid="0101131305">金山屯</country>
+      <country cid="0101131317">友好</country>
+      <country cid="0101131308">上甘岭</country>
+      <country cid="0101131304">嘉荫</country>
+      <country cid="0101131315">新青</country>
+      <country cid="0101131301">翠峦</country>
+      <country cid="0101131307">南岔</country>
+      <country cid="01011313">伊春</country>
+      <country cid="0101131310">铁力</country>
+      <country cid="0101131312">乌伊岭</country>
+    </district>
+    <district did="01011304">鹤岗<country cid="0101130403">萝北</country>
+      <country cid="0101130407">兴安区</country>
+      <country cid="0101130401">东山区</country>
+      <country cid="0101130405">绥滨</country>
+      <country cid="0101130402">工农</country>
+      <country cid="01011304">鹤岗</country>
+      <country cid="0101130408">兴山区</country>
+      <country cid="0101130406">向阳</country>
+      <country cid="0101130404">南山</country>
+    </district>
+    <district did="01011303">哈尔滨<country cid="0101130304">道里</country>
+      <country cid="0101130308">木兰</country>
+      <country cid="0101130316">香坊</country>
+      <country cid="0101130302">巴彦</country>
+      <country cid="01011303">哈尔滨</country>
+      <country cid="0101130309">南岗</country>
+      <country cid="0101130307">呼兰</country>
+      <country cid="0101130311">尚志</country>
+      <country cid="0101130312">双城</country>
+      <country cid="0101130301">阿城</country>
+      <country cid="0101130314">通河</country>
+      <country cid="0101130315">五常</country>
+      <country cid="0101130317">延寿</country>
+      <country cid="0101130305">道外</country>
+      <country cid="0101130306">方正</country>
+      <country cid="0101130318">依兰</country>
+      <country cid="0101130313">松北</country>
+      <country cid="0101130310">平房</country>
+      <country cid="0101130303">宾县</country>
+    </district>
+    <district did="01011309">齐齐哈尔<country cid="0101130914">铁锋</country>
+      <country cid="0101130910">梅里斯</country>
+      <country cid="01011309">齐齐哈尔</country>
+      <country cid="0101130905">甘南</country>
+      <country cid="0101130911">讷河</country>
+      <country cid="0101130908">龙江</country>
+      <country cid="0101130909">龙沙</country>
+      <country cid="0101130907">克山</country>
+      <country cid="0101130903">富拉尔基</country>
+      <country cid="0101130916">克东</country>
+      <country cid="0101130913">泰来</country>
+      <country cid="0101130901">昂昂溪</country>
+      <country cid="0101130902">拜泉</country>
+      <country cid="0101130915">依安</country>
+      <country cid="0101130904">富裕</country>
+      <country cid="0101130906">建华</country>
+      <country cid="0101130912">碾子山</country>
+    </district>
+    <district did="01011302">大兴安岭<country cid="0101130205">新林</country>
+      <country cid="0101130201">呼玛</country>
+      <country cid="0101130204">呼中</country>
+      <country cid="0101130202">漠河</country>
+      <country cid="0101130203">塔河</country>
+      <country cid="01011302">大兴安岭</country>
+    </district>
+    <district did="01011312">绥化<country cid="0101131209">望奎</country>
+      <country cid="0101131206">青冈</country>
+      <country cid="0101131207">庆安</country>
+      <country cid="0101131203">海伦</country>
+      <country cid="0101131202">北林</country>
+      <country cid="0101131205">明水</country>
+      <country cid="01011312">绥化</country>
+      <country cid="0101131208">绥棱</country>
+      <country cid="0101131201">安达</country>
+      <country cid="0101131210">肇东</country>
+      <country cid="0101131204">兰西</country>
+    </district>
+    <district did="01011305">黑河<country cid="01011305">黑河</country>
+      <country cid="0101130501">爱辉</country>
+      <country cid="0101130506">逊克</country>
+      <country cid="0101130502">北安</country>
+      <country cid="0101130505">五大连池</country>
+      <country cid="0101130503">嫩江</country>
+      <country cid="0101130504">孙吴</country>
+    </district>
+    <district did="01011310">七台河<country cid="01011310">七台河</country>
+      <country cid="0101131002">茄子河</country>
+      <country cid="0101131004">新兴区</country>
+      <country cid="0101131001">勃利</country>
+      <country cid="0101131003">桃山</country>
+    </district>
+    <district did="01011308">牡丹江<country cid="0101130805">林口</country>
+      <country cid="0101130802">东安区</country>
+      <country cid="0101130804">海林</country>
+      <country cid="0101130807">宁安</country>
+      <country cid="01011308">牡丹江</country>
+      <country cid="0101130801">爱民</country>
+      <country cid="0101130808">绥芬河</country>
+      <country cid="0101130810">阳明</country>
+      <country cid="0101130806">穆棱</country>
+      <country cid="0101130803">东宁</country>
+      <country cid="0101130809">黑龙江西安</country>
+    </district>
+    <district did="01011307">佳木斯<country cid="0101130707">前进</country>
+      <country cid="0101130703">富锦</country>
+      <country cid="0101130701">东风</country>
+      <country cid="0101130705">桦南</country>
+      <country cid="0101130710">向阳</country>
+      <country cid="01011307">佳木斯</country>
+      <country cid="0101130704">桦川</country>
+      <country cid="0101130708">汤原</country>
+      <country cid="0101130702">抚远</country>
+      <country cid="0101130709">同江</country>
+    </district>
+    <district did="01011306">鸡西<country cid="0101130609">密山</country>
+      <country cid="0101130608">麻山</country>
+      <country cid="0101130605">鸡东</country>
+      <country cid="0101130604">虎林</country>
+      <country cid="0101130607">梨树区</country>
+      <country cid="0101130603">恒山</country>
+      <country cid="01011306">鸡西</country>
+      <country cid="0101130602">滴道</country>
+      <country cid="0101130606">鸡冠</country>
+      <country cid="0101130601">城子河</country>
+    </district>
+  </province>
+</root>

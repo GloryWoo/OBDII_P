@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/weizh_search_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="选择省份"
+            android:clickable="false"
+            android:textSize="18sp" >
+        </TextView>
+        
+        <TextView
+            android:id="@+id/weizh_re_search_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/weizh_search_text"
+            android:layout_margin="5dp"
+            android:text="重新选择省份"
+            android:textSize="18sp"
+            android:visibility="gone" >
+        </TextView>
+
+        <Button
+            android:id="@+id/weizh_search_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="关闭"
+            android:layout_alignParentRight="true" >
+        </Button>
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ImageView>
+
+    <GridView
+        android:id="@+id/weizh_search_citygrid"
+        android:numColumns="auto_fit"
+        android:gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </GridView>
+
+</LinearLayout>

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/wz_frame">
+<RelativeLayout     
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal|top"
+    android:orientation="vertical" 
+    android:id="@+id/query_relative"
+    android:background="@color/white">
+
+	<TextView
+		android:id="@+id/query_text"
+		android:layout_width="match_parent"
+		android:layout_height="36dp"	
+		android:text="违章查询"
+		android:layout_alignParentTop="true"
+		android:background="#ff4cd963"
+		android:gravity="center"
+		android:textColor="@color/white"
+		android:textSize="18sp" />           	
+
+	<RelativeLayout
+		android:id="@+id/wz_form"
+		android:layout_width="330dp"
+		android:layout_height="wrap_content"	
+		android:layout_below="@id/query_text"
+		android:layout_marginTop="15dp"
+		android:layout_centerHorizontal="true"
+		android:background="@drawable/shape_wz" 
+		android:textColor="@color/black"
+		android:textSize="18sp" >
+    
+
+		<!-- <TextView
+			android:id="@+id/default_text"
+			android:layout_width="wrap_content"
+			android:layout_height="32dp"	
+			android:text="默认查询"
+			android:layout_marginLeft="6dp"
+			android:layout_marginTop="15dp"
+			android:gravity="center"
+			android:textColor="@color/gray"
+			android:textSize="18sp" />   
+		<Button
+	        android:id="@+id/default_query1"
+	        android:layout_width="90dp"
+	        android:layout_height="32dp"
+	        android:layout_toRightOf="@id/default_text"
+	        android:layout_alignTop="@id/default_text" 
+	        android:background="@drawable/shape_wz_list"  
+	        android:layout_marginLeft="6dp"
+	        android:gravity="center"	
+	        android:textColor="@color/gray"
+	        android:textSize="15sp"/>
+		<Button
+	        android:id="@+id/default_query2"
+	        android:layout_width="90dp"
+	        android:layout_height="32dp"
+	        android:layout_toRightOf="@id/default_query1"
+	        android:layout_alignTop="@id/default_text" 
+	        android:background="@drawable/shape_wz_list"  
+	        android:layout_marginLeft="6dp"
+	        android:gravity="center"
+	        android:textColor="@color/gray"
+	        android:text="鲁ADJ803"
+	        android:textSize="15sp"/>
+	   
+		<Button
+	        android:id="@+id/default_clear"
+	        android:layout_width="50dp"
+	        android:layout_height="32dp"
+	        android:layout_toRightOf="@id/default_query2"
+	        android:layout_alignTop="@id/default_text" 	  
+	        android:layout_marginLeft="6dp"      
+	        android:gravity="center"
+	        android:background="#ff4cd963"
+	        android:text="清除"
+	        android:textColor="@color/white"
+	        android:textSize="18sp"/> -->
+		
+		<TextView
+			android:id="@+id/licence_no"
+			android:layout_width="wrap_content"
+			android:layout_height="32dp"	
+			android:text="车牌号码"
+			android:layout_marginLeft="6dp"
+			android:layout_marginTop="15dp"
+			android:gravity="center"
+			android:textColor="@color/gray"
+			android:textSize="18sp" /> 
+			
+		<TextView
+		    android:id="@+id/licence_city"
+		    android:layout_width="wrap_content"
+		    android:layout_height="32dp"
+		    android:layout_alignTop="@id/licence_no"
+		    android:layout_toRightOf="@id/licence_no"
+		    android:gravity="center"
+		    android:text="沪"
+		    android:textColor="@color/gray"
+		    android:textSize="16sp" />
+		
+		<EditText
+	        android:id="@+id/licence_cont"
+	        android:layout_width="120dp"
+	        android:layout_height="wrap_content"
+	        android:background="@drawable/shape_reg"  
+	        android:layout_toRightOf="@id/licence_city"
+	        android:layout_alignTop="@id/licence_no" 
+	        android:layout_marginLeft="6dp"
+	        android:gravity="center"	
+	        android:textColor="@color/black"
+	        android:textSize="16sp"/>
+		
+		<TextView
+			android:id="@+id/engine_no"
+			android:layout_width="wrap_content"
+			android:layout_height="32dp"	
+			android:layout_below="@id/licence_no"
+			android:text="发动机号"
+			android:layout_alignLeft="@id/licence_no"
+			android:layout_marginTop="15dp"
+			android:gravity="center"
+			android:textColor="@color/gray"
+			android:textSize="18sp" />   
+		<EditText
+	        android:id="@+id/engine_cont"
+	        android:layout_width="220dp"
+	        android:layout_height="32dp"
+	        android:background="@drawable/shape_reg"  
+	        android:layout_toRightOf="@id/engine_no"
+	        android:layout_alignTop="@id/engine_no" 
+	        android:layout_alignLeft="@id/licence_city"
+	        android:gravity="center"	
+	        android:textColor="@color/black"
+	        android:textSize="16sp"/>
+		
+		<TextView
+			android:id="@+id/class_no"
+			android:layout_width="wrap_content"
+			android:layout_height="32dp"	
+			android:layout_below="@id/engine_no"
+			android:text="车架号码"
+			android:layout_alignLeft="@id/licence_no"
+			android:layout_marginTop="15dp"
+			android:gravity="center"
+			android:textColor="@color/gray"
+			android:textSize="18sp" />   
+		<EditText
+	        android:id="@+id/class_cont"
+	        android:layout_width="220dp"
+	        android:layout_height="32dp"
+	        android:background="@drawable/shape_reg"  
+	        android:layout_toRightOf="@id/class_no"
+	        android:layout_alignTop="@id/class_no" 
+	        android:layout_alignLeft="@id/licence_city"
+	        android:gravity="center"	
+	        android:textColor="@color/black"
+	        android:text="LVGDL26R3BG007137"
+	        android:textSize="16sp"/>
+    </RelativeLayout>
+    
+	
+
+		
+	<RelativeLayout
+	    android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@id/wz_form">
+   <Button
+        android:id="@+id/query_press"
+        android:layout_width="90dp"
+        android:layout_height="32dp"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:background="#ff4cd963"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:text="开始查询" />
+   </RelativeLayout>
+   </RelativeLayout>
+	<ProgressBar 
+		android:id="@+id/wz_progressbar"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"	
+		android:layout_centerHorizontal="true"
+		android:layout_gravity="center_horizontal"	
+		android:layout_marginTop="256dp"
+		style="?android:attr/progressBarStyleLarge"/> 
+</FrameLayout>

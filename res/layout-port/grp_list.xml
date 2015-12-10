@@ -1,0 +1,65 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+	<ListView
+	    android:id="@+id/grp_listview"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:layout_weight="10"
+	    android:background="@color/white"
+	    android:divider="@color/lightgray"
+	    android:dividerHeight="1dp"
+	    android:orientation="vertical" >
+	</ListView>
+	<LinearLayout
+        android:id="@+id/grp_list_linear"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:visibility="invisible" >
+
+        <Button
+            android:id="@+id/grp_bt_selectall"
+            android:layout_width="80dp"
+            android:layout_height="fill_parent"
+            android:text="全选" />
+
+        <Button
+            android:id="@+id/grp_bt_deselectall"
+            android:layout_width="80dp"
+            android:layout_height="fill_parent"
+            android:text="反选" />
+
+        <Button
+            android:id="@+id/grp_bt_cancelall"
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:text="取消选择" />
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/grp_list_linear1"
+        android:layout_width="wrap_content"
+        android:layout_height="45dp"
+        android:layout_weight="1"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:visibility="invisible" >
+
+        <Button
+            android:id="@+id/grp_bt_delete"
+            android:layout_width="80dp"
+            android:layout_height="fill_parent"
+            android:text="删除" />
+
+        <Button
+            android:id="@+id/grp_bt_create_tmp_grp"
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:text="建临时群" />
+    </LinearLayout>
+</LinearLayout>

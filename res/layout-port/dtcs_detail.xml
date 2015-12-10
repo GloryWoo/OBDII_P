@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+ 
+ <LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="320dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:layout_marginTop="10dp"
+    android:orientation="vertical" 
+    android:background="@drawable/shape">
+	<TextView
+	    android:id="@+id/dtc_item_code"
+	    android:layout_width="300dp"
+	    android:layout_height="60dp"
+	    android:textSize="18sp"
+	    android:layout_gravity="center_vertical" 
+        android:gravity="center_vertical"
+	    android:padding="5dp"	
+	    android:background="#fffacb3d"   
+	    android:textColor="#ff000000"
+	    android:text="故障码\nP0101"
+	/>
+	<ScrollView  
+	    android:id="@+id/dtc_item_scroll"
+	    android:layout_width="300dp"
+	    android:layout_height="match_parent"
+	    android:layout_gravity="center_horizontal|center_vertical"
+	    android:gravity="center_horizontal|center_vertical"	    
+	    android:scrollbars="vertical">	    
+	</ScrollView>
+	
+
+</LinearLayout>

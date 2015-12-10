@@ -1,0 +1,97 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" 
+    android:background="@drawable/phonecall_back">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="#4000376B"
+        android:orientation="vertical"
+        android:gravity="center" >
+
+
+       <LinearLayout
+            android:id="@+id/dial"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:textColor="@color/white"
+            android:orientation="vertical" 
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/dial_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/selector_dial_num" />
+
+            <TextView
+                android:id="@+id/dial_t"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="拨号键"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/pb"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/pb_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/selector_pb"/>
+            <TextView
+                android:id="@+id/pb_t"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_centerHorizontal="true"
+                android:text="通讯录"
+                android:textColor="@color/white"
+                android:textSize="14sp" />            
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/recent"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/recent_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/selector_recent" />
+            <TextView
+                android:id="@+id/recent_t"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="最近通话"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </LinearLayout>        
+    </LinearLayout>
+    <FrameLayout             
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="8"         
+        android:id="@+id/phone_fragment">        
+    </FrameLayout>
+</LinearLayout>	  

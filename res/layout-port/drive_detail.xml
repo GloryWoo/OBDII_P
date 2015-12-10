@@ -1,0 +1,1080 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.6"
+        android:background="@drawable/vio_title" >
+
+        <ImageView
+            android:id="@+id/habit_back"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="8dp"
+            android:src="@drawable/icon_back" >
+        </ImageView>
+
+        <TextView
+            android:id="@+id/habit_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="驾驶行为详情"
+            android:textColor="@color/white"
+            android:textSize="18sp" >
+        </TextView>
+        <ImageView
+            android:id="@+id/habit_share"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="8dp"
+            android:src="@drawable/ic_menu_share" >
+        </ImageView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/drive_detail_habit_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2.2"
+        android:background="@drawable/detail_background" >
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/drive_detail_score"
+            android:layout_width="160dip"
+            android:layout_height="160dip"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="3dp" 
+            android:clickable="false"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:id="@+id/detail_safe"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/drive_detail_habit_safe_score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="80分"
+                    android:textColor="@color/white"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/drive_detail_habit_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="安全性"
+                    android:textColor="@color/white"
+                    android:textSize="15sp" />
+                <ImageView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/city_line"
+                    android:id="@+id/safe_line"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/detail_economic"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/drive_detail_habit_ecnmy_score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/drive_detail_habit_txt"
+                    android:text="80分"
+                    android:textColor="@color/white"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="经济性"
+                    android:textColor="@color/white"
+                    android:textSize="15sp" />
+                <ImageView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:src="@drawable/city_line"
+                    android:id="@+id/economic_line"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/detail_comfort"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/drive_detail_habit_comfy_score"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="80分"
+                    android:textColor="@color/white"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="舒适性"
+                    android:textColor="@color/white"
+                    android:textSize="15sp" />
+                <ImageView 
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="gone"
+                    android:src="@drawable/city_line"
+                    android:id="@+id/comfort_line"/>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+    
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2">
+	<!-- 安全性 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/layout_safe"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="6dp"
+        android:visibility="visible" >
+
+        <LinearLayout
+            android:id="@+id/detail_layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp" >
+  			<RelativeLayout
+                android:id="@+id/drive_detail_j_layout"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/drive_detail_j_image"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:background="@drawable/icon_impatient" />
+                <TextView
+                    android:id="@+id/exclaim11"
+                    android:layout_width="16dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentTop="true"                    
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="25dp"
+                    android:gravity="top|center"
+                    android:text="!"
+                    android:textStyle="bold"
+                    android:textColor="@color/red"
+                    android:textSize="18sp"
+                    android:visibility="invisible"
+                    />
+                <TextView
+                    android:id="@+id/drive_detail_j_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@id/drive_detail_j_image"
+                    android:text="急刹急油"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/drive_detail_j_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@id/drive_detail_j_txt"
+                    android:text="1次"
+                    android:textSize="15sp" />
+                
+                
+            </RelativeLayout>
+            
+  		 <RelativeLayout
+                android:id="@+id/drive_detail_y_layout"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/drive_detail_y_image"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:background="@drawable/icon_night" />
+                <TextView
+                    android:id="@+id/exclaim12"
+                    android:layout_width="16dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentTop="true"                    
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="25dp"
+                    android:gravity="top|center"
+                    android:text="!"
+                    android:textStyle="bold"
+                    android:textColor="@color/red"
+                    android:textSize="18sp"
+                    android:visibility="invisible"
+                    />
+                <TextView
+                    android:id="@+id/drive_detail_y_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@id/drive_detail_y_image"
+                    android:text="夜间行驶"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/drive_detail_y_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@id/drive_detail_y_txt"
+                    android:text="2分钟"
+                    android:gravity="left"
+                    android:textSize="15sp" />
+				                
+            </RelativeLayout>	
+            
+
+           
+        </LinearLayout>
+   		<LinearLayout
+            android:id="@+id/detail_layout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp" >
+
+            <RelativeLayout
+                android:id="@+id/drive_detail_c_layout"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/drive_detail_c_image"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                   android:layout_marginLeft="8dp"
+                    android:background="@drawable/icon_exceed" />
+				
+				<TextView
+                    android:id="@+id/exclaim13"
+                    android:layout_width="16dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentTop="true"                    
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="25dp"
+                    android:gravity="top|center"
+                    android:text="!"
+                    android:textStyle="bold"
+                    android:textColor="@color/red"
+                    android:textSize="18sp"
+                    android:visibility="invisible"
+                    />
+                <TextView
+                    android:id="@+id/drive_detail_c_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@id/drive_detail_c_image"
+                    android:text="超速行驶"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/drive_detail_c_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@id/drive_detail_c_txt"
+                    android:text="0分钟"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+   		    <RelativeLayout
+                android:id="@+id/drive_detail_z_layout"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:layout_marginLeft="8dp"
+                    android:id="@+id/drive_detail_z_image"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/icon_wheel" />
+				<TextView
+                    android:id="@+id/exclaim14"
+                    android:layout_width="16dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentTop="true"                    
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="25dp"
+                    android:gravity="top|center"
+                    android:text="!"
+                    android:textStyle="bold"
+                    android:textColor="@color/red"
+                    android:textSize="18sp"
+                    android:visibility="invisible"
+                    />
+                <TextView
+                    android:id="@+id/drive_detail_z_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@id/drive_detail_z_image"
+                    android:text="紧急转弯"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/drive_detail_z_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@id/drive_detail_z_txt"
+                    android:text="1次"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+ 
+
+          
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/detail_layout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp" >
+ 		<RelativeLayout
+                android:id="@+id/drive_detail_s_layout"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/drive_detail_s_image"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:background="@drawable/icon_s" />
+				<TextView
+                    android:id="@+id/exclaim15"
+                    android:layout_width="16dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentTop="true"                    
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="25dp"
+                    android:gravity="top|center"
+                    android:text="!"
+                    android:textStyle="bold"
+                    android:textColor="@color/red"
+                    android:textSize="18sp"
+                    android:visibility="visible"
+                    />
+                <TextView
+                    android:id="@+id/drive_detail_s_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@id/drive_detail_s_image"
+                    android:text="S型变道"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/drive_detail_s_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="12dp"
+                    android:layout_toRightOf="@id/drive_detail_s_txt"
+                    android:text="1次"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/drive_detail_k_layout"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/drive_detail_k_image"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:background="@drawable/icon_step" />
+				<TextView
+                    android:id="@+id/exclaim16"
+                    android:layout_width="16dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentTop="true"                    
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="25dp"
+                    android:gravity="top|center"
+                    android:text="!"
+                    android:textStyle="bold"
+                    android:textColor="@color/red"
+                    android:textSize="18sp"
+                    android:visibility="visible"
+                    />
+                <TextView
+                    android:id="@+id/drive_detail_k_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@id/drive_detail_k_image"
+                    android:text="跨道变道"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/drive_detail_k_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@id/drive_detail_k_txt"
+                    android:text="1次"
+                    android:textSize="15sp" />
+            </RelativeLayout>            
+           
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/detail_layout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp" >
+ 		<RelativeLayout
+                android:id="@+id/drive_detail_d_layout"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/drive_detail_d_image"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:background="@drawable/icon_turn_around" />
+				<TextView
+                    android:id="@+id/exclaim17"
+                    android:layout_width="16dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentTop="true"                    
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="25dp"
+                    android:gravity="top|center"
+                    android:text="!"
+                    android:textStyle="bold"
+                    android:textColor="@color/red"
+                    android:textSize="18sp"
+                    android:visibility="visible"
+                    />
+                <TextView
+                    android:id="@+id/drive_detail_d_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@id/drive_detail_d_image"
+                    android:text="危险调头"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/drive_detail_d_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@id/drive_detail_d_txt"
+                    android:text="1次"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/drive_detail_n_layout"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/drive_detail_n_image"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:background="@drawable/icon_inverse" />
+
+                <TextView
+                    android:id="@+id/drive_detail_n_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@id/drive_detail_n_image"
+                    android:text="逆向行驶"
+                    android:textSize="15sp" />
+				<TextView
+                    android:id="@+id/exclaim18"
+                    android:layout_width="16dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentTop="true"                    
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="25dp"
+                    android:gravity="top|center"
+                    android:text="!"
+                    android:textStyle="bold"
+                    android:textColor="@color/red"
+                    android:textSize="18sp"
+                    android:visibility="visible"
+                    />
+                <TextView
+                    android:id="@+id/drive_detail_n_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@id/drive_detail_n_txt"
+                    android:text="1次"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+           
+
+        </LinearLayout>
+ 
+        </LinearLayout>
+     <!-- 经济型：高峰行驶，怠速时间 -->   
+     <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/layout_economic"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="6dp"
+        android:visibility="gone" >
+        <LinearLayout
+            android:id="@+id/detail_layout2_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp" >
+
+            <RelativeLayout
+                android:id="@+id/drive_detail_qy_layout"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:layout_marginLeft="8dp"
+                    android:id="@+id/drive_detail_qy_image"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/quan" />
+
+                <TextView
+                    android:id="@+id/drive_detail_qy_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@id/drive_detail_qy_image"
+                    android:text="全程油耗"
+                    android:textSize="15sp" />
+				
+				<TextView
+                    android:id="@+id/exclaim21"
+                    android:layout_width="16dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentTop="true"                    
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="25dp"
+                    android:gravity="top|center"
+                    android:text="!"
+                    android:textStyle="bold"
+                    android:textColor="@color/red"
+                    android:textSize="18sp"
+                    android:visibility="invisible"
+                    />
+                <TextView
+                    android:id="@+id/drive_detail_qy_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@id/drive_detail_qy_txt"
+                    android:text="0 L"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/drive_detail_dsy_layout"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/drive_detail_dsy_image"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:background="@drawable/icon_idling" />
+
+                <TextView
+                    android:id="@+id/drive_detail_dsy_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@id/drive_detail_dsy_image"
+                    android:text="怠速油耗"
+                    android:textSize="15sp" />
+				
+				<TextView
+                    android:id="@+id/exclaim22"
+                    android:layout_width="16dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentTop="true"                    
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="25dp"
+                    android:gravity="top|center"
+                    android:text="!"
+                    android:textStyle="bold"
+                    android:textColor="@color/red"
+                    android:textSize="18sp"
+                    android:visibility="invisible"
+                    />
+                <TextView
+                    android:id="@+id/drive_detail_dsy_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@id/drive_detail_dsy_txt"
+                    android:text="0 L"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+        </LinearLayout>
+       <LinearLayout
+            android:id="@+id/detail_layout2_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp" >
+
+        <RelativeLayout
+                android:id="@+id/drive_detail_jy_layout"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:layout_marginLeft="8dp"
+                    android:id="@+id/drive_detail_jy_image"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/jun" />
+				<TextView
+                    android:id="@+id/exclaim23"
+                    android:layout_width="16dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentTop="true"                    
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="25dp"
+                    android:gravity="top|center"
+                    android:text="!"
+                    android:textStyle="bold"
+                    android:textColor="@color/red"
+                    android:textSize="18sp"
+                    android:visibility="invisible"
+                    />
+                <TextView
+                    android:id="@+id/drive_detail_jy_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@id/drive_detail_jy_image"
+                    android:text="平均油耗"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/drive_detail_jy_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@id/drive_detail_jy_txt"
+                    android:text="0 L/100km"
+                    android:textSize="11sp" />
+            </RelativeLayout>
+
+        	<RelativeLayout
+                android:id="@+id/drive_detail_zy_layout"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:layout_marginLeft="8dp"
+                    android:id="@+id/drive_detail_zy_image"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/gas_fee" />
+
+                <TextView
+                    android:id="@+id/drive_detail_zy_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@id/drive_detail_zy_image"
+                    android:text="总油费"
+                    android:textSize="15sp" />
+				
+				<TextView
+                    android:id="@+id/exclaim24"
+                    android:layout_width="16dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentTop="true"                    
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="25dp"
+                    android:gravity="top|center"
+                    android:text="!"
+                    android:textStyle="bold"
+                    android:textColor="@color/red"
+                    android:textSize="18sp"
+                    android:visibility="invisible"
+                    />
+                <TextView
+                    android:id="@+id/drive_detail_zy_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="24dp"
+                    android:layout_toRightOf="@id/drive_detail_zy_txt"
+                    android:text="0 元"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/detail_layout2_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp" >
+
+    
+
+  			<RelativeLayout
+                android:id="@+id/drive_detail_g_layout"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:layout_marginLeft="8dp"
+                    android:id="@+id/drive_detail_g_image"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/icon_peak_travel" />
+
+                <TextView
+                    android:id="@+id/drive_detail_g_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@id/drive_detail_g_image"
+                    android:text="高峰行驶"
+                    android:textSize="15sp" />
+				<TextView
+                    android:id="@+id/exclaim25"
+                    android:layout_width="16dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentTop="true"                    
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="25dp"
+                    android:gravity="top|center"
+                    android:text="!"
+                    android:textStyle="bold"
+                    android:textColor="@color/red"
+                    android:textSize="18sp"
+                    android:visibility="invisible"
+                    />
+                <TextView
+                    android:id="@+id/drive_detail_g_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@id/drive_detail_g_txt"
+                    android:text="1次"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/drive_detail_ds_layout"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/drive_detail_ds_image"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:background="@drawable/kong" />
+				<TextView
+                    android:id="@+id/exclaim26"
+                    android:layout_width="16dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentTop="true"                    
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="25dp"
+                    android:gravity="top|center"
+                    android:text="!"
+                    android:textStyle="bold"
+                    android:textColor="@color/red"
+                    android:textSize="18sp"
+                    android:visibility="invisible"
+                    />
+                <TextView
+                    android:id="@+id/drive_detail_ds_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@id/drive_detail_ds_image"
+                    android:text="空转时间"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/drive_detail_ds_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@id/drive_detail_ds_txt"
+                    android:text="1次"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+        </LinearLayout>                
+        </LinearLayout>
+       <!-- 舒适型：剧烈颠簸，起停过猛 -->   
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/layout_comfort"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:padding="6dp"
+        android:visibility="gone">
+        <LinearLayout
+            android:id="@+id/detail_layout3_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="2dp" >
+
+            <RelativeLayout
+                android:id="@+id/drive_detail_jl_layout"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:layout_marginLeft="8dp"
+                    android:id="@+id/drive_detail_jl_image"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:background="@drawable/icon_bump" />
+				<TextView
+                    android:id="@+id/exclaim31"
+                    android:layout_width="16dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentTop="true"                    
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="25dp"
+                    android:gravity="top|center"
+                    android:text="!"
+                    android:textStyle="bold"
+                    android:textColor="@color/red"
+                    android:textSize="18sp"
+                    android:visibility="invisible"
+                    />
+                <TextView
+                    android:id="@+id/drive_detail_jl_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@id/drive_detail_jl_image"
+                    android:text="剧烈颠簸"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/drive_detail_jl_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@id/drive_detail_jl_txt"
+                    android:text="1次"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/drive_detail_q_layout"
+                android:layout_width="0dp"
+                android:layout_height="35dp"
+                android:gravity="center_vertical"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/drive_detail_q_image"
+                    android:layout_width="25dp"
+                    android:layout_height="25dp"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:background="@drawable/icon_fierce" />
+				<TextView
+                    android:id="@+id/exclaim32"
+                    android:layout_width="16dp"
+                    android:layout_height="24dp"
+                    android:layout_alignParentTop="true"                    
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="25dp"
+                    android:gravity="top|center"
+                    android:text="!"
+                    android:textStyle="bold"
+                    android:textColor="@color/red"
+                    android:textSize="18sp"
+                    android:visibility="invisible"
+                    />
+                <TextView
+                    android:id="@+id/drive_detail_q_txt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@id/drive_detail_q_image"
+                    android:text="起/停过猛"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:id="@+id/drive_detail_q_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="8dp"
+                    android:layout_toRightOf="@id/drive_detail_q_txt"
+                    android:text="1次"
+                    android:textSize="15sp" />
+            </RelativeLayout>
+        </LinearLayout>
+        </LinearLayout>
+        <LinearLayout
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"	       
+	        android:layout_gravity="bottom|center"	       
+	        >
+            <TextView
+                android:id="@+id/drive_detail_exclaim_footer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="!"
+                android:textColor="@color/red"
+                android:textSize="18sp" />   
+            <TextView
+                android:id="@+id/drive_detail_exclaim_notice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_marginLeft="8dp"
+                android:text="表示需连接优车宝设备"
+                android:textColor="@color/black"
+                android:textSize="12sp" />     
+         </LinearLayout> 
+    </FrameLayout>
+      
+  
+
+   <com.baidu.mapapi.map.MapView
+        android:id="@+id/drive_detail_map"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="0dp"
+        android:layout_weight="2.2"
+        android:clickable="true" /> 
+
+</LinearLayout>

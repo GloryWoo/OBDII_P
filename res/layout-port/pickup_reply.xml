@@ -1,0 +1,50 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+   	<TextView
+        android:id="@+id/pickup_reply_title"
+        android:layout_width="match_parent"
+        android:layout_height="70dp" 
+		android:layout_gravity="center"
+		android:gravity="center"
+        android:text="XXX\n接受你的邀请,\n是否根据TA的位置启动导航"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+    
+		<LinearLayout    
+	    android:id="@+id/pickup_reply_linear"
+	    android:layout_width="match_parent"
+	    android:layout_height="50dp"
+	    android:layout_marginLeft="40dp"
+	    android:layout_marginRight="40dp"
+	    android:orientation="horizontal"
+	    android:gravity="center">
+
+		<TextView
+		    android:id="@+id/pickup_reply_btn"
+		    android:layout_width="80dp"
+		    android:layout_height="40dp"
+		    android:background="@color/green"
+		    android:gravity="center"
+		    android:text="确定"
+		    android:textColor="@color/white"
+		    android:textSize="18sp" />
+	
+
+	    <TextView
+	        android:id="@+id/pickup_navit_cancel"
+	        android:layout_width="80dp"
+	        android:layout_height="40dp"
+			android:layout_marginLeft="40dp"
+			android:visibility="gone"      
+			android:gravity="center"
+	        android:text="取消"
+	        android:textSize="18sp" 
+	        android:textColor="@color/white"
+	        android:background="@color/indianred"/>
+
+	</LinearLayout> 
+</LinearLayout>   

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    >
+
+    <TextView
+        android:layout_width="0dp"
+    	android:layout_height="40dp"
+    	android:layout_gravity="center_vertical"
+    	android:layout_marginLeft="8dp"
+    	android:layout_weight="1"
+    	android:gravity="center"
+    	android:id="@+id/music_itm_idx"
+    	android:text="1"
+    	android:textSize="18sp"/>
+
+    <TextView
+        android:layout_width="0dp"
+    	android:layout_height="38dp"
+    	android:layout_weight="10"
+    	android:gravity="left|center"
+    	android:id="@+id/song_name"
+    	android:text="歌名"
+    	android:textSize="18sp"
+        />
+</LinearLayout>

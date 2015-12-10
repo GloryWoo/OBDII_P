@@ -1,0 +1,54 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="120dp">
+    
+   	<TextView
+        android:id="@+id/pickup_title"
+        android:layout_width="match_parent"
+        android:layout_height="70dp" 
+		android:layout_gravity="center"
+		android:gravity="center"
+        android:text="XXX请求来接你"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+    	    
+	<LinearLayout    
+	    android:id="@+id/help"
+	    android:layout_width="match_parent"
+	    android:layout_height="50dp"
+	    android:orientation="horizontal"
+	    android:gravity="center">
+
+		<TextView
+		    android:id="@+id/pickup_accept"
+		    android:layout_width="80dp"
+		    android:layout_height="40dp"
+		    android:background="@color/green"
+		    android:gravity="center"
+		    android:text="接受"
+		    android:textColor="@color/white"
+		    android:textSize="18sp" />
+	
+	    <TextView
+	        android:id="@+id/pickup_reject"
+	        android:layout_width="80dp"
+	        android:layout_height="40dp"
+	        android:layout_marginLeft="20dp"
+	        android:gravity="center"
+	        android:text="拒绝"
+	        android:textSize="18sp" 
+	        android:textColor="@color/white"
+	        android:background="@color/indianred"/>
+	    <TextView
+	        android:id="@+id/pickup_ignore"
+	        android:layout_width="80dp"
+	        android:layout_height="40dp"
+	        android:layout_marginLeft="20dp"
+	        android:gravity="center"
+	        android:text="忽略"
+	        android:textSize="18sp" 
+	        android:background="#e3e3e3"/>	
+	</LinearLayout>   
+</LinearLayout>   

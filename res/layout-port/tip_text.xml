@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+   <TextView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/default_tip"
+    android:layout_width="80dp"
+    android:layout_height="50dp"
+    android:layout_gravity="center_horizontal|center_vertical" 
+    android:gravity="center_horizontal|center_vertical"
+    android:layout_marginTop="100dp" 
+    android:layout_marginLeft="0dp" 
+    android:textSize="16sp"
+    android:padding="5dp"
+    android:textColor="#ff000000"
+    android:text="@string/default_tip"
+/>   	                    

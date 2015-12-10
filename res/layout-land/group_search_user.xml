@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="200dp"  
+    android:layout_height="300dp"
+    android:layout_gravity="top|center"
+    android:layout_marginTop="30dp"
+    android:background="@drawable/shape_wz"
+    >  
+  
+	<TextView
+		android:id="@+id/group_s_user_name_t"
+		android:layout_width="60dp"
+		android:layout_height="32dp"	
+		android:text="用户名称:"
+		android:layout_marginLeft="6dp"
+		android:layout_marginTop="15dp"
+		android:gravity="left|center"
+		android:textColor="@color/black"
+		android:textSize="12sp" />   
+	<EditText
+        android:id="@+id/group_s_user_name_e"
+        android:layout_width="120dp"
+        android:layout_height="32dp"
+        android:background="@drawable/shape_wz_list"
+        android:layout_toRightOf="@id/group_s_user_name_t"  
+        android:layout_alignTop="@id/group_s_user_name_t"
+        android:layout_marginLeft="6dp"        
+        android:gravity="left|center"	
+        android:textColor="@color/gray"        
+        android:hint=""
+        android:textSize="15sp"/>
+	
+	<TextView
+		android:id="@+id/group_s_distance_t"
+		android:layout_width="60dp"
+		android:layout_height="40dp"	
+		android:text="离我距离："
+		android:layout_marginLeft="6dp"
+		android:layout_marginTop="6dp"
+		android:layout_below="@id/group_s_user_name_t"
+		android:gravity="left|center"
+		android:textColor="@color/black"
+		android:textSize="12sp" />  
+	<EditText
+        android:id="@+id/group_s_user_dist_e"
+        android:layout_width="120dp"
+        android:layout_height="32dp"
+        android:background="@drawable/shape_wz_list"
+        android:layout_toRightOf="@id/group_s_distance_t"  
+        android:layout_alignTop="@id/group_s_distance_t"
+        android:layout_marginTop="6dp"
+        android:layout_marginLeft="6dp"
+        android:gravity="left|center"	
+        android:textColor="@color/gray"
+        android:digits="true"
+        android:hint="单位：千米"        
+        android:textSize="15sp"/>	
+    <Button
+        android:id="@+id/group_search_user_b"
+        android:layout_width="80dp"
+        android:layout_height="32dp"
+        android:background="@drawable/shape_reg"  
+		android:layout_alignParentBottom="true"
+		android:layout_marginBottom="15dp"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/black"
+        android:text="搜索"
+        android:textSize="16sp"/>
+  
+</RelativeLayout>  

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"  
+    android:layout_width="match_parent"  
+    android:layout_height="560dp"
+    android:layout_gravity="top|center"
+    android:layout_marginTop="0dp"
+    android:orientation="vertical"
+    android:background="#fff"
+    >  
+
+    <LinearLayout  
+        android:id="@+id/grp_sel_title_l"  
+        android:layout_width="match_parent"  
+        android:layout_height="40dp"   
+        android:layout_gravity="center"
+        android:orientation="horizontal" >  
+  
+        <Button  
+            android:id="@+id/bt_selectall"  
+            android:layout_width="0dp"  
+            android:layout_height="match_parent"
+            android:layout_weight="2" 
+            android:gravity="center" 
+            android:text="全选" 
+            android:textSize="14sp"
+            android:background="#fff"
+            android:textColor="@color/gray"/>  
+  
+        <TextView  
+            android:id="@+id/grp_sel_title_t"  
+            android:layout_width="0dp"  
+            android:layout_height="match_parent" 
+            android:layout_weight="3" 
+            android:gravity="center" 
+            android:text="添加成员"
+            android:textColor="#000"
+            android:textSize="16sp" />                 
+          
+         <Button  
+            android:id="@+id/bt_deselectall"  
+            android:layout_width="0dp"  
+            android:layout_height="match_parent"
+            android:layout_weight="2"  
+            android:gravity="center"  
+            android:text="反选" 
+            android:textSize="14sp"
+            android:background="#fff"
+            android:textColor="@color/gray"/> 
+  
+    </LinearLayout> 
+    <View
+         android:layout_width="match_parent"
+         android:layout_height="1dp"
+         android:layout_marginLeft="5dp"
+         android:layout_marginRight="5dp"
+         android:layout_marginTop="4dp"
+         android:background="#80e3e3e3" />
+	<ListView
+		android:id="@+id/group_sel_del_lst"
+		android:layout_width="match_parent"
+		android:layout_height="400dp"	
+		android:layout_gravity="left|center"		
+		android:gravity="top|center"
+		android:textColor="@color/black"
+		android:textSize="12sp" />  
+    <LinearLayout  
+        android:id="@+id/grp_sel_bottom_l"  
+        android:layout_width="match_parent"  
+        android:layout_height="40dp"   
+        android:layout_gravity="center"
+        android:orientation="horizontal" > 
+		<Button
+	        android:id="@+id/bt_cancleselectall"
+	        android:layout_gravity="center"
+	        android:layout_width="0dp"
+	        android:layout_weight="2"
+	        android:layout_height="40dp"
+	        android:background="#fff"
+	        android:text="取消选择"
+	        android:textSize="14sp"
+	        android:textColor="@color/gray"/>  
+        <View
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3" />       		 
+		<Button
+	        android:id="@+id/result_btn"
+	        android:layout_gravity="center"
+	        android:layout_width="0dp"
+	        android:layout_weight="2"
+	        android:layout_height="40dp"
+	        android:background="#fff"
+	        android:text="确定(0)"	        
+	        android:textSize="14sp"
+	        android:textColor="#ff0087cb"/>
+	</LinearLayout> 
+  
+</LinearLayout>  

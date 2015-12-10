@@ -1,0 +1,48 @@
+    
+<LinearLayout    
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="120dp"
+    android:orientation="vertical">
+
+    <TextView
+       	android:id="@+id/pickup_choice_invite"
+       	android:layout_width="match_parent"
+       	android:layout_height="40dp" 
+		android:layout_gravity="center"
+		android:gravity="center"
+       	android:text="去接TA"
+       	android:textSize="18sp"
+       	android:textColor="@color/black"
+ 	/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp" 
+        android:background="#e3e3e3"/>    
+    <TextView
+        android:id="@+id/pickup_choice_acquire"
+        android:layout_width="match_parent"
+        android:layout_height="40dp" 
+		android:layout_gravity="center"
+		android:gravity="center"
+        android:text="请求TA来接我"
+        android:textSize="18sp"
+        android:textColor="@color/black"
+	/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp" 
+        android:background="#e3e3e3"/>
+    <TextView
+        android:id="@+id/pickup_choice_cancel"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:text="取消"
+        android:textSize="18sp" 
+        android:textColor="@color/gray"
+/>
+
+</LinearLayout>   
+  

@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="app_name">优车宝</string>
+    <string name="action_settings">Settings</string>
+    <string name="default_city_shanghai">上海市</string>
+    <string name="scanning">正在扫描中</string>
+    <string name="select_device">选择蓝牙设备</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="string_company_info">HARMAN CTG</string>
+    <string name="string_owner">Copyright©2011-2013 速锐得 版权所有</string>
+
+    <!-- 下拉刷新 -->
+    <string name="xlistview_header_hint_normal">下拉刷新</string>
+    <string name="xlistview_header_hint_ready">松开刷新数据</string>
+    <string name="xlistview_header_hint_loading">正在加载...</string>
+    <string name="xlistview_header_last_time">上次更新时间：</string>
+    <string name="xlistview_footer_hint_normal">查看更多</string>
+    <string name="xlistview_footer_hint_ready">松开载入更多</string>
+
+    <!-- 菜单定义 -->
+    <string name="string_btconfig">连接蓝牙</string>
+    <string name="string_instant">实时信息</string>
+    <string name="string_weather">天气信息</string>
+    <string name="string_diag">汽车诊断</string>
+    <string name="string_obdstate">OBD状态</string>
+    <string name="string_open_amt">打开统计</string>
+    <string name="string_close_amt">关闭统计</string>
+    <string name="string_get_hbt">驾驶习惯</string>
+    <string name="string_get_device">设备信息</string>
+    <string name="string_get_dtc">读取故障码</string>
+    <string name="string_clr_dtc">清除故障码</string>
+    <string name="string_set_adjust">总里程校验</string>
+    <string name="string_reset">设备初始化</string>
+    <string name="string_exit">退出</string>
+    <string name="close_notice">关闭提醒</string>
+    <string name="string_exit_soft">退出程序</string>
+    <string name="string_exit_confirm">点击退出将结束整个应用，\n后台运行则继续监控汽车状况</string>
+    <string name="string_cancel">取消</string>
+    <string name="string_confirm">确定</string>
+    <string name="string_confirm1">确认</string>
+    <string name="string_dial">拨号</string>
+    <string name="back_run">后台运行</string>
+    <string name="str_return">返回</string>
+    <!-- 按键定义 -->
+    <string name="string_start">显示数据</string>
+    <string name="string_stop">关闭显示</string>
+
+    <!-- 显示标题定义 -->
+    <string name="lbl_msg_realtime_listening">实时状态监控</string>
+    <string name="lbl_msg_vihicle_amount">车辆汇总统计</string>
+    <string name="lbl_msg_vihicle_habit">驾驶习惯数据</string>
+    <string name="lbl_msg_device_info">设备信息数据</string>
+    <string name="lbl_msg_vihicle_dtc">汽车故障诊断</string>
+
+    <!-- 实时监测数据 -->
+    <string name="lbl_field_bat">电瓶电压</string>
+    <string name="lbl_field_rpm">发动机转速</string>
+    <string name="lbl_field_vss">行驶时速</string>
+    <string name="lbl_field_tp">节气门开度</string>
+    <string name="lbl_field_lod">发动机负荷</string>
+    <string name="lbl_field_ect">冷却液温度</string>
+    <string name="lbl_field_mpg">瞬时油耗</string>
+    <string name="lbl_field_avm">平均油耗</string>
+
+    <!-- 车辆统计数据 -->
+    <string name="lbl_field_dst">本次行驶里程</string>
+    <string name="lbl_field_adst">累计行驶里程</string>
+    <string name="lbl_field_tdst">总里程</string>
+    <string name="lbl_field_fue">本次耗油量</string>
+    <string name="lbl_field_tfue">累计耗油量</string>
+
+    <!-- 驾驶习惯数据 -->
+    <string name="lbl_field_tpc">总点火次数</string>
+    <string name="lbl_field_tmt">累计行驶时间</string>
+    <string name="lbl_field_tst">累计怠速时间</string>
+    <string name="lbl_field_awt">平均热车时间</string>
+    <string name="lbl_field_asp">平均车速</string>
+    <string name="lbl_field_msp">最高车速</string>
+    <string name="lbl_field_mrp">最高转速</string>
+
+    <!-- 设备信息数据 -->
+    <string name="lbl_field_protocol">通讯协议</string>
+    <string name="lbl_field_sn">设备序列号</string>
+    <string name="lbl_field_hardver">硬件版本号</string>
+    <string name="lbl_field_softver">软件版本号</string>
+
+    <!-- 汽车诊断数据 -->
+    <string name="lbl_field_tcc">故障码个数</string>
+    <string name="lbl_field_tcd">故障代码</string>
+    <string name="clear_obd_dtcs">清除所有故障码</string>
+
+    <!-- 蓝牙模块定义 -->
+    <string name="not_connected">没有连接蓝牙设备</string>
+    <string name="bt_not_enabled_leaving">蓝牙模块未开启</string>
+    <string name="search_bt">搜索蓝牙设备</string>
+    <string name="searching_bt">搜索优车宝设备...</string>
+    <string name="title_connecting">正在连接...</string>
+    <string name="title_connected_to">已连接: </string>
+    <string name="title_not_connected">未连接</string>
+    <string name="button_scan">搜索设备</string>
+    <string name="bluetooth_begin_turing_on">准备打开蓝牙...</string>
+    <string name="bluetooth_turing_on">正在打开蓝牙...</string>
+    <string name="none_found">未发现优车宝设备</string>
+
+    <!-- 天气tips模块定义 -->
+    <string name="weather_initial">正在初始化天气信息</string>
+
+    <!-- 设置模块定义 -->
+    <string name="setting">设置</string>
+    <string name="obd_stat">适配器状态</string>
+    <string name="bt_enable">蓝牙启用</string>
+    <string name="obd_conn">优车宝连接状态</string>
+    <string name="connect_device">连接设备</string>
+    <string name="obd_dtcnum">适配器故障计数</string>
+    <string name="soft_version">版本</string>
+    <string name="setting_none">设置页面不存在</string>
+
+    <!-- 车辆实时信息 -->
+    <string name="engine_rpm">引擎转速</string>
+    <string name="car_speed">车速</string>
+    <string name="gas_volumn">油量</string>
+    <string name="gas_consume">瞬时油耗</string>
+    <string name="water_temperature">水温</string>
+    <string name="centigrade">℃</string>
+    <string name="dtc_title">故障码</string>
+    <string name="history">历史记录</string>
+    <string name="network_not_available">没有可用的网络</string>
+    <string name="enable_network">请开启GPRS或WIFI网络连接</string>
+    <string name="def_car_maker">雪佛兰</string>
+    <string name="def_car_type">克鲁兹</string>
+
+    <!-- 行车贴士 -->
+    <string name="wash_car">最近三天都没有雨雪，可以洗车。</string>
+    <string name="glide1">驾车注意防滑。</string>
+    <string name="glide2">驾车注意防滑。</string>
+    <string name="high_temperature">高温，请检查胎压、水温。</string>
+    <string name="umbrella1">请带好雨伞或其他雨具。</string>
+    <string name="umbrella2">请带好雨伞或其他雨具。</string>
+    <string name="prevent_cold">天气较冷，多穿一点衣服，注意防寒保暖。</string>
+    <string name="aircondition_off">温度舒适，\n无需开车内空调。</string>
+    <string name="foggy_notice">迷雾天气，注意开启雾灯，常按喇叭，如必要请开双闪灯。</string>
+    <string name="wind_notice">尽量远离大客车和大货车，防止横风影响驾驶。</string>
+    <string name="humidity_low">能见度低，请保持车距，降速行驶。</string>
+    <string name="faze">雾霾严重，如必要，请开启空调内循还功能，并谨慎驾驶。</string>
+    <string name="windshield_fog">天气较冷，车挡风玻璃容易起雾，请带好抹布或其他除雾装置。</string>
+    <string name="snow_notice">最好把车停在车库。</string>
+
+    <!-- weather -->
+    <string name="default_tip">尚未收到数据,请等待。\n如长时间未收到数据，请检查网络。</string>
+    <string name="air_temperature">温度</string>
+    <string name="air_humidity">湿度</string>
+    <string name="air_pressure">气压</string>
+    <string name="sun">晴</string>
+    <string name="cloud">多云</string>
+    <string name="cloud1">阴</string>
+    <string name="rain">雨</string>
+    <string name="snow">雪</string>
+    <string name="froze">霜</string>
+    <string name="fog">雾</string>
+    <string name="hail">冰雹</string>
+    <string name="wind">风</string>
+    <string name="little">小</string>
+    <string name="lit2mid">小到中</string>
+    <string name="middle">中</string>
+    <string name="big">大</string>
+    <string name="big2storm">大到暴</string>
+    <string name="storm">暴</string>
+    <string name="thunder">雷</string>
+    <string name="centi_degree">℃</string>
+    <string name="dtc_abs_more">点击查看更多信息</string>
+    <string name="dtc_no_bt">蓝牙设备未连接</string>
+    <string name="no_dtc_notice">正在扫描，尚未发现故障</string>
+
+    <!-- dtc summary -->
+    <string name="C0129">防抱死刹车系统（ACS）故障指示灯 （子错误）</string>
+    <string name="P0369">系统（空燃比）太稀 （第1排）</string>
+    <string name="P0720">产量速度感知器线路</string>
+    <string name="P1426">方向盘中心控制装置E221无信号，与转向柱电子装置控制单元J527失去通信。</string>
+    <string name="P1504">进气歧管漏气</string>
+    <string name="clear_dtc">清除错误码</string>
+    <string name="dtc_cleared">所有错误码已被清除</string>
+    <string name="gps_switch">轨迹监控</string>
+    <string name="sensor_switch">传感器开关</string>
+    <string name="battery_voltage">汽车电池电压</string>
+    <string name="help">帮助</string>
+    <string name="help_content">  进入优车宝，系统会自动查找并连接OBD设备，并在设置窗口显示OBD连接状态，\n  连接OBD成功以后，汽车实时油耗数据会在“瞬时油耗”中显示。\n  每次行程结束后，行程数据会在“驾驶习惯”中显示。\n  如果侦测到汽车有故障诊断码，会在“汽车状态”中显示。</string>
+    <string name="input_error">输入有误</string>
+    <string name="username_no_null">用户名密码不能为空</string>
+    <string name="error_username">用户名格式错误</string>
+    <string name="pwd_differ">密码不一致</string>
+    <string name="cfm_code_loss">请输入验证码</string>
+    <string name="phone_num">电话号码无效</string>
+    <string name="login_title">登录</string>
+    <string name="login_content">正在登录，请稍候</string>
+    <string name="register_title">注册</string>
+    <string name="register_content">正在注册，请稍候</string>
+    <string name="logout_title">登出</string>
+    <string name="logout_content">正在登出，请稍候</string>
+    <string name="success">成功</string>
+    <string name="failed">失败</string>
+    <string name="user_exist">用户名已存在</string>
+    <string name="update_failed">更新失败</string>
+    <string name="login_yes">已登录</string>
+    <string name="login_no">未登录</string>
+    <string name="findpw_title">发送</string>
+    <string name="findpw_content">正在发送，请稍候</string>
+    <string name="user_account">用户名</string>
+    <string name="car_plate">车牌</string>
+    <string name="car_maker">车系</string>
+    <string name="car_type">车型</string>
+    <string name="purchase_date">购买时间</string>
+    <string name="update_msg">服务器有新的软件版本，是否需要更新？</string>
+    <string name="update">更新</string>
+    <string name="update_version">软件版本更新</string>
+    <string name="update_next">以后再说</string>
+    <string name="batter_notice">如果汽车不发动，电池大概将在以下时间耗尽，请注意！</string>
+    <string name="gps_notice">轨迹监控状态下需要打开系统GPS开关</string>
+    <string name="retry_notice">请尝试重新启动应用解决该问题</string>
+    <string name="vehicle_support">不支持该车型！</string>
+    <string name="exit_notice">对不起，程序将退出！</string>
+    <string name="location_enable_title">地理位置设置</string>
+    <string name="location_enable_msg">显示系统位置设置</string>
+    <string name="bat_charging">发动机启动，汽车电池正在充电</string>
+    <string name="bat_normal">汽车电池正常</string>
+    <string name="bat_expire_time">汽车电池耗尽时间大概是：\n</string>
+    <string name="bat_low">汽车电池电量过低，请及时启动发动机充电</string>
+    <string name="bat_month">月</string>
+    <string name="bat_day">天</string>
+    <string name="bat_hour">小时</string>
+    <string name="push_title">优车宝推送</string>
+    <string name="push_content">祝您使用愉快！</string>
+    <string name="bcall_title">B-Call</string>
+    <string name="ecall_title">E-Call</string>
+    <string name="wz_input_empty">没有输入数据</string>
+    <string name="wz_result_empty">输入有误或没有违章记录</string>
+    <string name="wz_proc_n">已处理</string>
+    <string name="wz_proc_y">未处理</string>
+    <string name="wz_rmb">(元/人民币)</string>
+    <string name="wz_point">分</string>
+    <string name="geo_fence">地理围栏</string>
+    <string name="poi_share">位置分享</string>
+    <string name="track_share">轨迹分享</string>
+    <string name="navigate">导航</string>
+    <string name="offline_map">离线地图</string>
+    <string name="dragdown_notice">下拉加载上一页</string>
+    <string name="dragdown_notice1">正在加载上一页</string>
+    <string name="dragup_notice">上拉加载下一页</string>
+    <string name="dragup_notice1">正在加载下一页</string>
+    <string name="logostring">CTG V2V: Make The Future</string>
+    <string name="online_list">Online list</string>
+    <string name="show_button">Submit Group</string>
+    <string name="app_about">Multimedia Group Sharing</string>
+    <string name="app_about_msg">Sharing the Video/Audio/Data with the nearby vehicles via the v2v communication</string>
+    <string name="str_no">No</string>
+    <string name="str_ok">Yes</string>
+
+    <!--group operation  -->
+    <string name="group_create">创建群组</string>
+    <string name="group_none">当前没有群组</string>
+	<string name="group_del">删除群组</string>
+	<string name="group_del_user">删除用户</string>
+	<string name="group_join">加入群组</string>
+	<string name="group_modify">修改群组名称</string>
+	<string name="group_search">搜索群组</string>
+	<string name="group_select_del_user">选择删除用户</string>
+	<string name="group_search_user">按条件查找用户</string>
+	<string name="group_invite">邀请用户加入当前群</string>
+	<string name="group_add_user">添加用户</string>
+	<string name="group_add_friend">添加好友</string>
+	<string name="group_name_invalid"> 名称不合法</string>
+	
+	<string name="chat_my_location">当前我的位置:</string>
+	<string name="chat_my_track">我的轨迹:</string>
+	<string name="province">省</string>
+	<string name="city">市</string>
+	<string name="state">州</string>
+	<string name="autonomous_region">自治区</string>	
+	
+	<string name="no_member_for_track">没有选中任何成员，无法发送位置或轨迹。</string>
+
+    <!-- for car monitor -->
+    <string name="monitor_name">monitor</string>
+    <string name="filenums_hint">maximum files num</string>
+    <string name="filenums_unit">files</string>
+    <string name="duration_hint">maximum duration</string>
+    <string name="duration_unit">sec</string>
+    <string name="title_activity_monitor">行车记录仪</string>
+    <string name="monitor_switch">行车记录开关</string>
+    
+       <!-- for drive behavior -->
+    <string name="turn_fierce">紧急转弯</string>
+    <string name="ride_on_division">跨道变道</string>
+    <string name="turn_around">危险掉头</string>
+    <string name="idle_fuel">怠速油耗</string>
+    <string name="whole_fuel">全程油耗</string>
+    <string name="average_fuel">平均油耗</string>
+    <string name="pump">剧烈颠簸</string> 
+    <string name="go_stop">起停过猛</string> 
+    <string name="exceed_spd">超速行驶</string>
+    <string name="brk_fierce">急刹急停</string> 
+    <string name="gas_fierce">急油急速</string> 
+</resources>

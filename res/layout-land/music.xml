@@ -1,0 +1,89 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/beijing1"
+        android:orientation="vertical"
+        android:gravity="top|center" >
+
+        
+        <LinearLayout
+            android:id="@+id/localmusic"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+			android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/localmusic_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/music_ic_localmusic_press" />
+
+
+            <TextView
+                android:id="@+id/localmusic_t"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="本地音乐"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </LinearLayout>        
+
+        <LinearLayout
+            android:id="@+id/xima_radio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/radio_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:src="@drawable/xima" />
+            <TextView
+                android:id="@+id/radio_t"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:layout_centerHorizontal="true"
+                android:text="喜马拉雅"
+                android:textColor="@color/white"
+                android:textSize="14sp" />            
+        </LinearLayout>
+
+
+    </LinearLayout>
+    <FrameLayout
+        android:id="@+id/music_frm"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="#ff065b92"
+        android:layout_weight="8" >
+        <include
+	        android:id="@+id/music_play_l"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:gravity="center"   	
+	        layout="@layout/music_play"/> 
+        <include
+	        android:id="@+id/music_list_l"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:gravity="center" 
+	        android:visibility="invisible"   	
+	        layout="@layout/music_list"/> 	        
+    </FrameLayout>
+</LinearLayout>	  

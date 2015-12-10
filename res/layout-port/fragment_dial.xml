@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" 
+    >
+    
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="vertical"
+        android:gravity="center">
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:layout_weight="1"
+        	android:orientation="horizontal"
+        	android:gravity="center">
+        	
+            <TextView
+                android:id="@+id/num_1"
+                android:layout_height="70dp" 
+				android:layout_width="70dp"								
+				android:gravity="center"
+				android:text="1"
+				style="@style/dial_num_text"
+				android:background="@drawable/dial_num_press"/>
+            
+            <TextView
+                android:id="@+id/num_2"
+                android:layout_height="70dp" 
+				android:layout_width="70dp"				
+				android:layout_marginLeft="22dp"
+				android:gravity="center"
+				android:text="2"
+				style="@style/dial_num_text"
+				android:background="@drawable/dial_num_press"/>
+            
+            <TextView
+                android:id="@+id/num_3"
+                android:layout_height="70dp" 
+				android:layout_width="70dp"			
+				android:gravity="center"
+				android:layout_marginLeft="22dp"
+				android:text="3"
+				style="@style/dial_num_text"
+				android:background="@drawable/dial_num_press"/>
+            
+        </LinearLayout>
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:layout_weight="1"
+        	android:orientation="horizontal"
+        	android:gravity="center">
+        	
+            <TextView
+                android:id="@+id/num_4"
+                android:layout_height="70dp" 
+				android:layout_width="70dp"								
+				android:gravity="center"
+				android:text="4"
+				style="@style/dial_num_text"
+				android:background="@drawable/dial_num_press"/>
+            
+            <TextView
+                android:id="@+id/num_5"
+                android:layout_height="70dp" 
+				android:layout_width="70dp"				
+				android:layout_marginLeft="22dp"
+				android:gravity="center"
+				android:text="5"
+				style="@style/dial_num_text"
+				android:background="@drawable/dial_num_press"/>
+            
+            <TextView
+                android:id="@+id/num_6"
+                android:layout_height="70dp" 
+				android:layout_width="70dp"			
+				android:gravity="center"
+				android:layout_marginLeft="22dp"
+				android:text="6"
+				style="@style/dial_num_text"
+				android:background="@drawable/dial_num_press"/>
+            
+        </LinearLayout>
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:layout_weight="1"
+        	android:orientation="horizontal"
+        	android:gravity="center">
+        	
+            <TextView
+                android:id="@+id/num_7"
+                android:layout_height="70dp" 
+				android:layout_width="70dp"								
+				android:gravity="center"
+				android:text="7"
+				style="@style/dial_num_text"
+				android:background="@drawable/dial_num_press"/>
+            
+            <TextView
+                android:id="@+id/num_8"
+                android:layout_height="70dp" 
+				android:layout_width="70dp"				
+				android:layout_marginLeft="22dp"
+				android:gravity="center"
+				android:text="8"
+				style="@style/dial_num_text"
+				android:background="@drawable/dial_num_press"/>
+            
+            <TextView
+                android:id="@+id/num_9"
+                android:layout_height="70dp" 
+				android:layout_width="70dp"			
+				android:gravity="center"
+				android:layout_marginLeft="22dp"
+				android:text="9"
+				style="@style/dial_num_text"
+				android:background="@drawable/dial_num_press"/>
+            
+        </LinearLayout>
+        
+        <LinearLayout 
+            android:layout_width="match_parent"
+        	android:layout_height="match_parent"
+        	android:layout_weight="1"
+        	android:orientation="horizontal"
+        	android:gravity="center">
+        	
+            <TextView
+                android:id="@+id/num_star"
+                android:layout_height="70dp" 
+				android:layout_width="70dp"							
+				android:gravity="center"
+				android:text="*"				
+				style="@style/dial_num_text"
+				android:background="@drawable/dial_num_press"/>
+            
+            <TextView
+                android:id="@+id/num_0"
+                android:layout_height="70dp" 
+				android:layout_width="70dp"				
+				android:layout_marginLeft="22dp"
+				android:gravity="center"
+				android:text="0"
+				style="@style/dial_num_text"
+				android:background="@drawable/dial_num_press"/>
+            
+            <TextView
+                android:id="@+id/num_hash"
+                android:layout_height="70dp" 
+				android:layout_width="70dp"			
+				android:gravity="center"
+				android:layout_marginLeft="22dp"
+				android:text="#"
+				style="@style/dial_num_text"
+				android:background="@drawable/dial_num_press"/>
+            
+        </LinearLayout>
+        
+    </LinearLayout>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"        
+        android:layout_weight="1"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:gravity="top|center">
+        
+        
+       <ImageView 
+            android:id="@+id/voice_speech"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/speech"
+            android:layout_gravity="right"/>     
+        <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="52dp"               
+	        android:orientation="horizontal"
+	        android:layout_marginTop="25dp"	
+	        android:background="@drawable/shape_card">
+	        <TextView  
+	        	android:id="@+id/numInput"  
+	        	android:layout_width="0dp"  
+	        	android:layout_height="50dp"
+	        	android:layout_weight="9"
+	        	android:paddingTop="10dp"
+	        	android:paddingLeft="10dp"
+	        	android:paddingBottom="10dp"
+	        	android:paddingRight="10dp"	            
+	            android:textColor="@color/white"
+	            android:gravity="left|center"
+	        	android:hint="请输入电话号码" 	       	
+	        	android:textSize="20dp" 
+	        	android:singleLine="true"
+	        	android:ellipsize="marquee" 
+	    		android:marqueeRepeatLimit="marquee_forever"
+	    		android:focusable="true" 
+	    		android:textIsSelectable="true" /> 
+	            
+	        <ImageView 
+	            android:id="@+id/backSpace"
+	            android:layout_width="32dp"
+	            android:layout_height="22dp"
+	            android:layout_weight="1"	            
+	            android:src="@drawable/backspace"
+	            android:layout_marginRight="5dp"
+	            android:layout_marginTop="15dp"/>                    
+        </LinearLayout>
+        
+        <ImageView 
+            android:id="@+id/imgCall"
+            android:layout_height="80dp" 
+			android:layout_width="80dp"
+			android:layout_marginTop="25dp"			
+			android:layout_gravity="center_horizontal"
+			android:src="@drawable/dial_up"/>
+        
+        <TextView 
+            android:id="@+id/emergency"
+            android:layout_height="40dp" 
+			android:layout_width="120dp"
+			android:layout_marginTop="25dp"			
+			android:text="紧急情况"
+			android:gravity="center"
+			style="@style/dial_num_text"/>
+    </LinearLayout>
+
+</LinearLayout>

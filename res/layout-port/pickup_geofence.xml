@@ -1,0 +1,103 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="800dp"
+    android:layout_height="84dp"
+    android:orientation="vertical"
+    android:id="@+id/pickup_geofence_linear"
+    android:background="#fff">   
+    
+    <LinearLayout
+   	android:layout_width="match_parent"
+    android:layout_height="44dp"
+    android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="44dp"
+            android:text="围栏\n半径:"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:gravity="left|center"/>
+        
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/pickup_geofence_radi_500"
+            android:text="500"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:background="#fff"/>
+    	<View
+	    android:layout_width="1dp"
+	    android:layout_height="match_parent"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginLeft="5dp"
+	    android:layout_marginBottom="10dp"
+	    android:background="#000"/>	        
+       
+
+    	<TextView
+    	    android:id="@+id/pickup_geofence_radi_1000"
+    	    android:layout_width="wrap_content"
+    	    android:layout_height="30dp"
+    	    android:layout_marginLeft="5dp"
+    	    android:background="#fff"
+    	    android:layout_gravity="center"
+    	    android:gravity="center"
+    	    android:text="1000"
+    	    android:textColor="@color/black"
+    	    android:textSize="16sp" />
+	 
+    	<View
+	    android:layout_width="1dp"
+	    android:layout_height="match_parent"
+	    android:layout_marginTop="10dp"
+	    android:layout_marginLeft="5dp"
+	    android:layout_marginBottom="10dp"
+	    android:background="#000"/>		            
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:id="@+id/pickup_geofence_radius_def"
+            android:layout_marginLeft="5dp"
+            android:hint="自定义"	            
+            android:inputType="number"
+            android:layout_gravity="center"
+            android:gravity="left|center"
+            android:textSize="16sp"
+            android:background="#fff"/>	            	            	                   
+   	</LinearLayout> 
+   	<View
+    android:layout_width="match_parent"
+    android:layout_height="1dp"
+    android:layout_marginLeft="0dp"
+    android:layout_marginRight="0dp"
+    android:background="#ffe3e3e3"/> 
+    <LinearLayout
+   	android:layout_width="match_parent"
+    android:layout_height="42dp"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="0dp"
+        android:layout_height="42dp"
+        android:layout_weight="1"
+        android:text="保  存"
+        android:id="@+id/pickup_geofence_save"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="#ff0087cb"/> 	        
+		<TextView
+        android:layout_width="0dp"
+        android:layout_height="42dp"
+        android:layout_weight="1"
+        android:text="删  除"
+        android:id="@+id/pickup_geofence_del"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textColor="@color/black"/> 	        
+    </LinearLayout>	    		
+   </LinearLayout> 

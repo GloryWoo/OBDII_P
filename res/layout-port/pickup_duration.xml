@@ -1,0 +1,49 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    
+   	<TextView
+        android:id="@+id/pickup_dura_title"
+        android:layout_width="match_parent"
+        android:layout_height="70dp" 
+		android:layout_gravity="center"
+		android:gravity="center"
+        android:text="XXX正在来接你，\n是否给TA设置地理围栏?"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+    
+		<LinearLayout    
+	    android:id="@+id/pickup_dura_linear"
+	    android:layout_width="match_parent"
+	    android:layout_height="50dp"
+	    android:layout_marginLeft="40dp"
+	    android:layout_marginRight="40dp"
+	    android:orientation="horizontal"
+	    android:gravity="center">
+
+		<TextView
+		    android:id="@+id/pickup_dura_confirm"
+		    android:layout_width="80dp"
+		    android:layout_height="40dp"
+		    android:background="@color/green"
+		    android:gravity="center"
+		    android:text="确定"
+		    android:textColor="@color/white"
+		    android:textSize="18sp" />
+	
+
+	    <TextView
+	        android:id="@+id/pickup_dura_cancel"
+	        android:layout_width="80dp"
+	        android:layout_height="40dp"
+			android:layout_marginLeft="40dp"     
+			android:gravity="center"
+	        android:text="取消"
+	        android:textSize="18sp" 
+	        android:textColor="@color/white"
+	        android:background="@color/indianred"/>
+
+	</LinearLayout> 
+</LinearLayout>   

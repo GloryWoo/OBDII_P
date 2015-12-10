@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/panel"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e3e3e3"
+    android:orientation="vertical"
+    tools:context=".Panel" >
+
+
+	<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="46dp"
+        android:background="@drawable/bottom_bar" >
+		    <RelativeLayout
+	        android:layout_width="30dp"
+	    	android:layout_height="30dp"
+	    	android:layout_centerVertical="true"
+		    android:layout_alignParentLeft="true"
+		    android:id="@+id/panel_back"
+		    android:layout_marginLeft="4dp"
+	    	android:gravity="center">
+	    	<ImageView
+	            android:layout_width="24dp"
+	            android:layout_height="24dp"
+	            android:gravity="center"
+	            android:src="@drawable/icon_back"
+	            android:visibility="visible" />
+			</RelativeLayout>
+    
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:text="瞬时油耗"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+    	</RelativeLayout>
+    	
+     <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:layout_gravity="center">
+         <TextView
+	         android:id="@+id/gas_unit"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"           	         
+	         android:layout_marginLeft="8dp"
+	         android:layout_centerVertical="true"
+	         android:gravity="center"
+	         android:text="百公里油耗:"         
+	         android:textColor="@color/black"
+	         android:textSize="16sp" 
+	         android:visibility="visible"/> 
+	     <TextView
+	         android:id="@+id/gas_text"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"                 
+	         android:gravity="center"
+	         android:layout_toRightOf="@id/gas_unit"
+	         android:text=""         
+	         android:textColor="@color/indianred"
+	         android:textSize="22sp" />
+  
+	</RelativeLayout>	 
+	<com.ctg.widget.GasBar
+	     android:id="@+id/gas_bar"
+         android:layout_width="match_parent"
+         android:layout_height="40dp"
+         android:layout_marginTop="38dp"
+         android:layout_marginLeft="30dp"
+         android:layout_marginRight="30dp"
+         android:layout_gravity="center"
+         android:background="@drawable/shape_card"/>     
+     <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="38dp"
+        android:layout_gravity="center">              
+	     <com.ctg.widget.Gas
+	         android:id="@+id/gas"
+	         android:layout_width="300dp"
+	         android:layout_height="300dp"
+	         android:layout_gravity="center"
+	         android:src="@drawable/defaultdial"/>
+	     <TextView
+	         android:id="@+id/gas_unit2"
+	         android:layout_width="wrap_content"
+	         android:layout_height="wrap_content"   
+	         android:layout_centerHorizontal="true"
+			 android:layout_marginTop="125dp"	                    
+	         android:gravity="center"
+	         android:text="L/100km"         
+	         android:textColor="@color/white"
+	         android:textSize="16sp" />	     
+	</RelativeLayout>
+</LinearLayout>

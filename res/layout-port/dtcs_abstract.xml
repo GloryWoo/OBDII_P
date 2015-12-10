@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dtcs_abstrct"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal|top"
+    android:layout_marginTop="0dp"
+    android:background="@drawable/shape"
+    android:orientation="vertical" >
+
+    <LinearLayout
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal|center_vertical"
+    android:layout_marginTop="0dp"
+    android:orientation="vertical" >
+	<TextView
+	    android:id="@+id/dtc_abs_code"
+	    android:layout_width="300dp"
+	    android:layout_height="60dp"
+	    android:textSize="18sp"
+	    android:layout_gravity="center_vertical" 
+        android:gravity="center_vertical"
+	    android:padding="5dp"	
+	    android:background="#fffacb3d"   
+	    android:textColor="#ff000000"
+	    android:text="故障码\nP0101"
+	/>
+	<com.ctg.util.DetailScrollView  
+	    android:id="@+id/dtc_abs_scroll"
+	    android:layout_width="300dp"
+	    android:layout_height="match_parent"
+	    android:layout_gravity="center_horizontal|center_vertical"
+	    android:gravity="center_horizontal|center_vertical"	    
+	    android:scrollbars="vertical">	    
+	    <!--  LinearLayout
+		    android:id="@+id/dtcs_dtlay"
+		    android:layout_width="match_parent"
+		    android:layout_height="match_parent"
+		    android:layout_gravity="center_horizontal|top"
+		    android:orientation="vertical">    
+		</LinearLayout>-->
+	</com.ctg.util.DetailScrollView>
+    <!--<TextView
+     	android:id="@+id/dtc_abs_text"
+	    android:layout_width="320dp"
+	    android:layout_height="280dp"
+	    android:textSize="18sp"
+	    android:padding="5dp"
+	    android:textColor="#ff000000"
+	    android:text="Mass or Volumn Air Flow Sensor \'A\' circuit Range."
+	/>
+
+      Button
+        android:id="@+id/dtc_abs_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gray_back"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="@string/dtc_abs_more"
+        android:textSize="18sp" />-->
+	</LinearLayout>
+</RelativeLayout>

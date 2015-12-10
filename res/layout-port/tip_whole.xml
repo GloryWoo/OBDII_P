@@ -1,0 +1,28 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+	xmlns:tools="http://schemas.android.com/tools"
+	android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	>
+	<TableLayout
+	    android:id="@+id/container"
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:paddingTop="4dp" 
+	    android:paddingLeft="0dp"   
+    >
+    </TableLayout> 
+    <TextView
+	    android:id="@+id/default_tip"
+	    android:layout_width="match_parent"
+	    android:layout_height="200dp"
+	    android:layout_gravity="center_horizontal|center_vertical" 
+	    android:gravity="center_horizontal|center_vertical"
+	    android:layout_marginTop="100dp" 
+	    android:layout_marginLeft="0dp" 
+	    android:textSize="16sp"
+	    android:padding="5dp"
+	    android:textColor="#ff000000"
+	    android:text="@string/default_tip"
+	/>   
+</RelativeLayout>                    

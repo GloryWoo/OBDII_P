@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/baidu_frm"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/bmapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal" >
+
+ 
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            >
+
+            <!-- 搜索栏 -->
+            <LinearLayout
+                android:id="@+id/topbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" 
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginRight="10dp">
+
+                <RelativeLayout
+                    android:id="@+id/mapview_search_rela"
+                    android:layout_width="0dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="10"                    
+                    android:background="#ddffffff" >
+
+                    <ImageView
+                        android:id="@+id/mapview_search_icon"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="5dp"
+                        android:src="@drawable/icon_search_blck" />
+
+                    <EditText
+                        android:id="@+id/mapview_search_edit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                       
+                        android:layout_marginTop="5dp"
+                        android:layout_toRightOf="@id/mapview_search_icon"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"                        
+                        android:gravity="left|center"
+                        android:hint="搜索地点"
+                        android:textSize="14sp"
+                        android:imeOptions="flagNoExtractUi|actionDone"
+                        android:singleLine="true" />
+
+                </RelativeLayout>    
+	            <ImageView
+			    	android:layout_width="0dp"
+			    	android:layout_height="24dp"
+			    	android:layout_weight="1"
+			    	android:id="@+id/go_home_i"
+			    	android:layout_marginLeft="0dp"
+			    	android:layout_gravity="center"
+			    	android:gravity="center"
+			    	android:src="@drawable/icon_home_b"/>
+	           <ImageView
+			    	android:layout_width="0dp"
+			    	android:layout_height="24dp"
+			    	android:layout_weight="1"
+			    	android:id="@+id/go_company_i"
+			    	android:layout_marginLeft="0dp"
+			    	android:layout_gravity="center"
+			    	android:gravity="center"
+			    	android:src="@drawable/icon_company_b"/>            
+            </LinearLayout>
+
+            <!-- 跳转到中心位置-->
+            <ImageView
+                android:id="@+id/jump_to_center"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="left|bottom"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="15dp"                
+                android:gravity="center"
+                android:src="@drawable/jump_to_center" />
+
+            <!-- 选择地点 -->
+            <RelativeLayout
+                android:id="@+id/search_addr_rela"
+                android:layout_width="360dp"
+                android:layout_height="50dp"
+                android:layout_gravity="bottom"
+                android:layout_marginBottom="6dp"
+                android:layout_marginLeft="60dp"
+                android:background="@drawable/shape_car"
+                android:gravity="left|center"
+                android:orientation="horizontal"
+                android:visibility="invisible" >
+
+                <TextView
+                    android:id="@+id/search_addr_cont"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="4dp"
+                    android:layout_marginTop="4dp"
+                    android:text="上海凯科国际大厦"
+                    android:textColor="@color/black"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/search_addr_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="4dp"
+                    android:gravity="right"
+                    android:text="到这去"
+                    android:textColor="#0087cb"
+                    android:textSize="18sp" />
+
+                <ImageView
+                    android:id="@+id/navit_icon"
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="4dp"
+                    android:src="@drawable/icon_home_navigation_gray" />
+
+                <TextView
+                    android:id="@+id/search_addr_distance"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="2dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_toRightOf="@id/navit_icon"
+                    android:gravity="right"
+                    android:text="26m"
+                    android:textColor="#555555"
+                    android:textSize="14sp" />
+            </RelativeLayout>
+
+            <!-- 位置分享 -->
+            <LinearLayout
+                android:id="@+id/grp_share"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/share_pos_back"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:visibility="gone" >
+
+                <RelativeLayout
+                    android:id="@+id/grp_back_rela"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_weight="0.16"
+                    android:gravity="center" >
+
+                    <ImageView
+                        android:id="@+id/grp_back"
+                        android:layout_width="24dp"
+                        android:layout_height="24dp"
+                        android:layout_marginLeft="4dp"
+                        android:gravity="center"
+                        android:src="@drawable/icon_back" />
+                </RelativeLayout>
+
+                <com.ctg.util.HorizontalListView
+                    android:id="@+id/grp_head_examp"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="4dp"
+                    android:layout_weight="1.6"
+                    android:visibility="visible" />
+
+                <TextView
+                    android:id="@+id/share_num"
+                    android:layout_width="0dp"
+                    android:layout_height="35dp"
+                    android:layout_marginLeft="4dp"
+                    android:layout_weight="0.6"
+                    android:gravity="center"
+                    android:text="实时分享(0人)"
+                    android:textColor="@color/white"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+            </LinearLayout>
+        </FrameLayout>
+    </LinearLayout>
+
+</FrameLayout>

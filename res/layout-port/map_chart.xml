@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/habit_map_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"    
+    android:visibility="visible" 
+    android:background="#fff">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:layout_marginLeft="6dp"
+        >
+
+        <TextView
+            android:id="@+id/pie_desc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="车速分布图"
+            android:textColor="@color/black"
+            android:textSize="15sp" >
+        </TextView>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <com.github.mikephil.charting.charts.PieChart
+            android:id="@+id/drive_chart"
+            android:layout_width="160dp"
+            android:layout_height="140dp"
+            android:layout_centerInParent="true"
+            android:visibility="visible" />
+    </RelativeLayout>
+	<com.baidu.mapapi.map.MapView
+	    android:id="@+id/drvhabit_mapView"
+	    android:layout_width="match_parent"
+        android:layout_height="182dp" 
+	    android:clickable="true" 
+	    />    
+</LinearLayout>

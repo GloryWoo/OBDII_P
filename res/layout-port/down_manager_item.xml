@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dcity_item_rela"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/dcity_item_header"
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/red"
+        android:gravity="center"
+        android:text="xxxx"
+        android:visibility="gone"
+        android:textColor="@color/white" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp" >
+
+        <TextView
+            android:id="@+id/dcity_m_name"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:gravity="center|center"
+            android:text="上海市" />
+
+        <TextView
+            android:id="@+id/dcity_m_stat_size"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="6dp"
+            android:layout_toRightOf="@id/dcity_m_name"
+            android:gravity="center|center"
+            android:text="(有更新包-22.4M)"
+            android:textColor="@color/steelblue"
+            android:textSize="12sp" />
+
+        <ImageView
+            android:id="@+id/dcity_m_icon"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/icon_download" />
+
+        <TextView
+            android:id="@+id/dcity_m_stat"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="6dp"
+            android:layout_toLeftOf="@id/dcity_m_icon"
+            android:gravity="center|center"
+            android:text="已下载" />
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/dcity_m_progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"   
+        android:layout_margin="5dp"
+        android:max="100" >
+    </ProgressBar>
+
+    <LinearLayout
+        android:id="@+id/dcity_m_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:visibility="gone"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/dcity_m_map"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center|center"
+            android:text="查看地图"
+            android:textSize="15sp" />
+        
+        <Button
+            android:id="@+id/dcity_m_update"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:gravity="center|center"
+            android:text="暂停"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/dcity_m_delete"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_weight="1"
+            android:gravity="center|center"
+            android:text="删除"
+            android:textSize="15sp" />
+    </LinearLayout>
+
+</LinearLayout>

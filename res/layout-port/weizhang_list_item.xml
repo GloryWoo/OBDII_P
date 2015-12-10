@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"    
+    android:id="@+id/wz_item"   
+    android:layout_width="fill_parent"         
+    android:layout_height="54dp"   
+    android:paddingTop="4dp"   
+    android:paddingLeft="8dp"  
+    android:paddingRight="8dp"
+    android:background="@drawable/shape_wz_list_item">  
+<TextView   
+    android:id="@+id/wz_item_content"        
+    android:layout_height="22dp"
+    android:layout_width="240dp" 
+    android:layout_alignParentTop="true"
+    android:textColor="#ff000000" 
+    android:textSize="14sp"   
+    android:paddingLeft="4dp" 
+    android:paddingTop="2dp"   
+    android:text="不按行进方向驶入导向车道" 
+    android:singleLine="true"
+    />  
+<TextView   
+	android:id="@+id/wz_item_address" 
+    android:layout_height="22dp"   
+    android:layout_width="240dp"   
+    android:layout_alignParentBottom="true"
+    android:textColor="@color/gray"  
+    android:paddingLeft="4dp"    
+    android:paddingTop="2dp" 
+    android:textSize="12sp" 
+    android:text="东环路沂山路口"   
+    android:singleLine="true"
+    /> 
+
+<ImageView
+    android:id="@+id/wz_item_enter_detail"        
+    android:layout_height="wrap_content"
+    android:layout_width="30dp"     
+    android:layout_alignParentRight="true"
+    android:layout_centerVertical="true"
+    android:layout_marginRight="4dp"
+    android:src="@drawable/arrow_right"
+    android:focusable="false"
+	android:focusableInTouchMode="false"
+	/>
+
+<TextView   
+    android:id="@+id/wz_item_proc_stat"        
+    android:layout_height="22dp"
+    android:layout_width="40dp" 
+    android:layout_alignParentTop="true"
+    android:layout_toLeftOf="@id/wz_item_enter_detail"
+    android:layout_marginTop="4dp"
+    android:paddingTop="2dp" 
+    android:textSize="12sp"   
+    android:textColor="@color/gray" 
+    android:text="已处理" 
+    />  
+<TextView   
+	android:id="@+id/wz_item_time" 
+    android:layout_height="22dp"   
+    android:layout_width="80dp"   
+    android:layout_alignParentBottom="true"
+    android:layout_alignRight="@id/wz_item_proc_stat" 
+    android:textColor="@color/gray" 
+    android:paddingTop="2dp" 
+    android:gravity="right"    
+    android:textSize="12sp" 
+    android:text="2014-09-21"   
+    />     
+</RelativeLayout>  

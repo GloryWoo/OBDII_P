@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dcity_item_rela"
+    android:layout_width="match_parent"
+    android:layout_height="36dp" 
+    android:orientation="horizontal"
+    android:layout_marginLeft="12dp">
+
+    
+    <ImageView
+        android:id="@+id/grp_map_mem_item_header"
+        android:layout_width="26dp"
+        android:layout_height="26dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_launcher_df" />
+
+     <TextView
+         android:id="@+id/grp_map_mem_item_text"
+         android:layout_width="60dp"
+         android:layout_height="36dp"
+         android:gravity="center"
+         android:text="成员1" />
+
+      <CheckBox
+         android:id="@+id/grp_map_mem_item_check"
+         android:layout_width="30dp"
+         android:layout_height="30dp"
+         android:layout_gravity="center"
+         android:gravity="center"
+         android:checked="false"
+         style="@style/MyCheckBox"/>
+    
+
+</LinearLayout>

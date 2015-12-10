@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/video_grid_thumbnail"
+            android:layout_width="match_parent"
+            android:layout_height="145dp"
+            android:src="@drawable/thumbnail_placeholder"/>
+
+        <ImageView android:id="@+id/video_indicator"
+            android:src="@drawable/replay"
+            android:scaleType="fitXY"
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:alpha= "0.6"
+            android:gravity="center"
+            android:layout_centerInParent="true" />
+
+        <ImageView android:id="@+id/video_lock"
+            android:src="@drawable/lock"
+            android:scaleType="fitXY"
+            android:layout_width="33dp"
+            android:layout_height="33dp"
+            android:visibility="gone"
+            android:alpha= "1.0"
+            android:layout_gravity="bottom|end"
+            android:layout_alignBottom="@id/video_grid_thumbnail"
+            android:layout_alignRight="@id/video_grid_thumbnail" />
+
+        <TextView android:id="@+id/video_date"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/white"
+            android:layout_gravity="start|bottom"
+            android:layout_alignBottom="@id/video_grid_thumbnail" />
+
+    </RelativeLayout>
+
+</LinearLayout>

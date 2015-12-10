@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dcity_item_rela"
+    android:layout_width="match_parent"
+    android:layout_height="44dp" 
+    android:orientation="horizontal">
+
+    <RelativeLayout
+       android:layout_width="90dp"
+       android:layout_height="50dp"       
+       android:id="@+id/grp_map_rela">
+        
+    <ImageView
+        android:id="@+id/grp_map_item_header"
+        android:layout_alignParentLeft="true"
+        android:layout_width="34dp"
+        android:layout_height="34dp"
+        android:layout_centerVertical="true"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:src="@drawable/ic_launcher_df" 
+        android:background="@drawable/shape_img_multi" />
+
+     <TextView
+         android:id="@+id/grp_map_item_text"
+         android:layout_width="56dp"
+         android:layout_height="42dp"
+         android:layout_centerVertical="true"
+         android:layout_toRightOf="@id/grp_map_item_header"
+         android:layout_gravity="center"
+         android:gravity="center"
+         android:text="群组A" />
+	 </RelativeLayout>
+      <CheckBox
+         android:id="@+id/grp_map_item_check"
+         android:layout_width="30dp"
+         android:layout_height="30dp"
+         android:gravity="center"
+         android:layout_gravity="center"
+         style="@style/MyCheckBox"
+         android:clickable="true"   
+         android:checked="false"      
+         android:focusable="false"/>    
+</LinearLayout>

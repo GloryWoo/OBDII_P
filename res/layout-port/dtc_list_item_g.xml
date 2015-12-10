@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dtc_item_g"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="#40003449"
+    android:padding="8dp" 
+    android:orientation="vertical">
+
+
+    <TextView
+        android:id="@+id/dtc_title_g"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:text="车身系统"	        
+        android:textColor="#ff3000"
+        android:textSize="18sp" />
+
+     <ProgressBar
+        android:id="@+id/dtc_progress"
+        style="?android:attr/progressBarStyleSmall"
+        android:layout_width="40dp"
+        android:layout_height="40dp"   
+        android:layout_alignParentRight="true"
+        android:max="100" />
+
+       <ImageView
+           android:id="@+id/car_part_status"           
+           android:layout_width="35dp"
+           android:layout_height="35dp"
+           android:layout_alignParentRight="true"
+           android:layout_centerVertical="true"
+           android:visibility="invisible"
+           android:src="@drawable/arrow_down_blck"/>
+</RelativeLayout>

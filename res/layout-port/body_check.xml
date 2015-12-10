@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/pdtcs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="45dp"
+        android:layout_marginTop="100dp"
+        android:textSize="16sp"
+        android:text="动力系统" />
+
+    <TextView
+        android:id="@+id/bdtcs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@id/pdtcs"        
+        android:layout_marginLeft="220dp"
+        android:textSize="16sp"
+        android:text="车身系统" />
+
+    <TextView
+        android:id="@+id/cdtcs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/pdtcs"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="360dp"
+        android:textSize="16sp"
+        android:text="底盘系统" />
+
+    <TextView
+        android:id="@+id/udtcs"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@id/bdtcs"
+        android:layout_alignTop="@id/cdtcs"   
+        android:textSize="16sp"
+        android:text="通讯系统" />
+ 
+    <ImageView
+        android:id="@+id/pdtcs_pic"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@id/pdtcs"
+        android:layout_toRightOf="@id/pdtcs"
+        android:paddingTop="4dp"
+        android:src="@drawable/btn_check_on"
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/bdtcs_pic"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@id/bdtcs"
+        android:layout_toRightOf="@id/bdtcs"
+        android:paddingTop="4dp"
+        android:src="@drawable/btn_check_on" 
+        android:visibility="invisible" />
+
+    <ImageView
+        android:id="@+id/cdtcs_pic"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@id/cdtcs"
+        android:layout_toRightOf="@id/cdtcs"
+        android:paddingTop="4dp"
+        android:src="@drawable/btn_check_on"
+        android:visibility="invisible"  />
+
+    <ImageView
+        android:id="@+id/udtcs_pic"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignBottom="@id/udtcs"
+        android:layout_toRightOf="@+id/udtcs"
+        android:paddingTop="4dp"
+        android:src="@drawable/btn_check_on" 
+        android:visibility="invisible" />   
+         
+</RelativeLayout>

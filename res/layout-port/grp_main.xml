@@ -1,0 +1,88 @@
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+  <RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="46dp"
+    android:layout_alignParentTop="true"
+    android:background="@drawable/bottom_bar">
+    
+    <RelativeLayout
+        android:layout_width="30dp"
+    	android:layout_height="30dp"
+    	android:layout_centerVertical="true"
+	    android:layout_alignParentLeft="true"
+	    android:id="@+id/grp_back"
+	    android:layout_marginLeft="4dp"
+    	android:gravity="center">
+	    <ImageView
+	        android:layout_width="24dp"
+	    	android:layout_height="24dp"
+	    	android:gravity="center"	    		    	
+	    	android:src="@drawable/icon_back"
+	    	android:visibility="visible"/>
+	</RelativeLayout>
+    <TextView
+        android:layout_width="60dp"
+    	android:layout_height="35dp"
+    	android:layout_centerVertical="true"
+    	android:layout_centerHorizontal="true"
+    	android:gravity="center"
+    	android:id="@+id/grp_grouplist"	    	
+    	android:textColor="@color/white"
+    	android:text="群组"
+    	android:textSize="18sp"
+    	android:textStyle="bold"/>
+
+    <ImageView
+        android:layout_width="24dp"
+    	android:layout_height="24dp"
+    	android:layout_centerVertical="true"
+    	android:layout_alignParentRight="true"
+    	android:layout_marginRight="8dp"
+    	android:gravity="center"
+    	android:id="@+id/grp_search"	    	
+    	android:src="@drawable/icon_search"/>
+	
+    <ImageView
+        android:layout_width="24dp"
+    	android:layout_height="24dp"
+    	android:layout_centerVertical="true"
+    	android:layout_toLeftOf="@id/grp_search"    	
+    	android:layout_marginRight="16dp"
+    	android:gravity="center"
+    	android:id="@+id/grp_add"	    	
+    	android:src="@drawable/jia"/>        
+   </RelativeLayout>
+  	<FrameLayout
+  	    android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+    >
+	<com.example.swipelistview.SwipeListView 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:id="@+id/grp_frnd_lv"
+	    android:background="@color/white"
+	    android:layout_marginTop="0dp"
+	    android:layout_marginLeft="0dp" 
+    	android:layout_marginRight="0dp"
+    	android:layout_marginBottom="0dp">
+	</com.example.swipelistview.SwipeListView>
+	<ProgressBar 
+		android:id="@+id/me_progressbar"
+		android:layout_width="wrap_content" 
+		android:layout_height="wrap_content"	
+		android:layout_gravity="center_horizontal|center_vertical"	
+		style="?android:attr/progressBarStyleLarge"
+		android:visibility="invisible">
+	</ProgressBar> 
+	</FrameLayout>
+	<!--  com.ctg.util.MyViewPager
+       android:id="@+id/grp_viewpager"
+       android:layout_width="fill_parent"
+       android:layout_height="fill_parent" />-->
+</LinearLayout>	
+    
+ 

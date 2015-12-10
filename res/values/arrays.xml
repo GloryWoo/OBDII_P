@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="Default_GroupID">
+        <item>DefaultGroupID</item>
+    </string-array>
+    <string-array name="Default_GroupID_Values">
+        <item>1</item>
+    </string-array> 
+</resources>

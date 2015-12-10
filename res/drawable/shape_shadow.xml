@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android" >
+    
+	<solid android:background="@drawable/dot_one" />
+
+    <padding
+        android:bottom="0dp"
+        android:left="16dp"
+        android:right="16dp"
+        android:top="0dp" />
+
+
+    <stroke
+        android:width="0dp"
+        android:color="#10000000" />
+
+   
+    <gradient
+         android:startColor="#0000" 
+         android:endColor="#0000"
+         android:type="linear"
+         android:angle="90"/>
+    
+ 
+    <corners android:radius="4dp" />
+    
+</shape>

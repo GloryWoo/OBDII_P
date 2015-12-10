@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:layout_gravity="center_vertical"
+    >
+
+    <ImageView
+        android:layout_width="28dp"
+    	android:layout_height="28dp"
+    	android:layout_alignParentLeft="true"   
+    	android:layout_marginLeft="8dp"
+    	android:layout_centerVertical="true" 
+    	android:layout_gravity="center_vertical"
+    	android:id="@+id/search_poi_icon"
+    	android:src="@drawable/icon_search_gray"
+        />
+    <TextView
+        android:layout_width="match_parent"
+    	android:layout_height="40dp"
+    	android:layout_toRightOf="@id/search_poi_icon"
+    	android:layout_gravity="center_vertical"
+    	android:layout_marginLeft="8dp"
+    	android:gravity="center|left"
+    	android:id="@+id/search_poi_text"
+    	android:text="朱家角"
+    	android:textColor="@color/black"
+    	android:textSize="18sp"/>
+
+    <ImageView
+        android:layout_width="26dp"
+    	android:layout_height="26dp"
+    	android:layout_alignParentRight="true" 
+    	android:layout_centerVertical="true" 
+    	android:layout_marginRight="6dp"
+    	android:layout_gravity="center"
+    	android:id="@+id/search_poi_keyboard"
+    	android:src="@drawable/arrow_leftup"
+        />
+</RelativeLayout>

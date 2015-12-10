@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+    android:gravity="center_vertical"
+    android:orientation="horizontal">
+	<LinearLayout
+	    android:layout_width="0dp"
+	    android:layout_height="match_parent"
+	    android:layout_weight="1"
+	    android:gravity="left|center"
+	    android:orientation="vertical"
+	    android:layout_marginLeft="8dp"
+    >
+	    <TextView
+	        android:layout_width="wrap_content"
+	    	android:layout_height="28dp"
+	    	android:gravity="center"
+	    	android:id="@+id/program_nm"
+	    	android:text="1"
+	    	android:textSize="16sp"
+	    	android:textColor="#fff"/>
+	
+	    <TextView
+	        android:layout_width="wrap_content"
+	    	android:layout_height="16dp"
+	    	android:gravity="left|center"
+	    	android:id="@+id/broadcaster"
+	    	android:text="晚安"
+	    	android:textSize="12sp"
+	    	android:textColor="#ccc"/>
+    </LinearLayout>
+	<LinearLayout
+	    android:layout_width="0dp"
+	    android:layout_height="match_parent"
+	    android:layout_weight="1"
+	    android:gravity="right|center"
+	    android:orientation="vertical"
+	    android:layout_marginRight="12dp"
+    >
+	    <TextView
+	        android:layout_width="wrap_content"
+	    	android:layout_height="28dp"
+	    	android:gravity="center"
+	    	android:id="@+id/time_gap"
+	    	android:text="0:00-2:00"
+	    	android:textSize="16sp"
+	    	android:textColor="#fff"/>
+	
+	    <TextView
+	        android:layout_width="30dp"
+	    	android:layout_height="16dp"
+	    	android:gravity="center"
+	    	android:id="@+id/fm_play_stat"	
+	    	android:text="直播"
+	    	android:textSize="12sp"
+	    	android:textColor="#fff"
+	    	android:background="@drawable/shape_live_font"/>
+    </LinearLayout>    
+</LinearLayout>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="match_parent"
+  android:layout_height="40dp"
+  android:orientation="horizontal">
+  <CheckBox
+    android:id="@+id/group_del_item_select"     
+    android:layout_marginLeft="8dp"
+    android:layout_width="26dp"
+    android:layout_height="26dp"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:checked="true"    
+    android:focusable="false"
+    android:clickable="false"
+    android:button="@null"
+    android:background="@drawable/selector_check"
+  />
+  <TextView
+    android:id="@+id/group_del_item_name"
+    android:layout_width="0dp"
+    android:layout_height="32dp"
+    android:layout_weight="6"
+    android:layout_marginLeft="5dp"
+    android:layout_gravity="center"
+    android:gravity="left|center"
+   	android:text="公众群组"
+  /> 
+   	
+</LinearLayout>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f5fffa"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/group_name"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_gravity="center|center"
+        android:gravity="center|center"
+        android:text="群组名"
+        android:background="@drawable/shape_bottom"
+        android:textSize="20sp" />
+    
+    <LinearLayout
+        android:id="@+id/grp_grid_linear"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_marginTop="2dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/grp_grid_selectall"
+            android:layout_width="80dp"
+            android:layout_height="fill_parent"
+            android:text="全选" />
+
+        <Button
+            android:id="@+id/grp_grid_deselectall"
+            android:layout_width="80dp"
+            android:layout_height="fill_parent"
+            android:text="反选" />
+
+        <Button
+            android:id="@+id/grp_grid_cancelselectall"
+            android:layout_width="100dp"
+            android:layout_height="fill_parent"
+            android:text="取消选择" />
+    </LinearLayout>
+    <GridView
+        android:id="@+id/group_members"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:columnWidth="80dp"
+        android:numColumns="auto_fit"
+        android:stretchMode="columnWidth" 
+        />
+   	
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+		android:layout_marginLeft="0dp"
+		android:textSize="26sp" 
+		android:gravity="center"
+		>
+        <Button
+            android:id="@+id/grp_grid_confirm"
+            android:layout_width="80dp"
+            android:layout_height="36dp"
+            android:text="确定" 
+            android:background="@drawable/shape_bottom"/>
+    </RelativeLayout>
+    <com.baidu.mapapi.map.MapView
+    android:id="@+id/bmapView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_weight="2"
+    android:clickable="true" />
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="80dp"	    
+	    android:orientation="horizontal" 
+	    android:gravity="bottom|center"
+	    android:background="@drawable/shape_bottom">
+    	<RelativeLayout
+	        android:layout_width="84dp"
+	        android:layout_height="match_parent"
+			android:layout_marginLeft="0dp"
+			android:textSize="32sp" 
+			android:gravity="center">"
+		    <ImageView
+		        android:id="@+id/location_i"
+		        android:layout_width="48dp"
+		        android:layout_height="48dp"
+		        android:layout_marginTop="2dp"
+		        android:gravity="center|center"
+		        android:background="@drawable/imageview_sel"
+		        android:clickable="true"
+		        android:src="@drawable/ic_menu_mylocation"
+		        />
+		    <TextView
+		        android:id="@+id/location_t"
+		        android:layout_width="45dp"
+		        android:layout_height="24dp"
+		        android:layout_alignParentBottom="true"
+		        android:layout_marginBottom="4dp"
+		        android:gravity="center|center"
+		        android:text="位置" />
+   		</RelativeLayout>
+   		<RelativeLayout
+	        android:layout_width="84dp"
+	        android:layout_height="match_parent"
+			android:layout_marginLeft="0dp"
+			android:textSize="32sp"
+			android:gravity="center" >	
+		    <ImageView
+		        android:id="@+id/track_i"
+		        android:layout_width="48dp"
+		        android:layout_height="48dp"
+		        android:layout_alignParentLeft="true"
+		        android:layout_marginTop="2dp"
+		        android:gravity="center|center"
+			    android:background="@drawable/imageview_sel"
+		        android:clickable="true"	        
+		        android:src="@drawable/ic_menu_share"
+		        />
+		    <TextView
+		        android:id="@+id/track_t"
+		        android:layout_width="45dp"
+		        android:layout_height="24dp"
+		        android:layout_alignParentBottom="true"
+		        android:layout_marginBottom="4dp"
+		        android:gravity="center|center"
+		        android:text="轨迹" />
+   		</RelativeLayout>
+   		<RelativeLayout
+	        android:layout_width="84dp"
+	        android:layout_height="match_parent"
+			android:layout_marginLeft="0dp"
+			android:textSize="32sp"
+			android:gravity="center" >	
+		    <ImageView
+		        android:id="@+id/instant_i"
+		        android:layout_width="48dp"
+		        android:layout_height="48dp"
+		        android:layout_alignParentLeft="true"
+		        android:layout_marginTop="2dp"
+		        android:gravity="center|center"
+		        android:background="@drawable/imageview_sel"
+		        android:clickable="true"		        
+		        android:src="@drawable/ic_menu_info_details" 
+		        />
+		    <TextView
+		        android:id="@+id/instant_t"
+		        android:layout_width="45dp"
+		        android:layout_height="24dp"
+		        android:layout_alignParentBottom="true"
+		        android:layout_marginBottom="4dp"
+		        android:gravity="center|center"
+		        android:text="实时" />
+   		</RelativeLayout>
+   		<RelativeLayout
+	        android:layout_width="84dp"
+	        android:layout_height="match_parent"
+			android:layout_marginLeft="0dp"
+			android:textSize="32sp" 
+			android:gravity="center">	
+		    <ImageView
+		        android:id="@+id/shield_i"
+		        android:layout_width="48dp"
+		        android:layout_height="48dp"
+		        android:layout_alignParentLeft="true"
+		        android:layout_marginTop="2dp"
+		        android:gravity="center|center"
+		        android:background="@drawable/imageview_sel"
+		        android:clickable="true"		        
+		        android:src="@drawable/ic_menu_block"
+		        />
+		    <TextView
+		        android:id="@+id/shield_t"
+		        android:layout_width="45dp"
+		        android:layout_height="24dp"
+		        android:layout_alignParentBottom="true"
+		        android:layout_marginBottom="4dp"
+		        android:gravity="center|center"
+		        android:text="屏蔽" />
+   		</RelativeLayout>   		   		
+   	</LinearLayout>
+</LinearLayout>

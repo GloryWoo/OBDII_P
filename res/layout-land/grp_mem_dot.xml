@@ -1,0 +1,26 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="72dp"
+    android:layout_height="32dp"
+    >
+    <TextView
+        android:id="@+id/grp_mem_dot_name"
+	    android:layout_width="64dp"
+	    android:layout_height="28dp"
+	    android:layout_alignParentLeft="true"
+	    android:layout_centerVertical="true"
+	    android:gravity="center"
+	    android:text="13818811557"
+	    android:textSize="10sp"
+	    android:textColor="@color/darkgray"
+        />
+    <ImageView
+        android:id="@+id/grp_mem_dot_img"
+        android:layout_width="9dp"
+	    android:layout_height="9dp"
+	    android:layout_alignParentRight="true"
+	    android:layout_centerVertical="true"
+	    android:gravity="center"	   
+	    android:background="@drawable/shape_circle"
+	    />
+</RelativeLayout>

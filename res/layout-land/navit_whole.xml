@@ -1,0 +1,155 @@
+
+<LinearLayout 
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+    <ScrollView
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"   
+        android:layout_weight="1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"        
+        android:background="@drawable/beijing1"
+        android:orientation="vertical"
+        android:gravity="center" 
+        >
+        <LinearLayout
+            android:id="@+id/navit_sub"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            android:background="@drawable/dot_one">
+
+            <ImageView
+                android:id="@+id/navit_sub_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/navigation_active" />
+
+            <TextView
+                android:id="@+id/navit_sub_t"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="导航"
+                android:textColor="@color/white"
+                android:textSize="14sp" />
+        </LinearLayout>        
+
+       <LinearLayout
+            android:id="@+id/share_pos"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"          
+            android:orientation="vertical" 
+            android:layout_marginTop="0dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/share_pos_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/location" />
+
+            <TextView
+                android:id="@+id/share_pos_t"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="位置分享"
+                android:textColor="@color/white"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/dbhvr_l"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginTop="0dp"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/dbhvr_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/drive_n" />
+            <TextView
+                android:id="@+id/dbhvr_t"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="驾驶行为"
+                android:textColor="@color/white"
+                android:textSize="14sp" />            
+        </LinearLayout>
+        
+        <LinearLayout
+            android:id="@+id/violet_l"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginTop="0dp"
+            android:gravity="center">
+
+            <ImageView
+                android:id="@+id/violet_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/violet_w" />
+            <TextView
+                android:id="@+id/violet_t"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="违章查询"
+                android:textColor="@color/white"
+                android:textSize="14sp" />            
+        </LinearLayout>  
+        <LinearLayout
+            android:id="@+id/set_l"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:layout_marginTop="0dp"
+            android:gravity="center">
+            <ImageView
+                android:id="@+id/set_i"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/set_w66" />
+            <TextView
+                android:id="@+id/set_t"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="设置"
+                android:textColor="@color/white"
+                android:textSize="14sp" />            
+        </LinearLayout>              
+    </LinearLayout>    
+	</ScrollView>
+	
+    
+     <FrameLayout
+    	android:id="@+id/map_frame"
+	    android:layout_width="0dp"
+	    android:layout_height="match_parent"
+	    android:layout_weight="8">      	
+        <com.ctg.util.MyViewPager
+            android:id="@+id/vpager"
+            android:visibility="invisible"            
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" 
+            >
+        </com.ctg.util.MyViewPager>	        
+    </FrameLayout>
+</LinearLayout>	  

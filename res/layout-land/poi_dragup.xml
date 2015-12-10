@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="360dp"
+    android:layout_height="60dp"
+    android:background="@color/white"
+    >
+    <TextView
+        android:layout_width="match_parent"
+    	android:layout_height="30dp"
+    	android:layout_gravity="center_vertical|center_horizontal"
+    	android:gravity="center|center"
+    	android:id="@+id/drag_up_text_s"
+    	android:text="上拉加载下一页"
+    	android:singleLine="true"
+    	android:textSize="16sp"/>
+</RelativeLayout>
